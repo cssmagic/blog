@@ -1,0 +1,14 @@
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.klive
+.dropbox.cache
+
+*.tmp
+*.bak
+*.swp
+
+.svn
+.idea
