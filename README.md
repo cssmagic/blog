@@ -2,9 +2,9 @@
 
 ## About
 
-Archive of my blog posts. All posts are [here](//github.com/cssmagic/blog/wiki) (almost Chinese).
+Archive of my blog posts. All posts are [here](//github.com/cssmagic/blog/issues) (almost Chinese).
 
-用于博客存档。所有文章在[这里](//github.com/cssmagic/blog/wiki)。
+用于博客存档。所有文章在[这里](//github.com/cssmagic/blog/issues)。
 
 ## Author
 
