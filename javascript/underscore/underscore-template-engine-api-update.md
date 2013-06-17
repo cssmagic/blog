@@ -2,7 +2,7 @@
 
 ## 语法
 
-Underscore 模板引擎 `_.template()` 脱胎于 jQuery 作者的作品 [Micro-Templating](http://ejohn.org/blog/javascript-micro-templating/)。但从 Underscore 1.3.3 开始，这个方法做了较大的调整，在保留旧语法的基础上，还新增支持了一个 `{variable: 'foo'}` 对象作为第三个参数。
+Underscore 的模板引擎 `_.template()` 脱胎于 jQuery 作者的作品 [Micro-Templating](http://ejohn.org/blog/javascript-micro-templating/)。但从 Underscore 1.3.3 开始，这个方法做了较大的调整，在保留旧语法的基础上，还新增支持了一个 `{variable: 'foo'}` 对象作为第三个参数。
 
 一旦传入了这个参数，则模板（第一个参数）中的变量将不再指向待渲染数据（第二个参数）的**属性**，模板中的 `foo` 变量将直接指向待渲染数据（第二个参数）**自身**。
 
