@@ -1,4 +1,4 @@
-# ScrollFix.js：一个 iOS5 溢出滚动的（有限）修复方案
+# [译] ScrollFix.js：一个 iOS5 溢出滚动的（有限）修复方案
 
 > * Original: [A (partial) fix for iOS5 overflow scrolling (ScrollFix.js)](http://blog.joelambert.co.uk/2011/10/14/a-fix-for-ios5-overflow-scrolling-scrollfix-js/)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
