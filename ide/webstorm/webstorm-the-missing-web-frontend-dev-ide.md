@@ -10,7 +10,7 @@
 
 * 我觉得你——我的战友——时间同样很宝贵，所以我推荐你用 WebStorm。
 
-![WebStorm](https://f.cloud.github.com/assets/1231359/673050/124489a8-d8a6-11e2-9103-900e9ad5b53c.png)
+![WebStorm Logo](https://f.cloud.github.com/assets/1231359/673050/124489a8-d8a6-11e2-9103-900e9ad5b53c.png)
 
 ## 简介
 
