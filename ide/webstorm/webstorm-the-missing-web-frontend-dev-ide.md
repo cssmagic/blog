@@ -10,7 +10,7 @@
 
 * 我觉得你——我的战友——时间同样很宝贵，所以我推荐你用 WebStorm。
 
-[]
+![WebStorm](https://f.cloud.github.com/assets/1231359/673050/124489a8-d8a6-11e2-9103-900e9ad5b53c.png)
 
 ## 简介
 
@@ -60,10 +60,10 @@ WebStorm 是收费软件，不过这不是大问题，我们有一些免费使�
 
 其实如果觉得好用，也不妨考虑购买一份正版授权。WebStorm 的个人版和企业版授权都是**终生**免费使用，一年内免费升级（包括大版本），十分厚道。价格也是相当亲民，个人版 $49，作为吃饭的工具真不算什么；商业版 $99，对靠谱的公司来说，这点投资毛都不是！
 
-你已经准备掏口袋了？别急，你还可以享受个折扣价。开源中国社区和 JetBrains 长期合作，面向中国用户推出正版开发工具的优惠活动，不可错过：
+你已经准备掏口袋了？别急，其实你还可以享受个折扣价。开源中国社区和 JetBrains 正在合作，面向中国用户推出正版开发工具的优惠活动，不可错过：
 
-* [JetBrains 个人版产品](http://www.oschina.net/shop/jetbrains)
-* [JetBrains 商人版授权](http://www.oschina.net/shop/jetbrains_commercial)
+* [JetBrains 个人版授权](http://www.oschina.net/shop/jetbrains)
+* [JetBrains 商业版授权](http://www.oschina.net/shop/jetbrains_commercial)
 
 ## 后记
 
