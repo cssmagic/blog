@@ -65,4 +65,4 @@
 
 &nbsp;
 > * [更多文章](https://github.com/cssmagic/blog/issues)
-> * [查看原文与评论](https://github.com/cssmagic/blog/issues/?)
+> * [查看原文与评论](https://github.com/cssmagic/blog/issues/8)
