@@ -88,7 +88,7 @@ iOS7 引入了大量的炫酷特效，在我看来几乎已经到了纯粹为炫
 
 ***
 
-&copy; Creative Commons BY-NC-ND 3.0
+&copy; Creative Commons BY-NC-ND 3.0 &nbsp; | &nbsp; [我要订阅](https://github.com/cssmagic/blog/issues/8) &nbsp; | &nbsp; [我要捐助](https://github.com/cssmagic/blog/issues/9)
 
 &nbsp;
 > * [更多文章](https://github.com/cssmagic/blog/issues)
