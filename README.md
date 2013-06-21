@@ -2,9 +2,9 @@
 
 ## About
 
-Archive of my blog posts, which are all published as [issues](https://github.com/cssmagic/blog/issues) (almost in Chinese).
+Archive of my blog posts, which are all published as [issues](https://github.com/cssmagic/blog/issues?state=open) (almost in Chinese).
 
-用于博客存档，所有文章均以 [issue](https://github.com/cssmagic/blog/issues) 的方式发布。
+用于博客存档，所有文章均以 [issue](https://github.com/cssmagic/blog/issues?state=open) 的方式发布。
 
 ## Author
 
