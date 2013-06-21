@@ -6,12 +6,18 @@ Archive of my blog posts, which are all published as [issues](https://github.com
 
 用于博客存档，所有文章均以 [issue](https://github.com/cssmagic/blog/issues?state=open) 的方式发布。
 
+如果你觉得文章不错，不妨：
+
+* [订阅](http://www.cssmagic.net/blog/subscribe)
+* [小额捐助](http://www.cssmagic.net/blog/donate)
+
 ## Author
 
 ### cssmagic
 
 * Twitter: [@cssmagic](https://twitter.com/cssmagic)
 * 新浪微博: [@CSS魔法](http://weibo.com/cssmagic)
+* [(More)](https://github.com/cssmagic/blog/issues/9)
 
 ## License
 
