@@ -6,7 +6,7 @@
 
 可以直接打开 [我的支付宝收款主页](https://me.alipay.com/psd2www)，用支付宝支付。
 
-[![支付宝收款主页](http://www.cssmagic.net/img/alipay-logo.png)](https://me.alipay.com/psd2www)
+[![支付宝收款主页](http://www.cssmagic.net/blog/pic/201306/alipay-logo.png)](https://me.alipay.com/psd2www)
 
 ## 手机版支付宝
 
@@ -14,7 +14,7 @@
 
 如果手机在手上，可以扫描二维码打开这个页面。
 
-![二维码：手机版支付宝付款页面](http://www.cssmagic.net/img/alipay-donate-qrcode.png)
+![二维码：手机版支付宝付款页面](http://www.cssmagic.net/blog/pic/201306/alipay-mobile-payment-qrcode.png)
 
 ## 
 
@@ -34,4 +34,4 @@
 
 &nbsp;
 > * [更多文章](https://github.com/cssmagic/blog/issues)
-> * [查看原文与评论](https://github.com/cssmagic/blog/issues/9)
+> * [查看原文与评论](https://github.com/cssmagic/blog/issues/10)
