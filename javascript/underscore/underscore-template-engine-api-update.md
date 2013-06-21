@@ -28,7 +28,7 @@ _.template('I love <%= foo.person %>.', {person: 'you'}, {variable: 'foo'});
 
 ### 外部接口
 
-新语法所带来的一个隐性的改良——接口灵活性更高，即待渲染数据（第二个参数）可以不仅是对象，也可以是数组等其它数据类型。仍然以上面的代码为例，用新语法还可以写成这样：
+新语法带来了一个隐性的改良——接口灵活性更高，即待渲染数据（第二个参数）可以不仅是对象，也可以是数组等其它数据类型。仍然以上面的代码为例，用新语法还可以写成这样：
 
 ```js
 _.template('I love <%= foo %>.', 'you', {variable: 'foo'});
@@ -59,7 +59,7 @@ _.extend(_.templateSettings, {variable: 'foo'});
 
 ***
 
-&copy; Creative Commons BY-NC-ND 3.0 &nbsp; | &nbsp; [我要订阅](https://github.com/cssmagic/blog/issues/8) &nbsp; | &nbsp; [我要捐助](https://github.com/cssmagic/blog/issues/9)
+&copy; Creative Commons BY-NC-ND 3.0 &nbsp; | &nbsp; [我要订阅](http://www.cssmagic.net/blog/subscribe) &nbsp; | &nbsp; [我要捐助](http://www.cssmagic.net/blog/donate)
 
 &nbsp;
 > * [更多文章](https://github.com/cssmagic/blog/issues)
