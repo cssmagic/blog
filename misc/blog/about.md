@@ -10,9 +10,13 @@ My cyber-name is "cssmagic". I'm a product designer and a web front-end develope
 
 ## Contact / 联系方式
 
-* 个人网站： [www.cssmagic.net](http://www.cssmagic.net/)
-* 电子邮件： `cssmagic.cn(at)gmail(dot)com`
-* 新浪微博： [@CSS魔法](http://weibo.com/cssmagic)
+* Website / 个人网站： [www.cssmagic.net](http://www.cssmagic.net/)
+* Email / 电子邮件： `cssmagic.cn(at)gmail(dot)com`
+
+## SNS / 社交网络
+
+* Sina Weibo / 新浪微博： [@CSS魔法](http://weibo.com/cssmagic)
+* Zhihu / 知乎： [@CSS魔法](http://www.zhihu.com/people/cssmagic)
 * Twitter: [@cssmagic](https://twitter.com/cssmagic)
 * GitHub: [@cssmagic](https://github.com/cssmagic)
 
