@@ -76,5 +76,5 @@ WebStorm 是收费软件，不过这不是大问题，我们有一些免费使�
 &copy; Creative Commons BY-NC-ND 3.0 &nbsp; | &nbsp; [我要订阅](http://www.cssmagic.net/blog/subscribe) &nbsp; | &nbsp; [我要捐助](http://www.cssmagic.net/blog/donate)
 
 &nbsp;
-> * [更多文章](https://github.com/cssmagic/blog/issues?state=open)
-> * [查看原文与评论](https://github.com/cssmagic/blog/issues/6)
+> * [参与评论](https://github.com/cssmagic/blog/issues/6)
+> * [查看更多文章](https://github.com/cssmagic/blog/issues?state=open)
