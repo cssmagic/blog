@@ -78,11 +78,11 @@ GFM 将自动为标准的 URL 加链接，所以如果你只想链接到一个 U
 
 ### Fenced code blocks
 
-### 代码块的首尾标记
+### 围栏式代码块
 
 Markdown converts text with four spaces at the front of each line to code blocks. GFM supports that, but we also support fenced blocks. Just wrap your code blocks in \`\`\` and you won't need to indent manually to trigger a code block.
 
-Markdown 会把每行前面空四格的文本转换为代码块。GFM 也支持这种语法，同时，我们也支持代码块首尾标记。只要把你的代码块包裹在 \`\`\` 之间，你就不需要通过无休止的缩进来标记代码块了。
+Markdown 会把每行前面空四格的文本转换为代码块。GFM 也支持这种语法，同时，我们还支持围栏式代码块。只要把你的代码块包裹在 \`\`\` 之间，你就不需要通过无休止的缩进来标记代码块了。
 
 If you are indenting your code blocks with spaces, keep in mind that code within lists needs to be indented _eight_ times in order to be properly marked as a code block.
 
@@ -94,7 +94,7 @@ If you are indenting your code blocks with spaces, keep in mind that code within
 
 We take code blocks a step further and add syntax highlighting if you request it. In your fenced block, add an optional language identifier and we'll run it through syntax highlighting. For example, to syntax highlight Ruby code:
 
-我们在处理代码块方面更进一步，你可以为代码码指定语法着色效果。在使用首尾标记的代码块中，你可以指定一个可选的语言标识符，然后我们就可以为它启用语法着色了。举个例子，这样可以为一段 Ruby 代码着色：
+我们在处理代码块方面更进一步，你可以为代码码指定语法着色效果。在围栏式代码块中，你可以指定一个可选的语言标识符，然后我们就可以为它启用语法着色了。举个例子，这样可以为一段 Ruby 代码着色：
 
     ```ruby
     require 'redcarpet'
@@ -138,11 +138,11 @@ See the [Task Lists blog post][14] for more details.
 
 Typing `r` on your keyboard lets you reply to the current issue or pull request with a comment. Any text you select within the discussion thread before pressing `r` will be added to your comment automatically and formatted as a blockquote.
 
-按下 `r` 键将为当前的 Issue 或 Pull Request 添加评论。在按下 `r` 键之前，你在讨论区中选中的任何文本都将自动以一个块级引用的形式插入到你的评论中。（译注：这听起来只是一个便民功能，并不是语法上的差异。下面的一些功能也是这样。）
+按下键盘的 `r` 键将为当前的 Issue 或 Pull Request 添加评论。在按下 `r` 键之前，你在讨论区中选中的任何文本都将自动以一个块级引用的形式插入到你的评论中。（译注：这听起来只是一个便民功能，并不是语法上的差异。下面的一些功能也是这样。）
 
 ### Name and Team @mentions autocomplete
 
-### 使用 @ 提到人名或团队名时的自动补全
+### @ 提到人名或团队名时的自动补全
 
 Typing an `@` symbol will bring up a list of people or teams on a project. The list will filter as you type, so once you find the name of the person or team you are looking for, you can use the arrow keys to select it and then hit enter or tab to complete the name. For teams, just enter the @organization/team-name and all members of that team will get subscribed to the issue.
 
@@ -154,7 +154,7 @@ The result set is restricted to repository collaborators and any other participa
 
 Check out the blog posts for more information about @mention autocompletes for [users][15] and [teams][16].
 
-关于这个功能的详细信息，请查阅关于 [@提到用户名][15] 和 [团队名][16] 自动补全的博文。
+详情参见关于 @ 提到 [用户][15] 和 [团队][16] 时自动补全的博文。
 
 ### Emoji autocomplete
 
@@ -162,7 +162,7 @@ Check out the blog posts for more information about @mention autocompletes for [
 
 Typing `:` will bring up a list of emoji suggestions. The list will filter as you type, so once you find the emoji you're looking for, just hit tab or enter to complete the highlighted result.
 
-按下 `:` 键将会弹出一个表情符号的建议列表。这个列表会随着你的输入不断匹配筛选，因此一旦你在列表中发现了你要找的表情符号，你就可以按回车或 tab 键来补全当前高亮的那一项。
+按下 `:` 将会弹出一个表情符号的建议列表。这个列表会随着你的输入不断匹配筛选，因此一旦你在列表中发现了你要找的表情符号，你就可以按回车或 tab 键来补全当前高亮的那一项。
 
 ### Issue autocompletion
 
@@ -170,7 +170,7 @@ Typing `:` will bring up a list of emoji suggestions. The list will filter as yo
 
 Typing `#` will bring up a list of Issue and Pull Request suggestions. Type a number or any text to filter the list, then hit tab or enter to complete the highlighted result.
 
-按下 `#` 键将会弹出一个 Issue 和 Pull Request 建议列表。输入数字或任何文本可以不断筛选这个列表，然后按回车或 tab 键可以补全当前高亮的那一项。
+按下 `#` 将会弹出一个 Issue 和 Pull Request 建议列表。输入数字或任何文本可以不断筛选这个列表，然后按回车或 tab 键可以补全当前高亮的那一项。
 
 ### Zen Mode (fullscreen) writing
 
