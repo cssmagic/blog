@@ -1,8 +1,15 @@
-# 博文标题
+# [译] 博文标题
+
+> * Original: [XXXXXXXXXXXXXXXXXXXX](xxxxxxxxxxxxxxxxxxx)
+> * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## 二级标题
 
 （博文内容）
+
+***
+
+> 原文版本：2013-XX-XX （如果原文已更新，请提醒我。）
 
 ***
 
