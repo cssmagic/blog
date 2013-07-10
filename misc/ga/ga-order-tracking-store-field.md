@@ -19,7 +19,7 @@ _gaq.push(['_addTrans',
 
 我在最近的一个新项目中尝试使用供应商代码来标记这个字段，终于找到它的作用。在电子商务分析的次级维度中可以使用它进行多维分析，在 GA 中它被称为“联属机构”。
 
-![GA 电子商务分析](http://www.cssmagic.net/blog/pic/201306/ga-order-tracking-store-field.png)
+![GA 电子商务分析](https://f.cloud.github.com/assets/1231359/772372/97d0004a-e907-11e2-8687-59ff5281304c.png)
 
 ***
 

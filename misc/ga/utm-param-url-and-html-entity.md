@@ -8,7 +8,7 @@
 
 EmarSys 是公司新签约的 EDM 服务商，在 GA 中已经可以看到最新一期 EDM 带来的流量。但它的媒介参数似乎不正确，理论上应该设置为 `email`。
 
-![图1](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-01.png)
+![图1](https://f.cloud.github.com/assets/1231359/772375/d34de876-e907-11e2-9dd2-cfb2f71be5f0.png)
 
 运营部的同学认为提供给 EDM 的链接不会有错，于是我深入分析之后便有了这篇文章。写完它，我以后应该就不需要口头再解答很多问题了。
 
@@ -32,7 +32,7 @@ UTM 参数的作用这里暂不赘述。我们先看一个正常的、加了 UTM
 
 当有人用浏览器访问这个 URL 时，UTM 参数就会发挥作用。
 
-![图2](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-02.png)
+![图2](https://f.cloud.github.com/assets/1231359/772378/d93f59f4-e907-11e2-917b-113ba413db57.png)
 
 好的，如果你只是提供一个最终链接给一个靠谱的 Agency，那么直接提供上面的链接就可以了。但是如果是自己制作 EDM，情况会稍稍复杂一些。
 
@@ -44,13 +44,13 @@ EDM 的本质实际上是一个 HTML 页面（或一段 HTML 代码），理论�
 
 所以，如果要把链接加到 EDM 中的某个元素身上，在 HTML 源码中就需要这样写（摘自 EDM 源文件）：
 
-![图3](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-03.png)
+![图3](https://f.cloud.github.com/assets/1231359/772381/dc1ccd8c-e907-11e2-9071-ed6312872153.png)
 
 当然，用户并不会接触到源代码。用户通常是使用邮件客户端（比如 FoxMail、Outlook 等）或浏览器来查看邮件，这些程序都是遵循 HTML 规范来开发的，它们可以正确地解析实体，将其转换为本来的字符。
 
 所以，虽然我们在源代码中看到链接使用的是 `&amp;` 实体，但邮件在显示的时候，这些实体会被解读为 `&` 字符。也就是说，用户在查看邮件的时候，会得到一个正确的链接。如下图（EDM 源文件在浏览器中的效果）：
 
-![图4](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-04.png)
+![图4](https://f.cloud.github.com/assets/1231359/772400/dfda97d2-e908-11e2-8b82-0a4516afae5b.png)
 
 ***
 
@@ -64,7 +64,7 @@ EDM 的本质实际上是一个 HTML 页面（或一段 HTML 代码），理论�
 
 我们观察一下收到的 EDM 邮件，可以发现这一点：
 
-![图5](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-05.png)
+![图5](https://f.cloud.github.com/assets/1231359/772401/e699fd38-e908-11e2-8fc0-417556eb5310.png)
 
 这个中转链接会把用户带到真正的目标页面。（为什么 EmarSys 要使用这种中转链接？其实几乎所有成熟的 EDM 服务商都会这样做，这样做有一些好处，不过这里也不赘述了。）
 
@@ -76,19 +76,19 @@ EDM 的本质实际上是一个 HTML 页面（或一段 HTML 代码），理论�
 
 下图是我对中转链接的跟踪，它通过 HTTP 重定向（`302`）实现跳转，跳转目标由 `Location` 字段指定：
 
-![图6](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-06.png)
+![图6](https://f.cloud.github.com/assets/1231359/772404/e90d156e-e908-11e2-9ff3-1e1dbcd2628a.png)
 
 发现问题了吧？如果点击 EDM 中的链接，用户真正到达的地址是这样的：
 
-![图7](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-07.png)
+![图7](https://f.cloud.github.com/assets/1231359/772405/eb34acee-e908-11e2-8ed4-6558928ece1f.png)
 
 不要小看这几个字符的差异，这个 URL 的实际效果已经不是我们最初期望的那样了。如果你分析一下，会发现这个页面（除了 `utm_source` 参数以外）真正接收到的是 `amp;utm_media` 这样的参数，而不是原本的 `utm_media` 等等。参数传错了，GA 当然也就收不到正确的值，所以实际上不仅媒介参数有问题，活动、内容、关键字参数都没有收到：
 
-![图8](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-08.png)
+![图8](https://f.cloud.github.com/assets/1231359/772408/ecfbc652-e908-11e2-9a88-e999b88e8275.png)
 
-![图9](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-09.png)
+![图9](https://f.cloud.github.com/assets/1231359/772409/ef2c00ae-e908-11e2-8a59-e58c115f929e.png)
 
-![图10](http://www.cssmagic.net/blog/pic/201306/utm-param-url-and-html-entity-10.png)
+![图10](https://f.cloud.github.com/assets/1231359/772411/f18417ba-e908-11e2-8d9b-e55b0c235213.png)
 
 ## 解决方案
 
