@@ -11,7 +11,7 @@ If you're not already familiar with Markdown, you should spend 15 minutes and go
 
 如果你对 Markdown 还不是很熟悉，那就应该花 15 分钟到 Daring Fireball 去复习一下这个精彩的 [Markdown 语法指南][9]。（译注：本文末尾提供了简体中文版的 Markdown 教程。）
 
-If you prefer to learn by example, see the following sorce and result:
+If you prefer to learn by example, see the following source and result:
 
 如果你更愿意通过案例来学习，则不妨看看下列源码和渲染结果的对照：
 
@@ -214,7 +214,7 @@ becomes
 将被渲染为：
 
 * SHA: [16c999e][19]
-* User@SHA ref: [mojombo@16c999e][19]
+* User@SHA: [mojombo@16c999e][19]
 * User/Project@SHA: [mojombo/github-flavored-markdown@16c999e][19]
 * \#Num: [\#1][11]
 * User\#Num: [mojombo#1][11]
@@ -256,7 +256,7 @@ GitHub 的这篇文档组织得不是很有条理，也存在一些笔误（已�
 
 ***
 
-> 原文版本：2013-06-25 （如果原文已更新，请提醒我。）
+> 原文版本：2013-07-07 （如果原文已更新，请提醒我。）
 
 ***
 
