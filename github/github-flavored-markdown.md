@@ -236,7 +236,7 @@ If you find a bug in the rendering, please [contact support][2] and let us know.
 
 ## 译者后记
 
-GitHub 的这篇文档组织得不是很有条理，也存在一些笔误（已联系支持团队）。
+GitHub 的这篇文档组织得不是很有条理，也存在一些笔误（<del>已联系支持团队</del> 官方已修正）。
 
 ### 推荐阅读
 
