@@ -236,7 +236,9 @@ If you find a bug in the rendering, please [contact support][2] and let us know.
 
 ## 译者后记
 
-GitHub 的这篇文档组织得不是很有条理，也存在一些笔误（已联系支持团队）。
+GitHub 的这篇文档组织得不是很有条理，也存在一些笔误（<del>已联系支持团队</del> 原文已修正）。
+
+在本文开头提到的案例中，源码和渲染结果并不完全匹配，只能作为有限的参考。此问题已反馈，支持团队也已回复确认，但暂未修复。
 
 ### 推荐阅读
 
