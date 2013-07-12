@@ -80,9 +80,9 @@ GFM 将自动为标准的 URL 加链接，所以如果你只想链接到一个 U
 
 ### 围栏式代码块
 
-Markdown converts text with four spaces at the front of each line to code blocks. GFM supports that, but we also support fenced blocks. Just wrap your code blocks in \`\`\` and you won't need to indent manually to trigger a code block.
+Markdown converts text with four spaces at the front of each line to code blocks. GFM supports that, but we also support fenced blocks. Just wrap your code blocks in ```` ``` ```` and you won't need to indent manually to trigger a code block.
 
-Markdown 会把每行前面空四格的文本转换为代码块。GFM 也支持这种语法，同时，我们还支持围栏式代码块。只要把你的代码块包裹在 \`\`\` 之间，你就不需要通过无休止的缩进来标记代码块了。
+Markdown 会把每行前面空四格的文本转换为代码块。GFM 也支持这种语法，同时，我们还支持围栏式代码块。只要把你的代码块包裹在 ```` ``` ```` 之间，你就不需要通过无休止的缩进来标记代码块了。
 
 If you are indenting your code blocks with spaces, keep in mind that code within lists needs to be indented _eight_ times in order to be properly marked as a code block.
 
