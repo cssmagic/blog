@@ -346,7 +346,7 @@ Brighter pinks are youthful, fun, and exciting while vibrant pinks have the same
 
 ## Red
 
-## 红
+## 红色
 
 Red has more personal associations than any other color. Recognized as a stimulant, red is inherently exciting and the amount of red is directly related to the level of energy perceived. Red draws attention and a keen use of red as an accent can immediately focus attention on a particular element.
 
