@@ -1,12 +1,12 @@
-# 《JavaScript 应用程序设计》目录
+# [PJA] 《JavaScript 应用程序设计》目录
 
-![programming-javascript-applications-pr00-cover](https://f.cloud.github.com/assets/1231359/794047/afc032be-ec64-11e2-853b-9dc795bf263d.jpg)
+![programming-javascript-applications-cover](https://f.cloud.github.com/assets/1231359/794047/afc032be-ec64-11e2-853b-9dc795bf263d.jpg)
 
 ## 译者按语
 
 > 这是一本 O'Reilly 的新书，于 2013 年 2 月发布 [在线预览版](http://chimera.labs.oreilly.com/books/1234000000262/index.html)，目前还未正式出版。
 
-> 本书全名《Programming JavaScript Applications: Robust Web Architecture With Node, HTML5, and Modern JS Libraries》，暂译作《JavaScript 应用程序设计：基于 Node、HTML5 及主流 JS 类库架构稳健的 Web 应用》。
+> 本书全名《Programming JavaScript Applications: Robust Web Architecture With Node, HTML5, and Modern JS Libraries》，暂译作《JavaScript 应用程序设计：基于 Node、HTML5 及主流 JS 类库架构稳健的 Web 应用》，本博客使用其简称 `[PJA]` 作为代号。
 
 > **警告**：这本书目前并非最终版本，只是作者提供的原始书稿，还未经润色与审校。因此书中可能存在错漏或不严谨的内容，请合理使用。另外，译者的专业水平和精力均十分有限，仅供参考，后果自负。
 
@@ -16,28 +16,27 @@
 
 ### Preface
 
-### 序言
-
 * Conventions Used in This Book
 * Using Code Examples
-* Safari&copy; Books Online
+* Safari&reg; Books Online
 * How to Contact Us
 * Introduction
 * Who this Book is For
 * Who this Book is Not For
 * About the Author
+
+### 序言
+
 * 本书所使用的约定
 * 使用示例代码
-* Safari 在线书店
+* Safari 图书在线
 * 如何联系我们
 * 导言
 * 这本书适合谁
 * 这本书不适合谁
 * 关于作者
 
-### 1\. The JavaScript Revolution
-
-### 1\. JavaScript 革命
+### Chapter 1\. The JavaScript Revolution
 
 * Performance
 * Objects
@@ -51,6 +50,9 @@
 	* JSON: Data Storage and Communication
 	* NoSQL Datastores
 	* RESTful JSON Web Services
+
+### 第一章 JavaScript 革命
+
 * 性能
 * 对象
 * 语法
@@ -64,22 +66,21 @@
 	* NoSQL 数据库存储
 	* REST 风格的 JSON 网页接口
 
-### 2\. JavaScript Style Guide
-
-### 2\. JavaScript 代码风格指南
+### Chapter 2\. JavaScript Style Guide
 
 * Example Tests
 	* QUnit Primer
 * Code Quality
 	* Best Practices Quick Reference
+
+### 第二章 JavaScript 代码风格指南
+
 * 测试示例
 	* QUnit 入门
 * 代码质量
 	* 最佳实践的快速参考
 
-### 3\. Functions
-
-### 3\. 函数
+### Chapter 3\. Functions
 
 * Function Definition
 	* Named Function Expressions
@@ -100,6 +101,9 @@
 * Asynchronous Operations
 	* Callbacks
 	* Promises and Deferreds
+
+### 第三章 函数
+
 * 函数定义
 	* 具名函数表达式
 	* Lambda 函数
@@ -120,9 +124,7 @@
 	* 回调函数
 	* 许诺机制与延迟执行
 
-### 4\. Objects
-
-### 4\. 对象
+### Chapter 4\. Objects
 
 * Classical Inheritance is Obsolete
 * Fluent Style JavaScript
@@ -135,6 +137,9 @@
 * A Prototypal Object Creation Library
 	* Object Creation
 	* Factory Creation
+
+### 第四章 对象
+
 * 传统的继承已经过时了
 * 语流风格的 JavaScript
 * 原型
@@ -147,9 +152,7 @@
 	* 对象创建法
 	* 工厂创建法
 
-### 5\. Modules
-
-### 5\. 模块
+### Chapter 5\. Modules
 
 * Principles of Modularity
 * Interfaces
@@ -162,6 +165,9 @@
 * Harmony Modules
 * Building Client-Side Code With CommonJS, npm, Grunt, and Browserify
 	* Defining the App
+
+### 第五章 模块
+
 * 模块化的原则
 * 接口
 * 模块的模式
@@ -174,9 +180,7 @@
 * 基于 CommonJS、npm、Grunt 和 Browserify 构建客户端代码
 	* 定义你的应用
 
-### 6\. Separation of Concerns
-
-### 6\. 关注点分离
+### Chapter 6\. Separation of Concerns
 
 * Client Side Concerns
 	* Module Management
@@ -187,6 +191,9 @@
 	* Getting Started With Node and Express
 * Internationalization
 	* Locale Determination
+
+### 第六章 关注点分离
+
 * 客户端的关注点
 	* 模块管理
 	* 事件
@@ -199,7 +206,7 @@
 
 ## 关于作者
 
-![programming-javascript-applications-pr00-author](https://f.cloud.github.com/assets/1231359/794048/b3932392-ec64-11e2-9ed5-db7327973502.jpg)
+![programming-javascript-applications-author](https://f.cloud.github.com/assets/1231359/794048/b3932392-ec64-11e2-9ed5-db7327973502.jpg)
 
 ### Eric Elliott
 
@@ -207,7 +214,13 @@ Eric Elliott is a veteran of JavaScript application development. His roles inclu
 
 ### 埃瑞克·埃利奥特
 
-埃瑞克·埃利奥特一名 JavaScript 应用开发高手。他的身份数不胜数：Tout（一家视频分享网站）的 JavaScript 领头人、BandPage（一款业内领先的音乐应用）上的资深 JavaScript 大腕、Zumba Fitness（全球领先的健身品牌）的客户端架构领导者、多年的用户体验与病毒营销领域的顾问、以及 h5Validate（一款 HTML5 表单校验 jQuery 插件）的作者等等。
+埃瑞克·埃利奥特一名 JavaScript 应用开发高手。他的身份数不胜数：
+
+* Tout（一家视频分享网站）的 JavaScript 领头人
+* BandPage（一款业内领先的音乐应用）上的资深 JavaScript 大腕
+* Zumba Fitness（全球领先的健身品牌）的客户端架构领导者
+* 多年的用户体验与病毒营销领域的顾问
+* 以及 h5Validate（一款 HTML5 表单校验 jQuery 插件）的作者等等
 
 ***
 
