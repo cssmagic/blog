@@ -129,7 +129,7 @@ Yellow shines with optimism, enlightenment, and happiness. Shades of golden yell
 
 * During the tenth century in France, the doors of traitors and criminals were painted yellow.
 
-* Yellow signifies “sadness” in Greece's culture and “jealousy” in France's culture.
+* Yellow signifies "sadness" in Greece's culture and "jealousy" in France's culture.
 
 * Yellow is psychologically the happiest color in the color spectrum.
 
@@ -194,7 +194,7 @@ Green occupies more space in the spectrum visible to the human eye than most col
 
 * 绿色是夜视镜所采用的颜色，因为人类的视觉对绿色的不同深浅色调最为敏感，更易于辨识。
 
-* 全美房车竞赛协会数十年来对绿色一直怀有偏见。所传，这种偏见始于 1920 年发生于加州比佛利山庄的一次事故，这次事故夺去了“Indianapolis 500”赛事的卫冕冠军 Gaston Chevrolet（加斯顿·雪佛兰）的生命。这是美国赛车运动有史以来首次造成两名车手丧生的意外事故，而当时雪佛兰驾驶的就是一辆绿色赛车。（译注：此话题可参阅此文[《绿车不吉利？》](http://www.snopes.com/autos/cursed/green.asp)。）
+* 全美房车竞赛协会数十年来对绿色一直怀有偏见。据传，这种偏见始于 1920 年发生于加州比佛利山庄的一次事故，这次事故夺去了“Indianapolis 500”赛事的卫冕冠军 Gaston Chevrolet（加斯顿·雪佛兰）的生命。这是美国赛车运动有史以来首次造成两名车手丧生的意外事故，而当时雪佛兰驾驶的就是一辆绿色赛车。（译注：此话题可参阅此文[《绿车不吉利？》](http://www.snopes.com/autos/cursed/green.asp)。）
 
 ***
 
@@ -223,7 +223,7 @@ Blue is seen as trustworthy, dependable, and committed. The color of ocean and s
 
 ### 一些事实
 
-* Blue is the least “gender specific” color, having equal appeal to both men and women.
+* Blue is the least "gender specific" color, having equal appeal to both men and women.
 
 * Blue is the favored color choice for toothbrushes.
 
@@ -320,7 +320,7 @@ Brighter pinks are youthful, fun, and exciting while vibrant pinks have the same
 
 ### 一些事实
 
-* In 1947, fashion designer Elsa Schiaparelli introduced the color “hot pink” to western fashion.
+* In 1947, fashion designer Elsa Schiaparelli introduced the color "hot pink" to western fashion.
 
 * Pink encourages friendliness while discouraging aggression and ill-will.
 
@@ -397,7 +397,7 @@ Red has more personal associations than any other color. Recognized as a stimula
 
 ## 橙色
 
-Orange, a close relative of red, sparks more controversy than any other hue. There is usually strong positive or negative association to orange and true orange generally elicits a stronger “love it” or “hate it” response than other colors. Fun and flamboyant orange radiates warmth and energy.
+Orange, a close relative of red, sparks more controversy than any other hue. There is usually strong positive or negative association to orange and true orange generally elicits a stronger "love it" or "hate it" response than other colors. Fun and flamboyant orange radiates warmth and energy.
 
 橙色，是红色的近亲，比其它颜色更容易激起争论。对于橙色，往往存在极端正面或负面的联想；与其它颜色相比，纯正的橙色通常会引发更强烈的好恶反应。欢快而耀眼的橙色会放射出暖意和能量。
 
@@ -418,7 +418,7 @@ Orange, a close relative of red, sparks more controversy than any other hue. The
 
 * The interior dash lights on older model Suburu cars were orange.
 
-* Orange is the color that means “high” in the color-coded threat system established by presidential order in March 2002.
+* Orange is the color that means "high" in the color-coded threat system established by presidential order in March 2002.
 
 * In the United States Army, orange is the color of the United States Army Signal Corps.
 
@@ -512,11 +512,11 @@ Gray is the color of intellect, knowledge, and wisdom. It is perceived as long-l
 
 ### 一些事实
 
-* The New York Times is sometimes called “Gray Lady”.
+* The New York Times is sometimes called "Gray Lady".
 
 * Gray represents non-involvement, giving it a formal authority.
 
-* Gray is associated with intellect and the brain is composed of “gray matter”.
+* Gray is associated with intellect and the brain is composed of "gray matter".
 
 * Gray is representative of pessimism.
 
@@ -565,7 +565,7 @@ Black is authoritative and powerful; because black can evoke strong emotions, to
 
 * The color black is associated with sophistication and power – tuxedos, limousines, judge's robes, and priests' attire are all typically black.
 
-* The color black is so widely regarded as sophisticated in fashion that the term “the new black” is often used to describe and give merit to a color trend.
+* The color black is so widely regarded as sophisticated in fashion that the term "the new black" is often used to describe and give merit to a color trend.
 
 * One old wives' tale claims that if a woman is buried wearing the color black, she'll come back to haunt the family.
 
@@ -574,6 +574,8 @@ Black is authoritative and powerful; because black can evoke strong emotions, to
 * 黑色意味着份量——人们会觉得一个黑盒子会比白盒子要重。
 
 * 黑色往往跟修养和权势联系在一起——正式礼服、豪华轿车、法官的长袍、神父的正装通常都是黑色的。
+
+* 黑色在时尚界广受赞誉，比如人们经常使用“新黑色”这个名词来表达对一种色彩潮流的推崇。
 
 * 有一种迷信说法，如果一个女人被埋葬时穿着黑衣，她就会经常游荡在她的家人周围。
 
