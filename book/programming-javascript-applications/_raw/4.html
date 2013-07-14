@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+	<title>Programming JavaScript Applications</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="http://dwn0odqttrkhc.cloudfront.net/assets/book-748da559db3e7bc457e1e4da3b2fa1e9.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="http://dwn0odqttrkhc.cloudfront.net/assets/default-6b113e470a1a8ec83000e32a1548bc3a.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="http://dwn0odqttrkhc.cloudfront.net/assets/application-984298d79dbc8412cdf579684d9338f6.js" type="text/javascript"></script>
+	<script src="http://dwn0odqttrkhc.cloudfront.net/assets/book-756862b9ed04d945ca53de5b8f106a83.js" type="text/javascript"></script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<link href="http://dwn0odqttrkhc.cloudfront.net/assets/janrain-53eb5abed55992e21943b9d3373923e8.css" media="all" rel="stylesheet" type="text/css" />
+	<meta content="authenticity_token" name="csrf-param" />
+<meta content="xnXwVJBanzLinQ5OYsV2C7nrbhh9e+6ul4dPt/YN7qY=" name="csrf-token" />
+	<script type="text/javascript" charset="utf-8">
+  	
+		app.data = new classes.Data({"controller":{"controller":"books","action":"html"},"capturable":{"capture_server":"https://oreilly.janraincapture.com","client_id":"6n5q2k9vesqgn93k3mhevka6c3c3rsre","app_url":"https://login.oreilly.com","app_id":"xsnca5wmqe9vxv97ygh5vfejkd","load_js":"d16s8pqtk4uodx.cloudfront.net/login.oreilly.com/load.js"},"user":{"id":null,"account":"LoggedOutAccount","email":"","name":null,"gravatar_url":"http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=40&d=identicon"},"book":{"isbn":"1234000000262","chapter":"ch04.html","toc_url":"/books/1234000000262/toc_html","metadata_url":"http://d4bb7yl96lyl1.cloudfront.net/1234000000262/metadata/metadata_c6a0e8997c9604111d0171fb2d72f5c1b6cfd618.json"},"abilities":{"can_destroy_all_comments":false,"can_create_comments":false},"advertisement":{"body":"<style>      \r\n.ad-profile-image {\r\n  padding: 0;\r\n  margin: 0;\r\n  max-height: 30px;\r\n }\r\n\r\n.top-banner {\r\n  position: absolute;\r\n  right: 0;\r\n  top: 34px;\r\n  z-index: 99999;\r\n}\r\n\r\np.banner-text {\r\n  margin: 0;\r\n  text-align: center;\r\n  padding-right: 10px;\r\n  width: 500px;\r\n}\r\n\r\n@media screen and (max-width: 600px) {\r\n   p.banner-text {\r\n     width: 100%;\r\n     text-align: center;\r\n  }\r\n}\r\n\r\nspan.ebook-advantage {\r\n  font-size: smaller;\r\n  display: block;\r\n}\r\n\r\ndiv.banner-container {\r\n  margin: 0 auto;\r\n}\r\n\r\ndiv.banner-container ul {\r\n  margin: 0 auto;\r\n}\r\n\r\ndiv.topad { padding-bottom: 5px; }\r\n\r\ndiv.banner-container ul li {\r\n  display: inline-block;\r\n  vertical-align: middle;\r\n}\r\n\r\ndiv.banner-container li p {\r\n  padding-top: 0;\r\n  margin-top: 0;\r\n}\r\n\r\ndiv.banner-container li.sponsor {\r\n  border-right: 1px solid rgb(125, 154, 180);\r\n  margin-right: 5px;\r\n  padding-right: 10px;\r\n}\r\n\r\ndiv.banner-container .webbutton {\r\n  background-color: #3994b6;\r\n  display: inline-block;\r\n  padding: 10px;\r\n  -webkit-border-radius: 5px;\r\n  -moz-border-radius: 5px;\r\n  border-radius: 5px;\r\n  color: #FFF;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  font-size: 12px;\r\n  font-weight: bold;\r\n}\r\n\r\n</style>\r\n   \r\n<div style=\"color: rgb(125, 154, 180);\">\r\n\r\n<div class=\"banner-container\">\r\n\r\n<ul>\r\n\r\n<li class=\"sponsor\">\r\n<!--CONFERENCE SPONSOR IMAGE-->\r\n<a href=\"http://velocityconf.com/\">\r\n<img src=\"http://orm-other.s3.amazonaws.com/velocity_logo.png\" class=\"ad-profile-image\"/>\r\n<!-- <img src=\"http://orm-other.s3.amazonaws.com/fluent_logo.png\" class=\"ad-profile-image\"/>\r\n<img src=\"http://orm-other.s3.amazonaws.com/oscon_logo.png\" class=\"ad-profile-image\"/>\r\n<img src=\"http://orm-other.s3.amazonaws.com/strata_logo.png\" class=\"ad-profile-image\"/>\r\n<img src=\"http://orm-other.s3.amazonaws.com/StrataRx_logo.png\" class=\"ad-profile-image\"/>\r\n<img src=\"http://orm-other.s3.amazonaws.com/velocity_logo.png\" class=\"ad-profile-image\"/> -->\r\n</a>\r\n</li>\r\n\r\n<li>\r\n<!--AD TEXT, 2 LINES, REPLACE LINK URL AS WELL-->\r\n<p class=\"banner-text\">Enjoy this free Early Release version of <em>Programming JavaScript Applications</em>. Purchase and download the DRM-free ebook on <a href=\"http://shop.oreilly.com/product/0636920024231.do?intcmp=il-npa-books-video-product_chimera\">oreilly.com</a>.<span class=\"ebook-advantage\">Learn more about the O’Reilly <a href=\"http://shop.oreilly.com/category/ebooks.do\">Ebook Advantage</a>.</span></p>\r\n</li>\r\n\r\n<li>\r\n<!--BUY BUTTON-->\r\n<a class=\"webbutton\" href=\"http://shop.oreilly.com/product/0636920024231.do?intcmp=il-npa-books-video-product_chimera\">Buy the Ebook</a>\r\n</li> \r\n\r\n</ul>\r\n\r\n</div>\r\n\r\n<!--CORNER BANNER (IF NEEDED)-->\r\n<!--<a href=\"http://shop.oreilly.com/product/0636920025245.do\" class=\"top-banner\"><img src=\"http://orm-other.s3.amazonaws.com/banner.png\" /></a>-->\r\n\r\n</div>"}});
+
+		/* Janrain setup */
+  	var janrainModal = new JanrainView();
+  	$("head").append(janrainModal.render().el);
+
+  	/* segment.io setup */
+  	var analytics=analytics||[];analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);var r=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}},i=["identify","track","trackLink","trackForm","trackClick","trackSubmit","pageview","ab","alias","ready"];for(var s=0;s<i.length;s++)analytics[i[s]]=r(i[s])};
+  	
+  	analytics.load("hg9h6b9pae");
+
+  	$(function() {
+			app.bookapp = new BookApp();
+		});
+	
+	</script>
+</head>
+<body>
+	<div id="menu">
+	
+		<ul id="menu-left">
+			<li id="home-link"><a href="/"><i class="icon-house"></i></a></li>
+			<li><a href="/books/1234000000262">Programming JavaScript Applications</a></li>
+			<div class="clear"></div>
+		</ul>
+	
+		<ul id="menu-right">
+			<li id="comments-link"><a>&nbsp;</a></li>
+			<li>
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Chapters</a>
+				<div id="toc-popup" class="dropdown-menu"></div>
+			</li>
+				<li><a href="#" class="capture_modal_open" id="capture_signin_link">Log In / Sign Up</a></li>
+			<li id="search-li">
+				<form accept-charset="UTF-8" action="/searches" id="search-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+	<input name='search[q]' type="text" placeholder="Search book..." id="book-search" />
+
+	<input id="search_bookId" name="search[bookId]" type="hidden" value="1234000000262" />
+	
+	<div style='display:none'>
+		sorted by: 
+		<select name='search[sort]' >
+			<option value='relevance'>Relevance</option>
+			<option value='authors'>Author(s)</option>
+			<option value='title'>Title</option>
+		</select>
+		returning
+		<select name='search[limit]' >
+			<option value='5'>5</option>
+			<option value='10'>10</option>
+			<option value='20'>20</option>
+			<option selected="selected" value='50'>50</option>
+			<option value='100'>100</option>
+		</select>
+		values at a time.
+	</div>
+</form>
+			</li>
+			<div class="clear"></div>
+		</ul>
+		<div class="clear"></div>
+	
+</div>
+	<header><div class="navheader">
+<table style="width: 100%; ">
+<tr><td style="text-align: center; " colspan="3">Chapter 4. Objects</td></tr>
+<tr>
+<td style="width: 20%; text-align: left; ">
+<a accesskey="p" href="ch03.html">Prev</a> </td>
+<td style="width: 60%; text-align: center; "> </td>
+<td style="width: 20%; text-align: right; "> <a accesskey="n" href="ch05.html">Next</a>
+</td>
+</tr>
+</table>
+<hr>
+</div></header><section class="chapter" data-original-filename="ch04.xml" id="objects_id2"><div class="titlepage"><div><div><h1 class="title">Chapter 4. Objects</h1></div></div></div>
+<p id="with_the_combin">With the combination of prototypal inheritance, the ability to add properties to objects dynamically, and closures, JavaScript has one of the most flexible and expressive object systems available in any popular programing language.</p>
+<p id="in_javascript__id3">In JavaScript, all types of functions, arrays,  key/value pairs, and data structures in general are really objects. Even primitive types get the object treatment when you refer to them with the property access notations. They get automatically wrapped with an object so that you can call their prototype methods. For example:</p>
+<pre class="programlisting" data-language="js" id="tonyaexample"><code class="s1">'tonya@example.com'</code><code class="p">.</code><code class="nx">split</code><code class="p">(</code><code class="s1">'@'</code><code class="p">)[</code><code class="mi">1</code><code class="p">];</code> <code class="c1">// =&gt; example.com</code></pre>
+<div class="caution" id="primitive_types_id1"><p id="primitive_types_id2">Primitive types behave like objects when you use the property access notations, but you can't assign new properties to them. Primitives get wrapped with an object temporarily, and then that object is immediately thrown away. Any attempt to assign values to properties will seem to succeed,  but subsequent attempts to access that new property will fail.</p></div>
+<p id="javascripts_ob_id2">JavaScript's object system is so powerful and expressive that most of the complexity in common OO patterns melts away when you reproduce them in JavaScript. You simply don't need all of the common cruft to accomplish the stated goals. For instance, because JavaScript is classless, and it's possible to create an object on-demand at the precise moment it's needed (lazy instantiation), the singleton is reduced to an object literal:</p>
+<pre class="programlisting" data-language="js" id="var_highlander_"><code class="kd">var</code> <code class="nx">highlander</code> <code class="o">=</code> <code class="p">{</code>
+    <code class="nx">name</code><code class="o">:</code> <code class="s1">'McLeod'</code><code class="p">,</code>
+    <code class="nx">catchphrase</code><code class="o">:</code> <code class="s1">'There can be only one.'</code>
+  <code class="p">};</code></pre>
+<p id="as_you_continue">As you continue through this chapter, you'll see that a lot of the overhead associated with several other GoF design patterns melts away when you understand how to take advantage of JavaScript's native object capabilities.</p>
+<p id="you_may_be_awar">You may be aware that JavaScript is not a classical OO language. It's a prototypal language. However, most JavaScript training materials ignore some of the implications of that paradigm shift. It's time to get a firmer handle on exactly what <span class="emphasis"><em>prototypal</em></span> means, and how you can take advantage of it to write better, faster, more readable, and more efficient code. It might help to get a better sense of the shortcomings of classical inheritance, first.</p>
+<div class="sect1" data-original-filename="ch04.xml" id="chcss2i1z00025eilzn6ki8ds">
+<div class="titlepage"><div><div><h2 class="title">Classical Inheritance is Obsolete</h2></div></div></div>
+<div class="blockquote"><table style="border: 0; " class="blockquote">
+<tr>
+<td style="width: 10%; vertical-align: top; "> </td>
+<td style="width: 80%; vertical-align: top; "><p id="those_who_are_">"Those who are unaware they are walking in darkness will never seek the light."</p></td>
+<td style="width: 10%; vertical-align: top; "> </td>
+</tr>
+<tr>
+<td style="width: 10%; vertical-align: top; "> </td>
+<td style="text-align: right; vertical-align: top; " colspan="2">--<span class="attribution">Bruce Lee</span>
+</td>
+</tr>
+</table></div>
+<p id="in_design_patt">In "Design Patterns: Elements of Reusable Object Oriented Software", the Gang of Four opened the book with two foundational principles of object oriented design:</p>
+<div class="orderedlist" id="program_to_an_i_id1"><ol class="orderedlist" type="1">
+<li class="listitem"><p id="program_to_an_i_id2">Program to an interface, not an implementation.</p></li>
+<li class="listitem"><p id="favor_object_co"><span class="emphasis"><em>Favor object composition over class inheritance.</em></span></p></li>
+</ol></div>
+<p id="in_a_sense_the">In a sense, the second principle could follow from the first, because inheritance exposes the parent class to all child classes. The child classes are all programming to an implementation, not an interface. Classical inheritance breaks the principle of encapsulation, and tightly couples the child class to its ancestors.</p>
+<p id="think_of_it_thi">Think of it this way: <span class="emphasis"><em>Classical inheritance is like Ikea furniture</em></span>. You have a bunch of pieces that are designed to fit together in a very specific way. If everything goes exactly according to plan, chances are high that you'll come out with a usable piece of furniture, but if anything at all goes wrong or deviates from the preplanned specification, there is little room for adjustment or flexibility. Here's where the analogy (and the furniture, and the software) breaks down: The design is in a constant state of change.</p>
+<p id="composition_is_"><span class="emphasis"><em>Composition is more like Lego blocks</em></span>. The various pieces aren't designed to fit with any specific piece. Instead, they are all designed to fit together with any other piece, with few exceptions.</p>
+<p id="when_you_design_id1">When you design for classical inheritance, you design a child class to inherit from a specific parent class. The specific parent class name is usually hard coded right in the child class, with no mechanism to override it. Right from the start, you're boxing yourself in -- limiting the ways that you can reuse your code without rethinking its design at a fundamental level.</p>
+<p id="when_you_design_id2">When you design for composition, the sky is the limit. As long as you can successfully avoid colliding with properties from other source objects, objects can be composed and reused virtually any way you see fit. Once you get the hang of it, composition affords a tremendous amount of freedom compared to classical inheritance. For people who have been immersed in classical inheritance for years, and learn how to take real advantage of composition (specifically using prototypal techniques), it is literally like walking out of a dark tunnel into the light and seeing a whole new world of possibilities open up for you.</p>
+<p id="back_to_design">Back to "Design Patterns". Why is the seminal work on Object Oriented design so distinctly anti-inheritance? Because inheritance causes several problems:</p>
+<div class="orderedlist" id="tight_coupling_id1"><ol class="orderedlist" type="1">
+<li class="listitem"><p id="tight_coupling_id2"><span class="emphasis"><em>Tight coupling.</em></span> Inheritance is the tightest coupling available in OO design. Descendant classes have an intimate knowledge of their ancestor classes.</p></li>
+<li class="listitem"><p id="inflexible_hier"><span class="emphasis"><em>Inflexible hierarchies.</em></span> Single parent hierarchies are rarely capable of describing all possible use cases. Eventually, all hierarchies are "wrong" for new uses -- a problem that necessitates code duplication.</p></li>
+<li class="listitem"><p id="multiple_inheri"><span class="emphasis"><em>Multiple inheritance is complicated.</em></span> It's often desirable to inherit from more than one parent. That process is inordinately complex and its implementation is inconsistent with the process for single inheritance, which makes it harder to read and understand.</p></li>
+<li class="listitem"><p id="brittle_archite"><span class="emphasis"><em>Brittle architecture.</em></span> Because of tight coupling, it's often difficult to refactor a class with the "wrong" design, because much existing functionality depends on the existing design.</p></li>
+<li class="listitem"><p id="the_gorilla__b"><span class="emphasis"><em>The Gorilla / Banana problem.</em></span> Often there are parts of the parent that you don't want to inherit. Subclassing allows you to override properties from the parent, but it doesn't allow you to select which properties you want to inherit.</p></li>
+</ol></div>
+<p id="these_problems_">These problems are  summed up nicely by Joe Armstrong in "Coders at Work", by Peter Siebel:</p>
+<div class="blockquote"><table style="border: 0; " class="blockquote">
+<tr>
+<td style="width: 10%; vertical-align: top; "> </td>
+<td style="width: 80%; vertical-align: top; "><p id="the_problem_wi">“The problem with object-oriented languages is they've got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.”</p></td>
+<td style="width: 10%; vertical-align: top; "> </td>
+</tr>
+<tr>
+<td style="width: 10%; vertical-align: top; "> </td>
+<td style="text-align: right; vertical-align: top; " colspan="2">--<span class="attribution">Joe Armstrong</span>
+</td>
+</tr>
+</table></div>
+<p id="inheritance_wor">Inheritance works beautifully for a short time, but eventually the app architecture becomes arthritic. When you've built up your entire app on a foundation of classical inheritance, the dependencies on ancestors run so deep that even reusing or changing trivial amounts of code can turn into a gigantic refactor. Deep inheritance trees are brittle, inflexible, and difficult to extend.</p>
+<p id="more_often_than_id2">More often than not, what you wind up with in a mature classical OO application is a range of possible ancestors to inherit from, all with slightly different but often similar configurations. Figuring out which to use is not straightforward, and you soon have a haphazard collection of similar objects with unexpectedly divergent properties. Around this time, people start throwing around the word "rewrite" as if it's an easier undertaking  than refactoring the current mess.</p>
+<p id="many_of_the_pat">Many of the patterns in the GoF book were designed specifically to address these well-known problems. In many ways, the book itself can be read as a critique of the shortcomings of most classical OO languages, along with the accompanying lengthy work-arounds. In short, patterns point out deficiencies in the language. You can reproduce all of the GoF patterns in JavaScript, but before you start using them as blueprints for your JavaScript code, you'll want to get a good handle on JavaScript's prototypal and functional capabilities.</p>
+<p id="for_a_long_time_id2">For a long time, many people were confused about whether JavaScript is truly object oriented, because they felt that it lacked features from other OO languages. Setting aside the fact that JavaScript handles classical inheritance with less code than most class-based languages, coming to JavaScript and asking how to do classical inheritance is like picking up a touch screen mobile phone and asking where the rotary dial is. Of course people will be amused when the next thing out of your mouth is, "if it doesn't have a rotary dial, it's not a telephone!"</p>
+<p id="javascript_can__id2">JavaScript can do most of the  OO things you're accustomed to in other languages, such as inheritance, data privacy, polymorphism, and so on. However, JavaScript has many native capabilities that make some classical OO features and patterns obsolete. It's better to stop asking "how do I do classical inheritance in JavaScript?", and start asking, "what cool new things does JavaScript enable me to do?"</p>
+<div class="warning" id="i_wish_i_could__id1"><p id="i_wish_i_could__id2">I wish I could tell you that you'll never have to deal with classical inheritance in JavaScript. Unfortunately, because classical inheritance is easy to mimic in JavaScript, and many people come from class-based programming backgrounds, there are several popular libraries which feature classical inheritance prominently, including  Backbone.js, which you'll have a chance to explore soon. When you do encounter situations in which you're forced to subclass by other programmers, keep in mind that inheritance hierarchies should be kept as small as possible. Avoid subclassing subclasses, remember that you can mix and match different code reuse styles, and things will go more smoothly.</p></div>
+</div>
+<div class="sect1" data-original-filename="ch04.xml" id="fluent_style_javascript">
+<div class="titlepage"><div><div><h2 class="title">Fluent Style JavaScript</h2></div></div></div>
+<div class="blockquote"><table style="border: 0; " class="blockquote">
+<tr>
+<td style="width: 10%; vertical-align: top; "> </td>
+<td style="width: 80%; vertical-align: top; ">
+<p id="i_have_not_inve">I have not invented a "new style," composite, modified or otherwise that is set within distinct form as apart from "this" method or "that" method. On the contrary, I hope to free my followers from clinging to styles, patterns, or molds.</p>
+<p id="the_extraord">...The extraordinary part of it lies in its simplicity.</p>
+</td>
+<td style="width: 10%; vertical-align: top; "> </td>
+</tr>
+<tr>
+<td style="width: 10%; vertical-align: top; "> </td>
+<td style="text-align: right; vertical-align: top; " colspan="2">--<span class="attribution">Bruce Lee</span>
+</td>
+</tr>
+</table></div>
+<p id="programmers_wit"><span class="emphasis"><em>Programmers with a background in other languages are like immigrants to JavaScript</em></span>. They often code with an accent -- preconceived notions about how to solve problems. For example, programmers with a background in classical OO tend to have a hard time letting constructors go. Using constructor functions is a clear and strong <span class="emphasis"><em>accent</em></span>, because they are completely unnecessary in JavaScript. They are a waste of time and energy.</p>
+<p id="unfortunately__id1">Unfortunately, most JavaScript learning materials will teach you that you build objects using constructor functions.</p>
+<p id="there_are_serio">There are serious limitations to this way of doing things. The first  is that you must always call a constructor using the <code class="code">new</code> keyword. Failing to do so will pass the global object in as <code class="code">this</code>. Your properties and methods will clobber the global namespace. If you instantiate more than one object, they will not be instance safe. In strict mode, the situation when you forget <code class="code">new</code> is a little different: <code class="code">this</code> is useless, and trying to assign properties to it will throw an error.</p>
+<p id="theres_a_simpl">There's a simple workaround that requires a boilerplate check inside every constructor function, but since any function can return an object in JavaScript, you end up using <code class="code">new</code> sometimes, but not all the time. A convention has sprung up in JavaScript to help you remember when to use <code class="code">new</code> and when not to. Constructor functions always begin with a capital letter. If you're calling a function that begins with a capital letter, use <code class="code">new</code>. Unfortunately, lots of library developers uppercase the first letter of their library namespace, regardless of whether or not it's a constructor function, so even that solution is less than ideal. And that's not even the real problem.</p>
+<p id="the_real_proble">The real problem is that using constructors will almost always get you stuck thinking in classical OO mode. The constructor becomes analogous to a class. You might start to think, "I want to subclass x..." and that's where you get into trouble. You're ignoring two of the best features of JavaScript: Dynamic object extension (you can add properties to any object in JavaScript after instantiation) and prototypal inheritance. The two combined are a much more powerful and flexible way to reuse code than classical inheritance.</p>
+<p id="programmers_who">Programmers who learned JavaScript as a first language are far less likely to be attached to classical OO and inheritance, because it's harder to implement in JavaScript than the simpler, <span class="emphasis"><em>native</em></span> alternatives. You can learn a lot about JavaScript by reading the code of experienced JavaScript natives who have not been influenced by classical inheritance.</p>
+<p id="most_languages_">Most languages have many different accents and grammars.  In fact, almost all disciplines spin off into different schools of thought. Martial arts has kick boxing, jui jitsu, boxing, karate, kung fu, and so on. Each emphasize different philosophies, mechanics and core techniques. In his famous book, "The Tao of Jeet Kun Do", Bruce Lee advised that you develop your own style. Study and take in all the good things about different styles, pick what you like and discard the rest to create your own unique style. It's good advice that lies at the heart of Mixed Martial Arts - a discipline that combines the best features of several fighting styles.</p>
+<p id="the_same_is_tru">The same is true with programming languages. JavaScript itself is a fusion of the best  ideas from Scheme (lambda), Self (prototypal inheritance), and Java (syntax).</p>
+<p id="to_coin_a_phras">To coin a phrase, <em class="firstterm">fluent style</em>  simply discards inefficient constructs and takes advantage of JavaScript's strengths and efficiencies: </p>
+<div class="itemizedlist" id="lambdas_and_clo_id1"><ul class="itemizedlist">
+<li class="listitem"><p id="lambdas_and_clo_id2"><span class="emphasis"><em>Lambdas and closures</em></span> are a language unto themselves. Lambda expressions are simple, elegant, and powerful. Literally anything that can be expressed as a computable algorithm can be expressed through lambdas.</p></li>
+<li class="listitem"><p id="object_literal_"><span class="emphasis"><em>Object literal notation</em></span> is the fastest route to a working object instance from scratch. Also take advantage of its sibling, <span class="emphasis"><em>array literal notation</em></span>.</p></li>
+<li class="listitem"><p id="dynamic_object_"><span class="emphasis"><em>Dynamic object extension</em></span> allows you to easily use mixins, composition, and aggregation for code reuse, even after object instantiation. Subclassing requires a lot of extra typing, and gains you nothing. It makes your code brittle and inflexible.</p></li>
+<li class="listitem"><p id="prototypes_allo"><span class="emphasis"><em>Prototypes</em></span> allow you to clone instances of existing objects to create new ones, and share generic methods  on the <code class="code">prototype</code> property.</p></li>
+<li class="listitem"><p id="factories_are_a"><span class="emphasis"><em>Factories</em></span>  are a more flexible and less verbose alternative to constructor functions in JavaScript. You don't need constructors to create new objects. Any function in JavaScript can return a new object, and with less code than a constructor requires.  Unlike constructors, factories hide instantiation details from the caller, and there's no need to use the awkward and superfluous <code class="code">new</code> keyword when invoking a factory. Factories make it easy to combine any of the above techniques, and even change implementations at run-time without changing the way that objects are instantiated from outside the factory.</p></li>
+<li class="listitem"><p id="fluent_apis_n"><span class="emphasis"><em>Fluent APIs</em></span>. (Not to be confused with fluent style JavaScript). Prototypes make it easy to build fluent APIs. A fluent API is an interface that reads a bit like natural language. Fluent APIs are usually chainable, but don't need to be chained to be fluent. The defining characteristic is that each method returns an object which has additional methods on it which make sense as a next step. In this way, methods can be strung together in short sentences, each method acting on the return value of the last. jQuery and Jasmine are good examples of popular fluent APIs in JavaScript.</p></li>
+</ul></div>
+<p id="some_of_the_tec">Some of the techniques used in fluent style JavaScript were popularized by the Prototype and jQuery libraries, but fluent style wasn't invented by anybody in particular. There isn't anything  new or unique about it that hasn't been said a thousand times before. It's simply  the natural evolution of a language with this particular blend of features at its core. It is not a style in itself so much as the shedding of unnecessary styles and techniques which are often habits left over from other languages.</p>
+<p id="even_giving_fl">Even giving "fluent style" a name seems a bit silly. It's necessary only to distinguish it from the cumbersome styles taught in most JavaScript books and tutorials. In short, fluent style isn't really a particular formal style --    <span class="emphasis"><em>It's just what fluent JavaScripter's do</em></span>.</p>
+<p id="as_time_marches">As time marches on, it's natural to assume that fluent style JavaScript will and should evolve beyond this definition, as new efficiencies are discovered and popularized.</p>
+</div>
+<div class="sect1" data-original-filename="ch04.xml" id="chcsrdou100015eilvj6l9inj">
+<div class="titlepage"><div><div><h2 class="title">Prototypes</h2></div></div></div>
+<p id="a_prototype_is_">A <em class="firstterm">prototype</em> is an object intended to model other objects after. It is similar to a class in that you can use it to construct any number of object instances, but different in the sense that it is an object itself.  There are two ways that prototypes can be used: You can delegate access to a single, shared prototype object  (called a delegate), or you can make clones of the prototype.</p>
+<div class="sect2" id="the_prototype_property">
+<div class="titlepage"><div><div><h3 class="title">The Prototype Property</h3></div></div></div>
+<p id="all_objects_aut">All objects automatically inherit a <code class="code">prototype</code> property from the object's constructor function. Object literals inherit the <code class="code">Object</code> prototype. Alternatively,  you can specify a prototype to set when you create an object via the <code class="code">Object.create()</code> method. <code class="code">Object.create()</code> was added with JavaScript 1.5, so you may need to polyfill it. Here's the <code class="code">Object.create()</code> polyfill from the Mozilla Developer Network documentation:</p>
+<pre class="programlisting" data-language="js" id="if_objectcre"><code class="k">if</code> <code class="p">(</code><code class="o">!</code><code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">)</code> <code class="p">{</code>
+  <code class="nb">Object</code><code class="p">.</code><code class="nx">create</code> <code class="o">=</code> <code class="kd">function</code> <code class="p">(</code><code class="nx">o</code><code class="p">)</code> <code class="p">{</code>
+    <code class="k">if</code> <code class="p">(</code><code class="nx">arguments</code><code class="p">.</code><code class="nx">length</code> <code class="o">&gt;</code> <code class="mi">1</code><code class="p">)</code> <code class="p">{</code>
+      <code class="k">throw</code> <code class="k">new</code> <code class="nb">Error</code><code class="p">(</code><code class="s1">'Object.create implementation'</code>
+      <code class="o">+</code> <code class="s1">' only accepts the first parameter.'</code><code class="p">);</code>
+    <code class="p">}</code>
+    <code class="kd">function</code> <code class="nx">F</code><code class="p">()</code> <code class="p">{}</code>
+    <code class="nx">F</code><code class="p">.</code><code class="nx">prototype</code> <code class="o">=</code> <code class="nx">o</code><code class="p">;</code>
+    <code class="k">return</code> <code class="k">new</code> <code class="nx">F</code><code class="p">();</code>
+  <code class="p">};</code>
+<code class="p">}</code></pre>
+<p id="as_you_can_see_id5">As you can see, this <code class="code">Object.create()</code> polyfill is simply a shortcut that creates a new constructor function, sets the object you pass in as the constructor's <code class="code">prototype</code>, and then returns a new object with  that <code class="code">prototype</code>. Here's how you use it:</p>
+<pre class="programlisting" data-language="js" id="var_switchproto_id1"><code class="kd">var</code> <code class="nx">switchProto</code> <code class="o">=</code> <code class="p">{</code>
+    <code class="nx">isOn</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">isOn</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">.</code><code class="nx">state</code><code class="p">;</code>
+    <code class="p">},</code>
+
+    <code class="nx">toggle</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">toggle</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">this</code><code class="p">.</code><code class="nx">state</code> <code class="o">=</code> <code class="o">!</code><code class="k">this</code><code class="p">.</code><code class="nx">state</code><code class="p">;</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">},</code>
+
+    <code class="nx">state</code><code class="o">:</code> <code class="kc">false</code>
+  <code class="p">},</code>
+  <code class="nx">switch1</code> <code class="o">=</code> <code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">(</code><code class="nx">switchProto</code><code class="p">),</code>
+  <code class="nx">switch2</code> <code class="o">=</code> <code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">(</code><code class="nx">switchProto</code><code class="p">);</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Object.create'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">switch1</code><code class="p">.</code><code class="nx">toggle</code><code class="p">().</code><code class="nx">isOn</code><code class="p">(),</code>
+    <code class="s1">'.toggle() works.'</code>
+  <code class="p">);</code>
+
+  <code class="nx">ok</code><code class="p">(</code><code class="o">!</code><code class="nx">switch2</code><code class="p">.</code><code class="nx">isOn</code><code class="p">(),</code>
+    <code class="s1">'instance safe.'</code>
+  <code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="simply_pass_any">Simply pass any object into <code class="code">Object.create()</code>, and it will be be set as the <code class="code">prototype</code>  for the newly created object. As you can see, the <code class="code">prototype</code> property has some special behavior:</p>
+<p id="notice_that_sta">Notice that <code class="code">state</code> is on the prototype, but changing state on <code class="code">switch1</code> did not change <code class="code">state</code> on <code class="code">switch2</code>. Properties on the prototype act like defaults. When you set them on the instance, the instance value overrides the value for that instance, only.</p>
+<p id="its_important_">It's important to note though that if you mutate an object or array property on the prototype, that mutation will be shared on the prototype. If you replace the whole property, the change is only reflected on that instance:</p>
+<pre class="programlisting" data-language="js" id="var_switchproto_id2"><code class="kd">var</code> <code class="nx">switchProto</code> <code class="o">=</code> <code class="p">{</code>
+    <code class="nx">isOn</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">isOn</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">.</code><code class="nx">state</code><code class="p">;</code>
+    <code class="p">},</code>
+
+    <code class="nx">toggle</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">toggle</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">this</code><code class="p">.</code><code class="nx">state</code> <code class="o">=</code> <code class="o">!</code><code class="k">this</code><code class="p">.</code><code class="nx">state</code><code class="p">;</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">},</code>
+
+    <code class="nx">meta</code><code class="o">:</code> <code class="p">{</code>
+      <code class="nx">name</code><code class="o">:</code> <code class="s1">'Light switch'</code>
+    <code class="p">},</code>
+
+    <code class="nx">state</code><code class="o">:</code> <code class="kc">false</code>
+  <code class="p">},</code>
+  <code class="nx">switch1</code> <code class="o">=</code> <code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">(</code><code class="nx">switchProto</code><code class="p">),</code>
+  <code class="nx">switch2</code> <code class="o">=</code> <code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">(</code><code class="nx">switchProto</code><code class="p">);</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Prototype mutations.'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="nx">switch2</code><code class="p">.</code><code class="nx">meta</code><code class="p">.</code><code class="nx">name</code> <code class="o">=</code> <code class="s1">'Breaker switch'</code><code class="p">;</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">switch1</code><code class="p">.</code><code class="nx">meta</code><code class="p">.</code><code class="nx">name</code><code class="p">,</code> <code class="s1">'Breaker switch'</code><code class="p">,</code>
+    <code class="s1">'Object and array mutations are shared.'</code>
+  <code class="p">);</code>
+
+  <code class="nx">switch2</code><code class="p">.</code><code class="nx">meta</code> <code class="o">=</code> <code class="p">{</code> <code class="nx">name</code><code class="o">:</code> <code class="s1">'Power switch'</code> <code class="p">};</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">switch1</code><code class="p">.</code><code class="nx">meta</code><code class="p">.</code><code class="nx">name</code><code class="p">,</code> <code class="s1">'Breaker switch'</code><code class="p">,</code>
+    <code class="s1">'Property replacement is instance-specific.'</code>
+  <code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="in_the_code_abo_id2">In the code above, <code class="code">switchProto</code> has a property called <code class="code">meta</code>. When you change a sub-property of meta, it mutates the object attached to the <code class="code">prototype</code>, but when you replace the whole <code class="code">meta</code> object with a new object, it overrides the property for that instance, only.</p>
+<div class="warning" id="sharing_state__id1"><p id="sharing_state__id2">Sharing state (non-method data) on a prototype property is commonly considered an anti-pattern in the JavaScript community, because accidental mutations of shared properties are a common source of bugs when you do it.</p></div>
+</div>
+<div class="sect2" id="prototype_cloning">
+<div class="titlepage"><div><div><h3 class="title">Prototype Cloning</h3></div></div></div>
+<p id="sometimes_you_d">Sometimes you don't want to share data on a prototype property. Instead, you want each instance to have its own unique copy of the prototype's properties. Popular JavaScript libraries have been shipping with a suitable method for cloning prototypes for several years. The cloning method is usually called <code class="code">.extend()</code>. You pass in an object to extend, followed by any number of objects to extend from.</p>
+<p id="unfortunately__id2">Unfortunately, <code class="code">extend()</code> is not included in the  JavaScript specification yet (<code class="code">Object.extend()</code> may be included in the next version of JavaScript), but it is included in both jQuery and Underscore, and its implementation is simple. Here is the source from Underscore:</p>
+<pre class="programlisting" data-language="js" id="extend__func"><code class="nx">_</code><code class="p">.</code><code class="nx">extend</code> <code class="o">=</code> <code class="kd">function</code><code class="p">(</code><code class="nx">obj</code><code class="p">)</code> <code class="p">{</code>
+  <code class="nx">each</code><code class="p">(</code><code class="nx">slice</code><code class="p">.</code><code class="nx">call</code><code class="p">(</code><code class="nx">arguments</code><code class="p">,</code> <code class="mi">1</code><code class="p">),</code> <code class="kd">function</code><code class="p">(</code><code class="nx">source</code><code class="p">)</code> <code class="p">{</code>
+    <code class="k">for</code> <code class="p">(</code><code class="kd">var</code> <code class="nx">prop</code> <code class="k">in</code> <code class="nx">source</code><code class="p">)</code> <code class="p">{</code>
+      <code class="nx">obj</code><code class="p">[</code><code class="nx">prop</code><code class="p">]</code> <code class="o">=</code> <code class="nx">source</code><code class="p">[</code><code class="nx">prop</code><code class="p">];</code>
+    <code class="p">}</code>
+  <code class="p">});</code>
+  <code class="k">return</code> <code class="nx">obj</code><code class="p">;</code>
+<code class="p">};</code></pre>
+<p id="as_you_can_see_id6">As you can see, it takes the first argument as a target (<code class="code">obj</code>), iterates through remaining <code class="code">source</code> arguments, and copies all of the public properties from each <code class="code">source</code> to the target <code class="code">obj</code>. The last object you pass in takes precedence if there are any property collisions.</p>
+<p id="heres_how_you__id1">Here's how you use it to clone a prototype object:</p>
+<pre class="programlisting" data-language="js" id="var_switchproto_id3"><code class="kd">var</code> <code class="nx">switchProto</code> <code class="o">=</code> <code class="p">{</code>
+      <code class="nx">isOn</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">isOn</code><code class="p">()</code> <code class="p">{</code>
+        <code class="k">return</code> <code class="k">this</code><code class="p">.</code><code class="nx">state</code><code class="p">;</code>
+      <code class="p">},</code>
+
+      <code class="nx">toggle</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">toggle</code><code class="p">()</code> <code class="p">{</code>
+        <code class="k">this</code><code class="p">.</code><code class="nx">state</code> <code class="o">=</code> <code class="o">!</code><code class="k">this</code><code class="p">.</code><code class="nx">state</code><code class="p">;</code>
+        <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+      <code class="p">},</code>
+
+      <code class="nx">meta</code><code class="o">:</code> <code class="p">{</code>
+        <code class="nx">name</code><code class="o">:</code> <code class="s1">'Light switch'</code>
+      <code class="p">},</code>
+
+      <code class="nx">state</code><code class="o">:</code> <code class="kc">false</code>
+    <code class="p">},</code>
+
+    <code class="nx">switch1</code> <code class="o">=</code> <code class="nx">extend</code><code class="p">({},</code> <code class="nx">switchProto</code><code class="p">),</code>
+    <code class="nx">switch2</code> <code class="o">=</code> <code class="nx">extend</code><code class="p">({},</code> <code class="nx">switchProto</code><code class="p">);</code>
+
+  <code class="nx">test</code><code class="p">(</code><code class="s1">'Prototype clones.'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+
+    <code class="nx">switch1</code><code class="p">.</code><code class="nx">isOn</code><code class="p">.</code><code class="nx">isShared</code> <code class="o">=</code> <code class="kc">true</code><code class="p">;</code>
+
+    <code class="nx">ok</code><code class="p">(</code><code class="o">!</code><code class="nx">switch2</code><code class="p">.</code><code class="nx">isShared</code><code class="p">,</code> 
+      <code class="s1">'Methods are copied for each instance, not shared.'</code>
+    <code class="p">);</code>
+
+    <code class="nx">ok</code><code class="p">(</code><code class="nx">switch1</code><code class="p">.</code><code class="nx">toggle</code><code class="p">().</code><code class="nx">isOn</code><code class="p">(),</code>
+      <code class="s1">'.toggle() works.'</code>
+    <code class="p">);</code>
+
+    <code class="nx">ok</code><code class="p">(</code><code class="o">!</code><code class="nx">switch2</code><code class="p">.</code><code class="nx">isOn</code><code class="p">(),</code>
+      <code class="s1">'instance safe.'</code>
+    <code class="p">);</code>
+
+    <code class="nx">switch2</code><code class="p">.</code><code class="nx">meta</code><code class="p">.</code><code class="nx">name</code> <code class="o">=</code> <code class="s1">'Breaker switch'</code><code class="p">;</code>
+
+    <code class="nx">equal</code><code class="p">(</code><code class="nx">switch1</code><code class="p">.</code><code class="nx">meta</code><code class="p">.</code><code class="nx">name</code><code class="p">,</code> <code class="s1">'Breaker switch'</code><code class="p">,</code>
+      <code class="s1">'Object and array mutations are shared.'</code>
+    <code class="p">);</code>
+
+    <code class="nx">switch2</code><code class="p">.</code><code class="nx">meta</code> <code class="o">=</code> <code class="p">{</code> <code class="nx">name</code><code class="o">:</code> <code class="s1">'Power switch'</code> <code class="p">};</code>
+
+    <code class="nx">equal</code><code class="p">(</code><code class="nx">switch1</code><code class="p">.</code><code class="nx">meta</code><code class="p">.</code><code class="nx">name</code><code class="p">,</code> <code class="s1">'Breaker switch'</code><code class="p">,</code>
+      <code class="s1">'Property replacement is instance-specific.'</code>
+    <code class="p">);</code>
+  <code class="p">});</code></pre>
+<p id="in_the_extend">In the <code class="code">extend()</code> calls, you pass the new, empty object <code class="code">{}</code> as the destination object, followed by the prototype, <code class="code">switchProto</code> as the source object.</p>
+<p id="the_primary_dif">The primary difference between the clone method and the <code class="code">prototype</code> property method is that the clone method will copy the value of each property for every object instance, whereas the <code class="code">prototype</code> property method is more memory efficient. It stores only one copy of each default property setting, until you need to override properties at the instance level.</p>
+<p id="as_it_turns_out">As it turns out, it's often a good idea to employ a mix of both techniques -- using the <code class="code">prototype</code> property to share public methods between objects, and the clone method for data that can't be safely shared between instances.</p>
+</div>
+<div class="sect2" id="the_flyweight_pattern">
+<div class="titlepage"><div><div><h3 class="title">The Flyweight Pattern</h3></div></div></div>
+<p id="the_flyweight_p">The <em class="firstterm">flyweight pattern</em> conserves system resources by storing all reusable properties and methods on a delegate object, as opposed to storing copies of them on every instance. This can save a lot of memory and improve system performance dramatically if there are lots of objects of the same type.</p>
+<p id="in_other_langua">In other languages, you have to jump through some hoops to set up a delegate object, and defer all method calls and access to it. In JavaScript, the <code class="code">prototype</code> property serves as a built-in flyweight delegate. You don't need to worry about wiring it up yourself.</p>
+<p id="imagine_youre_">Imagine you're programming a video game, and there is a common enemy that has dozens or hundreds of copies in the game world. Each copy stores the enemy's base stats, such as strength and speed, along with methods for all of its attacks and defenses. It also stores the enemy's position in the game world and current health. You can optimize these objects in JavaScript by storing all of that data on the enemy <code class="code">prototype</code>. When there is a change to the enemy's health or position, those changes are made to the enemy instance, while all the other data and methods are delegated to the <code class="code">prototype</code>.</p>
+<pre class="programlisting" data-language="js" id="var_enemyprotot"><code class="kd">var</code> <code class="nx">enemyPrototype</code> <code class="o">=</code> <code class="p">{</code>
+    <code class="nx">name</code><code class="o">:</code> <code class="s1">'Wolf'</code><code class="p">,</code>
+    <code class="nx">position</code><code class="o">:</code> <code class="p">{</code> <code class="c1">// Override this with setPosition</code>
+      <code class="nx">x</code><code class="o">:</code> <code class="mi">0</code><code class="p">,</code>
+      <code class="nx">y</code><code class="o">:</code> <code class="mi">0</code>
+    <code class="p">},</code>
+    <code class="nx">setPosition</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">setPosition</code> <code class="p">(</code><code class="nx">x</code><code class="p">,</code> <code class="nx">y</code><code class="p">)</code> <code class="p">{</code>
+      <code class="k">this</code><code class="p">.</code><code class="nx">position</code> <code class="o">=</code> <code class="p">{</code>
+        <code class="nx">x</code><code class="o">:</code> <code class="nx">x</code><code class="p">,</code>
+        <code class="nx">y</code><code class="o">:</code> <code class="nx">y</code>
+      <code class="p">};</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">},</code>
+    <code class="nx">health</code><code class="o">:</code> <code class="mi">20</code><code class="p">,</code> <code class="c1">// Overrides automatically on change</code>
+    <code class="nx">bite</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">bite</code><code class="p">()</code> <code class="p">{</code>
+    <code class="p">},</code>
+    <code class="nx">evade</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">evade</code><code class="p">()</code> <code class="p">{</code>
+    <code class="p">}</code>
+  <code class="p">},</code>
+
+  <code class="nx">spawnEnemy</code> <code class="o">=</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+    <code class="k">return</code> <code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">(</code><code class="nx">enemyPrototype</code><code class="p">);</code>
+  <code class="p">};</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Flyweight pattern.'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="kd">var</code> <code class="nx">wolf1</code> <code class="o">=</code> <code class="nx">spawnEnemy</code><code class="p">(),</code>
+    <code class="nx">wolf2</code> <code class="o">=</code> <code class="nx">spawnEnemy</code><code class="p">();</code>
+
+  <code class="nx">wolf1</code><code class="p">.</code><code class="nx">health</code> <code class="o">=</code> <code class="mi">5</code><code class="p">;</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">wolf2</code><code class="p">.</code><code class="nx">health</code> <code class="o">=</code> <code class="mi">20</code><code class="p">,</code>
+    <code class="s1">'Primitives override automatically.'</code><code class="p">);</code>
+
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">wolf1</code><code class="p">.</code><code class="nx">setPosition</code><code class="p">(</code><code class="mi">10</code><code class="p">,</code> <code class="mi">10</code><code class="p">)</code>
+      <code class="p">.</code><code class="nx">position</code><code class="p">.</code><code class="nx">x</code> <code class="o">===</code> <code class="mi">10</code><code class="p">,</code> <code class="s1">'Object override works.'</code><code class="p">);</code>
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">wolf2</code><code class="p">.</code><code class="nx">position</code><code class="p">.</code><code class="nx">x</code><code class="p">,</code> <code class="mi">0</code><code class="p">,</code>
+      <code class="s1">'The prototype should remain unchanged.'</code><code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="because_moving_">Because moving data to the  <code class="code">prototype</code> delegate is so easy in JavaScript, it's common to employ the flyweight pattern for nearly all object methods. That's what's going on when you see lines like:</p>
+<pre class="programlisting" data-language="js" id="myconstructorp"><code class="nx">MyConstructor</code><code class="p">.</code><code class="nx">prototype</code><code class="p">.</code><code class="nx">myMethod</code> <code class="o">=</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="c1">// A method to be shared...</code>
+<code class="p">};</code></pre>
+<p id="its_less_commo">It's less common to see the prototype employed for member data, but it's a perfectly reasonable place to store default values that are commonly reused. Just be mindful that you'll need to replace member objects and arrays rather than mutate them in-place if you want your changes to be instance safe.</p>
+</div>
+</div>
+<div class="sect1" data-original-filename="ch04.xml" id="object_creation_id1">
+<div class="titlepage"><div><div><h2 class="title">Object Creation</h2></div></div></div>
+<p id="objects_in_java">Objects in JavaScript are sometimes created with constructor functions. For example:</p>
+<pre class="programlisting" data-language="js" id="function_carco_id1"><code class="kd">function</code> <code class="nx">Car</code><code class="p">(</code><code class="nx">color</code><code class="p">,</code> <code class="nx">direction</code><code class="p">,</code> <code class="nx">mph</code><code class="p">)</code> <code class="p">{</code>
+  <code class="k">this</code><code class="p">.</code><code class="nx">color</code> <code class="o">=</code> <code class="nx">color</code> <code class="o">||</code> <code class="s1">'pink'</code><code class="p">;</code>
+  <code class="k">this</code><code class="p">.</code><code class="nx">direction</code> <code class="o">=</code> <code class="nx">direction</code> <code class="o">||</code> <code class="mi">0</code><code class="p">;</code> <code class="c1">// 0 = Straight ahead</code>
+  <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">=</code> <code class="nx">mph</code> <code class="o">||</code> <code class="mi">0</code><code class="p">;</code>
+
+  <code class="k">this</code><code class="p">.</code><code class="nx">gas</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">gas</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+    <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+    <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">+=</code> <code class="nx">amount</code><code class="p">;</code>
+    <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+  <code class="p">};</code>
+
+  <code class="k">this</code><code class="p">.</code><code class="nx">brake</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">brake</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+    <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+    <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">=</code> <code class="p">((</code><code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">)</code> <code class="o">&lt;</code> <code class="mi">0</code><code class="p">)</code><code class="o">?</code> <code class="mi">0</code>
+      <code class="o">:</code> <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">;</code>
+    <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+  <code class="p">};</code>
+<code class="p">}</code>
+
+<code class="kd">var</code> <code class="nx">myCar</code> <code class="o">=</code> <code class="k">new</code> <code class="nx">Car</code><code class="p">();</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Constructor'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">color</code><code class="p">,</code> <code class="s1">'Has a color'</code><code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">gas</code><code class="p">().</code><code class="nx">mph</code><code class="p">,</code> <code class="mi">10</code><code class="p">,</code>
+    <code class="s1">'.accelerate() should add 10mph.'</code>
+  <code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">brake</code><code class="p">(</code><code class="mi">5</code><code class="p">).</code><code class="nx">mph</code><code class="p">,</code> <code class="mi">5</code><code class="p">,</code>
+    <code class="s1">'.brake(5) should subtract 5mph.'</code>
+  <code class="p">);</code>      
+<code class="p">});</code></pre>
+<p id="you_can_get_dat">You can get data encapsulation by using private variables:</p>
+<pre class="programlisting" data-language="js" id="function_carco_id2"><code class="kd">function</code> <code class="nx">Car</code><code class="p">(</code><code class="nx">color</code><code class="p">,</code> <code class="nx">direction</code><code class="p">,</code> <code class="nx">mph</code><code class="p">)</code> <code class="p">{</code>
+  <code class="kd">var</code> <code class="nx">isParkingBrakeOn</code> <code class="o">=</code> <code class="kc">false</code><code class="p">;</code>
+  <code class="k">this</code><code class="p">.</code><code class="nx">color</code> <code class="o">=</code> <code class="nx">color</code> <code class="o">||</code> <code class="s1">'pink'</code><code class="p">;</code>
+  <code class="k">this</code><code class="p">.</code><code class="nx">direction</code> <code class="o">=</code> <code class="nx">direction</code> <code class="o">||</code> <code class="mi">0</code><code class="p">;</code> <code class="c1">// 0 = Straight ahead</code>
+  <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">=</code> <code class="nx">mph</code> <code class="o">||</code> <code class="mi">0</code><code class="p">;</code>
+
+  <code class="k">this</code><code class="p">.</code><code class="nx">gas</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">gas</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+    <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+    <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">+=</code> <code class="nx">amount</code><code class="p">;</code>
+    <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+  <code class="p">};</code>
+  <code class="k">this</code><code class="p">.</code><code class="nx">brake</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">brake</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+    <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+    <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">=</code> <code class="p">((</code><code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">)</code> <code class="o">&lt;</code> <code class="mi">0</code><code class="p">)</code><code class="o">?</code> <code class="mi">0</code>
+      <code class="o">:</code> <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">;</code>
+    <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+  <code class="p">};</code>
+  <code class="k">this</code><code class="p">.</code><code class="nx">toggleParkingBrake</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">toggleParkingBrake</code><code class="p">()</code> <code class="p">{</code>
+    <code class="k">return</code> <code class="o">!!</code><code class="nx">isParkingBrakeOn</code><code class="p">;</code>
+  <code class="p">};</code>
+<code class="p">}</code>
+
+<code class="kd">var</code> <code class="nx">myCar</code> <code class="o">=</code> <code class="k">new</code> <code class="nx">Car</code><code class="p">();</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Constructor with private property.'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">color</code><code class="p">,</code> <code class="s1">'Has a color'</code><code class="p">);</code>
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">gas</code><code class="p">().</code><code class="nx">mph</code><code class="p">,</code> <code class="mi">10</code><code class="p">,</code>
+    <code class="s1">'.accelerate() should add 10mph.'</code>
+  <code class="p">);</code>
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">brake</code><code class="p">(</code><code class="mi">5</code><code class="p">).</code><code class="nx">mph</code><code class="p">,</code> <code class="mi">5</code><code class="p">,</code>
+    <code class="s1">'.brake(5) should subtract 5mph.'</code>
+  <code class="p">);</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">toggleParkingBrake</code><code class="p">,</code>
+    <code class="s1">'.toggleParkingBrake works.'</code>
+  <code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="you_can_shave_a">You can shave a bit of syntax using the object literal form:</p>
+<pre class="programlisting" data-language="js" id="var_mycar___c"><code class="kd">var</code> <code class="nx">myCar</code> <code class="o">=</code> <code class="p">{</code>
+  <code class="nx">color</code><code class="o">:</code> <code class="s1">'pink'</code><code class="p">,</code>
+  <code class="nx">direction</code><code class="o">:</code> <code class="mi">0</code><code class="p">,</code>
+  <code class="nx">mph</code><code class="o">:</code> <code class="mi">0</code><code class="p">,</code>
+
+  <code class="nx">gas</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">gas</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+    <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+    <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">+=</code> <code class="nx">amount</code><code class="p">;</code>
+    <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+  <code class="p">},</code>
+
+  <code class="nx">brake</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">brake</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+    <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+    <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">=</code> <code class="p">((</code><code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">)</code> <code class="o">&lt;</code> <code class="mi">0</code><code class="p">)</code><code class="o">?</code> <code class="mi">0</code>
+      <code class="o">:</code> <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">;</code>
+    <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+  <code class="p">}</code>
+<code class="p">};</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Object literal notation.'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">color</code><code class="p">,</code> <code class="s1">'Has a color'</code><code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">gas</code><code class="p">().</code><code class="nx">mph</code><code class="p">,</code> <code class="mi">10</code><code class="p">,</code>
+    <code class="s1">'.accelerate() should add 10mph.'</code>
+  <code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">brake</code><code class="p">(</code><code class="mi">5</code><code class="p">).</code><code class="nx">mph</code><code class="p">,</code> <code class="mi">5</code><code class="p">,</code>
+    <code class="s1">'.brake(5) should subtract 5mph.'</code>
+  <code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="notice_that_bec">Notice that because the object literal form doesn't use a function, we've lost the ability to do encapsulation.</p>
+</div>
+<div class="sect1" data-original-filename="ch04.xml" id="factories">
+<div class="titlepage"><div><div><h2 class="title">Factories</h2></div></div></div>
+<p id="object_literals">Object literals have great advantages, but they offer no way to create data privacy. Encapsulation is useful because it hides implementation details from the client. Remember the first principle of OO Design from the Gang of Four: "Program to an interface, not an implementation." Encapsulation allows you to enforce that principle in your code, hiding implementation details  from the user.</p>
+<p id="but_you_know_al">But you know already that constructor functions come with some drawbacks that are best avoided. A better solution is to use a factory method.</p>
+<p id="a_factory_is_a_">A <em class="firstterm">factory</em> is a method used to create other objects. Its purpose is to abstract the details of object creation from object use. In object oriented design, factories are commonly used where a simple class is not enough.</p>
+<p id="returning_to_th_id1">Returning to the singleton example; sometimes it is useful to abstract the singleton reference behind a method call. You can make the singleton instance a private variable, and return the reference from a closure:</p>
+<pre class="programlisting" data-language="js" id="function_factor"><code class="kd">function</code> <code class="nx">factory</code><code class="p">()</code> <code class="p">{</code>
+  <code class="kd">var</code> <code class="nx">highlander</code> <code class="o">=</code> <code class="p">{</code>
+      <code class="nx">name</code><code class="o">:</code> <code class="s1">'MacLeod'</code>
+    <code class="p">};</code>
+    
+  <code class="k">return</code> <code class="p">{</code>
+    <code class="nx">get</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">get</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">return</code> <code class="nx">highlander</code><code class="p">;</code>
+    <code class="p">}</code>
+  <code class="p">};</code>
+<code class="p">}</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Singleton'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="kd">var</code> <code class="nx">singleton</code> <code class="o">=</code> <code class="nx">factory</code><code class="p">();</code>
+    <code class="nx">hero</code> <code class="o">=</code> <code class="nx">singleton</code><code class="p">.</code><code class="nx">get</code><code class="p">(),</code>
+    <code class="nx">hero2</code> <code class="o">=</code> <code class="nx">singleton</code><code class="p">.</code><code class="nx">get</code><code class="p">();</code>
+  
+  <code class="nx">hero</code><code class="p">.</code><code class="nx">sword</code> <code class="o">=</code> <code class="s1">'Katana'</code><code class="p">;</code>
+
+  <code class="c1">// Since hero2.sword exists, you know it's the same</code>
+  <code class="c1">// object.</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">hero2</code><code class="p">.</code><code class="nx">sword</code><code class="p">,</code> <code class="s1">'There can be only one.'</code><code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="you_can_use_the">You can use the same closure technique to add the parking break functionality to the car:</p>
+<pre class="programlisting" data-language="js" id="var_car__funct"><code class="kd">var</code> <code class="nx">car</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">car</code><code class="p">(</code><code class="nx">color</code><code class="p">,</code> <code class="nx">direction</code><code class="p">,</code> <code class="nx">mph</code><code class="p">)</code> <code class="p">{</code>
+  <code class="kd">var</code> <code class="nx">isParkingBrakeOn</code> <code class="o">=</code> <code class="kc">false</code><code class="p">;</code>
+
+  <code class="k">return</code> <code class="p">{</code>
+    <code class="nx">color</code><code class="o">:</code> <code class="nx">color</code> <code class="o">||</code> <code class="s1">'pink'</code><code class="p">,</code>
+    <code class="nx">direction</code><code class="o">:</code> <code class="nx">direction</code> <code class="o">||</code> <code class="mi">0</code><code class="p">,</code>
+    <code class="nx">mph</code><code class="o">:</code> <code class="nx">mph</code> <code class="o">||</code> <code class="mi">0</code><code class="p">,</code>
+
+    <code class="nx">gas</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">gas</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+      <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+      <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">+=</code> <code class="nx">amount</code><code class="p">;</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">},</code>
+
+    <code class="nx">brake</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">brake</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+      <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+      <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">=</code> <code class="p">((</code><code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">)</code> <code class="o">&lt;</code> <code class="mi">0</code><code class="p">)</code><code class="o">?</code> <code class="mi">0</code>
+        <code class="o">:</code> <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">;</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">},</code>
+
+    <code class="nx">toggleParkingBrake</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">toggleParkingBrake</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">return</code> <code class="nx">isParkingBrakeOn</code> <code class="o">=</code> <code class="o">!</code><code class="nx">isParkingBrakeOn</code><code class="p">;</code>
+    <code class="p">}</code>
+  <code class="p">};</code>
+<code class="p">},</code>
+
+<code class="nx">myCar</code> <code class="o">=</code> <code class="nx">car</code><code class="p">();</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Factory with private variable.'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">toggleParkingBrake</code><code class="p">,</code>
+    <code class="s1">'.toggleParkingBrake works.'</code>
+  <code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="as_with_the_con">As with the constructor function, you get data privacy by encapsulating private data inside the closure, so the only way to manipulate the state of the parking brake is through the privileged method, <code class="code">toggleParkingBrake</code>.</p>
+<p id="unlike_the_cons">Unlike the constructor function, you don't have to invoke a factory with the <code class="code">new</code> keyword (or worry about forgetting <code class="code">new</code>, or guarding against clobbering the global object inside the function).</p>
+<p id="of_course_you__id2">Of course, you can also take advantage of the <code class="code">prototype</code> property to make the whole thing more efficient:</p>
+<pre class="programlisting" data-language="js" id="var_carprototyp"><code class="kd">var</code> <code class="nx">carPrototype</code> <code class="o">=</code> <code class="p">{</code>
+    <code class="nx">gas</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">gas</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+      <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+      <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">+=</code> <code class="nx">amount</code><code class="p">;</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">},</code>
+    <code class="nx">brake</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">brake</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+      <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+      <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">=</code> <code class="p">((</code><code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">)</code> <code class="o">&lt;</code> <code class="mi">0</code><code class="p">)</code><code class="o">?</code> <code class="mi">0</code>
+        <code class="o">:</code> <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">;</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">},</code>
+    <code class="nx">color</code><code class="o">:</code> <code class="s1">'pink'</code><code class="p">,</code>
+    <code class="nx">direction</code><code class="o">:</code> <code class="mi">0</code><code class="p">,</code>
+    <code class="nx">mph</code><code class="o">:</code> <code class="mi">0</code>
+  <code class="p">},</code>
+
+  <code class="nx">car</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">car</code><code class="p">(</code><code class="nx">options</code><code class="p">)</code> <code class="p">{</code>
+    <code class="k">return</code> <code class="nx">extend</code><code class="p">(</code><code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">(</code><code class="nx">carPrototype</code><code class="p">),</code> <code class="nx">options</code><code class="p">);</code>
+  <code class="p">},</code>
+
+  <code class="nx">myCar</code> <code class="o">=</code> <code class="nx">car</code><code class="p">({</code>
+    <code class="nx">color</code><code class="o">:</code> <code class="s1">'red'</code>
+  <code class="p">});</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'Flyweight factory with cloning'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">__proto__</code><code class="p">.</code><code class="nx">gas</code><code class="p">,</code>
+    <code class="s1">'Prototype methods are shared.'</code>
+  <code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="notice_that_the_id1">Notice that the factory method itself is now reduced to a one-liner. The arguments list is replaced with an options hash that allows you to specify exactly which values you want to override.</p>
+<p id="if_you_take_adv">If you take advantage of the prototype feature, you can replace as much or as little of the prototype as you want at run-time. Using the same setup code above:</p>
+<pre class="programlisting" data-language="js" id="testflyweight"><code class="nx">test</code><code class="p">(</code><code class="s1">'Flyweight factory with cloning'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="c1">// Swap out some prototype defaults:</code>
+  <code class="nx">extend</code><code class="p">(</code><code class="nx">carPrototype</code><code class="p">,</code> <code class="p">{</code>
+    <code class="nx">name</code><code class="o">:</code> <code class="s1">'Porche'</code><code class="p">,</code>
+    <code class="nx">color</code><code class="o">:</code> <code class="s1">'black'</code><code class="p">,</code>
+    <code class="nx">mph</code><code class="o">:</code> <code class="mi">220</code>
+  <code class="p">});</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">name</code><code class="p">,</code> <code class="s1">'Porche'</code><code class="p">,</code>
+    <code class="s1">'Instance inherits the new name.'</code>
+  <code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">color</code><code class="p">,</code> <code class="s1">'red'</code><code class="p">,</code>
+    <code class="s1">'No instance properties will be impacted.'</code>
+  <code class="p">);</code>
+<code class="p">});</code></pre>
+<div class="tip" id="you_should_avoi_id1"><p id="you_should_avoi_id2">You should avoid sharing objects and arrays on the prototype if they need to be instance safe. Instead, you can create new copies of the child object / array in the factory.</p></div>
+</div>
+<div class="sect1" data-original-filename="ch04.xml" id="a_prototypal_object_creation_library">
+<div class="titlepage"><div><div><h2 class="title">A Prototypal Object Creation Library</h2></div></div></div>
+<p id="javascripts_ob_id3">JavaScript's object capabilities are really flexible, but <code class="code">Object.create()</code> isn't the easiest way to create a fully featured object. There are still quite a few hoops to jump through just to create a collection of flyweight objects that support data privacy.</p>
+<p id="lots_of_librari">Lots of libraries provide mechanisms to mimic classical  inheritance, but there are no widespread libraries that simplify best-practice prototypal object creation. That doesn't have to be the case. You can create your own with about 100 lines of  code.</p>
+<div class="sect2" id="object_creation_id2">
+<div class="titlepage"><div><div><h3 class="title">Object Creation</h3></div></div></div>
+<p id="start_by_creati">Start by creating a generic function that will return a new object. It should take two objects and a function as parameters. The first object will be the prototype for the new object. The second will be instance properties for the new object, and the third will be a function that you can use to facilitate data privacy and expose privileged methods. The signature looks like this:</p>
+<pre class="programlisting" id="osharedpropert">o(sharedProperties, instanceProperties, initFunction)</pre>
+<p id="heres_a_more_d">Here's a more detailed look at how you'd use it to create an object from scratch:</p>
+<pre class="programlisting" data-language="js" id="var_testobj__o_id1"><code class="kd">var</code> <code class="nx">testObj</code> <code class="o">=</code> <code class="nx">o</code><code class="p">(</code>
+  <code class="p">{</code>
+    <code class="nx">sharedProp</code><code class="o">:</code> <code class="s1">'shared property'</code>
+  <code class="p">},</code>
+
+  <code class="p">{</code>
+    <code class="nx">instanceProp</code><code class="o">:</code> <code class="s1">'instance property'</code>
+  <code class="p">},</code>
+
+  <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+    <code class="kd">var</code> <code class="nx">privateProp</code> <code class="o">=</code> <code class="s1">'private property'</code><code class="p">;</code>
+
+    <code class="k">this</code><code class="p">.</code><code class="nx">plugin</code><code class="p">(</code><code class="s1">'getPrivate'</code><code class="p">,</code> <code class="kd">function</code> <code class="nx">getPrivate</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">return</code> <code class="nx">privateProp</code><code class="p">;</code>
+    <code class="p">});</code>
+
+    <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+  <code class="p">}</code>
+<code class="p">);</code></pre>
+<p id="or_you_could_p">Or, you could pass in a named parameters object, instead:</p>
+<pre class="programlisting" id="ooptions">o(options)</pre>
+<p id="which_looks_som">Which looks something like this:</p>
+<pre class="programlisting" data-language="js" id="var_testobj__"><code class="kd">var</code> <code class="nx">testObj2</code> <code class="o">=</code> <code class="nx">o</code><code class="p">({</code>
+  <code class="nx">sharedProperties</code><code class="o">:</code> <code class="p">{</code>
+    <code class="nx">sharedProp</code><code class="o">:</code> <code class="s1">'shared property 2'</code>
+  <code class="p">},</code>
+
+  <code class="nx">instanceProperties</code><code class="o">:</code> <code class="p">{</code>
+    <code class="nx">instanceProp</code><code class="o">:</code> <code class="s1">'instance property 2'</code>
+  <code class="p">},</code>
+
+  <code class="nx">initFunction</code><code class="o">:</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+    <code class="kd">var</code> <code class="nx">privateProp</code> <code class="o">=</code> <code class="s1">'private property 2'</code><code class="p">;</code>
+
+    <code class="k">this</code><code class="p">.</code><code class="nx">plugin</code><code class="p">(</code><code class="s1">'getPrivate'</code><code class="p">,</code> <code class="kd">function</code> <code class="nx">getPrivate</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">return</code> <code class="nx">privateProp</code><code class="p">;</code>
+    <code class="p">});</code>
+
+    <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+  <code class="p">}</code>
+<code class="p">});</code></pre>
+<p id="the_third_param">The third parameter is an initialization function. When the generic factory runs, the last line calls this function using the current object as "this" and returns whatever you return from <code class="code">initFunction()</code>.</p>
+<p id="the_primary_pur_id1">The primary purpose is so that you can use it to wrap private data and set up privileged methods (using the as yet undefined <code class="code">.plugin()</code> method). If you don't pass in a function it will use <code class="code">defaultInit()</code>:</p>
+<pre class="programlisting" data-language="js" id="defaultinit__f"><code class="nx">defaultInit</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">init</code><code class="p">()</code> <code class="p">{</code>
+  <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+<code class="p">};</code></pre>
+<p id="heres_the_impl">Here's the implementation:</p>
+<pre class="programlisting" data-language="js" id="o__function_o"><code class="nx">o</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">o</code><code class="p">(</code><code class="nx">sharedProperties</code><code class="p">,</code> <code class="nx">instanceProperties</code><code class="p">,</code> <code class="nx">initFunction</code><code class="p">)</code> <code class="p">{</code>
+  <code class="kd">var</code> <code class="nx">optionNames</code> <code class="o">=</code> <code class="s1">'sharedProperties, instanceProperties, initFunction'</code><code class="p">,</code>
+    <code class="nx">config</code><code class="p">,</code>
+    <code class="nx">fn</code><code class="p">,</code>
+    <code class="nx">obj</code><code class="p">;</code>
+
+  <code class="nx">config</code> <code class="o">=</code> <code class="nx">getConfig</code><code class="p">(</code><code class="nx">optionNames</code><code class="p">,</code> <code class="nx">sharedProperties</code><code class="p">,</code> <code class="nx">instanceProperties</code><code class="p">,</code>
+      <code class="nx">initFunction</code><code class="p">);</code>
+  <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code> <code class="o">||</code> <code class="nx">defaultInit</code><code class="p">;</code>
+  <code class="nx">fn</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">sharedProperties</code><code class="p">;</code>
+
+  <code class="nx">bless</code><code class="p">(</code><code class="nx">fn</code><code class="p">);</code>
+
+  <code class="nx">obj</code> <code class="o">=</code> <code class="nx">extend</code><code class="p">(</code><code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">(</code><code class="nx">fn</code><code class="p">),</code> <code class="p">{</code><code class="nx">fn</code><code class="o">:</code> <code class="nx">fn</code><code class="p">},</code>
+    <code class="nx">config</code><code class="p">.</code><code class="nx">instanceProperties</code><code class="p">);</code>
+
+  <code class="k">return</code> <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code><code class="p">.</code><code class="nx">call</code><code class="p">(</code><code class="nx">obj</code><code class="p">);</code>
+<code class="p">};</code></pre>
+<p id="the_getconfig">The <code class="code">getConfig()</code> function just makes the call signature more flexible. If the user passes in an options object, it's used to populate the <code class="code">config</code> object. Otherwise, <code class="code">config</code> is constructed from the formal parameters. Either way, if any parameters are missing, empty default values are used, instead:</p>
+<pre class="programlisting" data-language="js" id="getconfig__fun"><code class="nx">getConfig</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">getConfig</code><code class="p">(</code><code class="nx">optionNames</code><code class="p">)</code> <code class="p">{</code>
+  <code class="kd">var</code> <code class="nx">config</code> <code class="o">=</code> <code class="p">{},</code> <code class="c1">// New config object</code>
+    <code class="c1">// Comma separated string to Array</code>
+    <code class="nx">optionNames</code> <code class="o">=</code> <code class="nx">optionNames</code><code class="p">.</code><code class="nx">split</code><code class="p">(</code><code class="s1">','</code><code class="p">),</code>
+    <code class="c1">// Turn arguments into array, starting at index 1</code>
+    <code class="nx">args</code> <code class="o">=</code> <code class="p">[].</code><code class="nx">slice</code><code class="p">.</code><code class="nx">call</code><code class="p">(</code><code class="nx">arguments</code><code class="p">,</code> <code class="mi">1</code><code class="p">);</code>
+
+  <code class="nx">optionNames</code><code class="p">.</code><code class="nx">forEach</code><code class="p">(</code><code class="kd">function</code> <code class="p">(</code><code class="nx">optionName</code><code class="p">,</code> <code class="nx">index</code><code class="p">)</code> <code class="p">{</code>
+    <code class="c1">// Strip whitespace</code>
+    <code class="nx">optionName</code> <code class="o">=</code> <code class="nx">optionName</code><code class="p">.</code><code class="nx">trim</code><code class="p">();</code>
+    <code class="c1">// Use first argument as params object if it exists...</code>
+    <code class="nx">config</code><code class="p">[</code><code class="nx">optionName</code><code class="p">]</code> <code class="o">=</code> <code class="nx">args</code><code class="p">[</code><code class="mi">0</code><code class="p">][</code><code class="nx">optionName</code><code class="p">]</code>
+      <code class="o">||</code> <code class="nx">args</code><code class="p">[</code><code class="nx">index</code><code class="p">];</code> <code class="c1">// or grab the formal parameter.</code>
+  <code class="p">});</code>
+
+  <code class="k">return</code> <code class="nx">config</code><code class="p">;</code>
+<code class="p">};</code></pre>
+<p id="after_the_confi">After the configuration is returned from <code class="code">getConfig()</code>, the prototype gets some extra functionality from the <code class="code">bless()</code> function:</p>
+<pre class="programlisting" data-language="js" id="var_plugins__"><code class="kd">var</code> <code class="nx">plugins</code> <code class="o">=</code> <code class="p">{},</code>
+  <code class="nx">plugin</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">plugin</code><code class="p">(</code><code class="nx">name</code><code class="p">,</code> <code class="nx">fn</code><code class="p">)</code> <code class="p">{</code>
+    <code class="k">this</code><code class="p">.</code><code class="nx">fn</code><code class="p">[</code><code class="nx">name</code><code class="p">]</code> <code class="o">=</code> <code class="nx">fn</code><code class="p">;</code>
+  <code class="p">},</code>
+
+  <code class="nx">bless</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">bless</code><code class="p">(</code><code class="nx">fn</code><code class="p">)</code> <code class="p">{</code>
+    <code class="nx">fn</code><code class="p">.</code><code class="nx">plugin</code> <code class="o">=</code> <code class="nx">plugin</code><code class="p">;</code>
+
+    <code class="nx">extend</code><code class="p">(</code><code class="nx">fn</code><code class="p">,</code> <code class="nx">plugins</code><code class="p">);</code>
+
+    <code class="k">return</code> <code class="nx">fn</code><code class="p">;</code>
+  <code class="p">};</code></pre>
+<p id="in_the_future_">In the future, it will be possible to configure exactly what gets tacked on with <code class="code">bless()</code>, but for now, assume that <code class="code">plugins</code> is an empty object. The <code class="code">.plugin()</code> method will allow you to extend the object's prototype at run time.</p>
+<p id="the_new_object_">The new object gets created with <code class="code">Object.create()</code> using <code class="code">sharedProperties</code> as the prototype (if you're a jQuery plugin developer, you'll recognize the prototype alias, <code class="code">fn</code>). All prototype properties are shared among all instances of the object. If you change a prototype property at runtime, the value change is reflected on every instance of the object.</p>
+<p id="the_object_is_t">The object is then extended with instance properties, and passed into  <code class="code">initFunction()</code>, which returns <code class="code">this</code> after it has run whatever initialization procedure you pass in.</p>
+<p id="some_examples_a">Some examples and tests will demonstrate the behavior more clearly:</p>
+<pre class="programlisting" data-language="js" id="var_testobj__o_id2"><code class="kd">var</code> <code class="nx">testObj</code> <code class="o">=</code> <code class="nx">o</code><code class="p">({</code>
+      <code class="nx">sharedProp</code><code class="o">:</code> <code class="s1">'shared property'</code>
+    <code class="p">},</code>
+
+    <code class="p">{</code>
+      <code class="nx">instanceProp</code><code class="o">:</code> <code class="s1">'instance property'</code>
+    <code class="p">},</code>
+
+    <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+      <code class="kd">var</code> <code class="nx">privateProp</code> <code class="o">=</code> <code class="s1">'private property'</code><code class="p">;</code>
+
+      <code class="k">this</code><code class="p">.</code><code class="nx">plugin</code><code class="p">(</code><code class="s1">'getPrivate'</code><code class="p">,</code> <code class="kd">function</code> <code class="nx">getPrivate</code><code class="p">()</code> <code class="p">{</code>
+        <code class="k">return</code> <code class="nx">privateProp</code><code class="p">;</code>
+      <code class="p">});</code>
+
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">}</code>
+  <code class="p">),</code>
+
+  <code class="nx">testObj2</code> <code class="o">=</code> <code class="nx">o</code><code class="p">({</code>
+    <code class="nx">sharedProperties</code><code class="o">:</code> <code class="p">{</code>
+      <code class="nx">sharedProp</code><code class="o">:</code> <code class="s1">'shared property 2'</code>
+    <code class="p">},</code>
+    <code class="nx">instanceProperties</code><code class="o">:</code> <code class="p">{</code>
+      <code class="nx">instanceProp</code><code class="o">:</code> <code class="s1">'instance property 2'</code>
+    <code class="p">},</code> 
+    <code class="nx">initFunction</code><code class="o">:</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+      <code class="kd">var</code> <code class="nx">privateProp</code> <code class="o">=</code> <code class="s1">'private property 2'</code><code class="p">;</code>
+
+      <code class="k">this</code><code class="p">.</code><code class="nx">plugin</code><code class="p">(</code><code class="s1">'getPrivate'</code><code class="p">,</code> <code class="kd">function</code> <code class="nx">getPrivate</code><code class="p">()</code> <code class="p">{</code>
+        <code class="k">return</code> <code class="nx">privateProp</code><code class="p">;</code>
+      <code class="p">});</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">}</code>
+  <code class="p">});</code>
+
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'o with arguments creates valid objects'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">(){</code>
+
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">testObj</code><code class="p">.</code><code class="nx">hasOwnProperty</code><code class="p">(</code><code class="s1">'instanceProp'</code><code class="p">),</code>
+    <code class="s1">'Instance property should be on instance.'</code><code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">testObj</code><code class="p">.</code><code class="nx">instanceProp</code><code class="p">,</code> <code class="s1">'instance property'</code><code class="p">,</code>
+    <code class="s1">'Instance property should be "instance property".'</code><code class="p">);</code>
+
+  <code class="nx">ok</code><code class="p">(</code><code class="o">!</code><code class="nx">testObj</code><code class="p">.</code><code class="nx">hasOwnProperty</code><code class="p">(</code><code class="s1">'sharedProp'</code><code class="p">),</code>
+    <code class="s1">'Shared prop should NOT be on instance.'</code><code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">testObj</code><code class="p">.</code><code class="nx">sharedProp</code><code class="p">,</code> <code class="s1">'shared property'</code><code class="p">,</code>
+    <code class="s1">'Shared property should be "shared property"'</code><code class="p">);</code>
+
+  <code class="nx">ok</code><code class="p">(</code><code class="o">!</code><code class="nx">testObj</code><code class="p">.</code><code class="nx">privateProp</code><code class="p">,</code>
+    <code class="s1">'Private property should be private.'</code><code class="p">);</code>
+
+  <code class="nx">ok</code><code class="p">(</code><code class="o">!</code><code class="nx">testObj</code><code class="p">.</code><code class="nx">hasOwnProperty</code><code class="p">(</code><code class="s1">'getPrivate'</code><code class="p">),</code>
+    <code class="s1">'.plugin() should NOT add methods to instance API.'</code><code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">testObj</code><code class="p">.</code><code class="nx">getPrivate</code><code class="p">(),</code> <code class="s1">'private property'</code><code class="p">,</code>
+    <code class="s1">'Private property should be "private property".'</code><code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="a_similar_set_o">A similar set of tests will pass for <code class="code">testObj2</code>. The only real difference is that <code class="code">testObj2</code> sets the properties by name, rather than relying on the argument order. You might find that if you write your code with named parameters, it will be more self-descriptive.</p>
+</div>
+<div class="sect2" id="factory_creation">
+<div class="titlepage"><div><div><h3 class="title">Factory Creation</h3></div></div></div>
+<p id="if_you_plan_to_">If you plan to create a lot of similar objects, it might be more useful to create a specialized factory to produce them. Doing so makes it easy to create collections of objects that all share the same prototype and initialization. The <code class="code">factory()</code> method could take a nearly identical signature -- essentially creating a prototype and default instance properties that you can customize further when you initialize new instances.</p>
+<p id="heres_the_sour">Here's the source:</p>
+<pre class="programlisting" data-language="js" id="factory_functi"><code class="nx">factory</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">factory</code><code class="p">(</code><code class="nx">sharedProperties</code><code class="p">,</code> <code class="nx">defaultProperties</code><code class="p">,</code>
+    <code class="nx">initFunction</code><code class="p">)</code> <code class="p">{</code>
+  <code class="kd">var</code> <code class="nx">optionNames</code> <code class="o">=</code> <code class="s1">'sharedProperties, defaultProperties, initFunction'</code><code class="p">,</code>
+    <code class="nx">config</code><code class="p">;</code>
+
+  <code class="nx">config</code> <code class="o">=</code> <code class="nx">getConfig</code><code class="p">(</code><code class="nx">optionNames</code><code class="p">,</code> <code class="nx">sharedProperties</code><code class="p">,</code> <code class="nx">defaultProperties</code><code class="p">,</code>
+      <code class="nx">initFunction</code><code class="p">);</code>
+  <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code> <code class="o">||</code> <code class="nx">defaultInit</code><code class="p">;</code>
+
+  <code class="k">return</code> <code class="nx">bless</code><code class="p">(</code><code class="kd">function</code> <code class="p">(</code><code class="nx">options</code><code class="p">)</code> <code class="p">{</code>
+    <code class="kd">var</code> <code class="nx">defaultProperties</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">defaultProperties</code> <code class="o">||</code> <code class="p">{},</code>
+      <code class="nx">sharedProperties</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">sharedProperties</code> <code class="o">||</code> <code class="p">{},</code>
+      <code class="nx">instance</code> <code class="o">=</code> <code class="nx">extend</code><code class="p">(</code><code class="nx">defaultProperties</code><code class="p">,</code> <code class="nx">options</code><code class="p">),</code>
+      <code class="nx">obj</code> <code class="o">=</code> <code class="nx">extend</code><code class="p">(</code><code class="nx">o</code><code class="p">(</code><code class="nx">sharedProperties</code><code class="p">,</code> <code class="nx">instance</code><code class="p">,</code>
+        <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code><code class="p">));</code>
+    <code class="k">return</code> <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code><code class="p">.</code><code class="nx">call</code><code class="p">(</code><code class="nx">obj</code><code class="p">);</code>
+  <code class="p">});</code>
+<code class="p">},</code></pre>
+<p id="the_factory_m">The <code class="code">factory()</code> method shares the same <code class="code">getConfig()</code> method for the flexible call signature.  It stores the configuration in the closure and returns a new function that you'll use to initialize individual instances - a good example of partial application discussed in the Functions chapter.</p>
+<p id="you_can_recreat">You can recreate the car factory examples from before with this new tool:</p>
+<pre class="programlisting" data-language="js" id="var_car__ofac"><code class="kd">var</code> <code class="nx">car</code> <code class="o">=</code> <code class="nx">o</code><code class="p">.</code><code class="nx">factory</code><code class="p">({</code>
+    <code class="nx">sharedProperties</code><code class="o">:</code> <code class="p">{</code>
+      <code class="nx">gas</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">gas</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+        <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+        <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">+=</code> <code class="nx">amount</code><code class="p">;</code>
+        <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+      <code class="p">},</code>
+
+      <code class="nx">brake</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">brake</code><code class="p">(</code><code class="nx">amount</code><code class="p">)</code> <code class="p">{</code>
+        <code class="nx">amount</code> <code class="o">=</code> <code class="nx">amount</code> <code class="o">||</code> <code class="mi">10</code><code class="p">;</code>
+        <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">=</code> <code class="p">((</code><code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">)</code> <code class="o">&lt;</code> <code class="mi">0</code><code class="p">)</code>
+          <code class="o">?</code> <code class="mi">0</code>
+          <code class="o">:</code> <code class="k">this</code><code class="p">.</code><code class="nx">mph</code> <code class="o">-</code> <code class="nx">amount</code><code class="p">;</code>
+        <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+      <code class="p">}</code>
+    <code class="p">},</code>
+
+    <code class="nx">instanceProperties</code><code class="o">:</code> <code class="p">{</code>
+      <code class="nx">color</code><code class="o">:</code> <code class="s1">'pink'</code><code class="p">,</code>
+      <code class="nx">direction</code><code class="o">:</code> <code class="mi">0</code><code class="p">,</code>
+      <code class="nx">mph</code><code class="o">:</code> <code class="mi">0</code>       
+    <code class="p">},</code>
+
+    <code class="nx">initFunction</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">init</code><code class="p">()</code> <code class="p">{</code>
+      <code class="kd">var</code> <code class="nx">isParkingBrakeOn</code> <code class="o">=</code> <code class="kc">false</code><code class="p">;</code>
+
+      <code class="k">this</code><code class="p">.</code><code class="nx">toggleParkingBrake</code> <code class="o">=</code> <code class="kd">function</code> 
+            <code class="nx">toggleParkingBrake</code><code class="p">()</code> <code class="p">{</code>
+        <code class="nx">isParkingBrakeOn</code> <code class="o">=</code> <code class="o">!</code><code class="nx">isParkingBrakeOn</code><code class="p">;</code>
+      <code class="p">};</code>
+
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">}</code>
+  <code class="p">}),</code>
+
+  <code class="nx">myCar</code> <code class="o">=</code> <code class="nx">car</code><code class="p">({</code>
+    <code class="nx">color</code><code class="o">:</code> <code class="s1">'orange'</code><code class="p">,</code> 
+    <code class="nx">mph</code><code class="o">:</code> <code class="mi">5</code>
+  <code class="p">});</code>
+
+<code class="nx">test</code><code class="p">(</code><code class="s1">'odotjs factory with private variable.'</code><code class="p">,</code> <code class="kd">function</code> <code class="p">()</code> <code class="p">{</code>
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">color</code><code class="p">,</code> <code class="s1">'Has a color'</code><code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">gas</code><code class="p">().</code><code class="nx">mph</code><code class="p">,</code> <code class="mi">15</code><code class="p">,</code>
+    <code class="s1">'.gas() should add 10mph.'</code><code class="p">);</code>
+
+  <code class="nx">equal</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">brake</code><code class="p">(</code><code class="mi">5</code><code class="p">).</code><code class="nx">mph</code><code class="p">,</code> <code class="mi">10</code><code class="p">,</code>
+    <code class="s1">'.brake(5) should subtract 5mph.'</code><code class="p">);</code>
+
+  <code class="nx">ok</code><code class="p">(</code><code class="nx">myCar</code><code class="p">.</code><code class="nx">toggleParkingBrake</code><code class="p">,</code>
+    <code class="s1">'.toggleParkingBrake works.'</code><code class="p">);</code>
+<code class="p">});</code></pre>
+<p id="the_full_librar">The full library source is about 140 lines, including comments:</p>
+<pre class="programlisting" data-language="js" id="function_expo_id1"><code class="p">(</code><code class="kd">function</code> <code class="p">(</code><code class="nx">exports</code><code class="p">)</code> <code class="p">{</code>
+  <code class="s1">'use strict'</code><code class="p">;</code>
+  <code class="kd">var</code> <code class="nx">name</code> <code class="o">=</code> <code class="s1">'odotjs'</code><code class="p">,</code>
+    <code class="c1">// Adapted from Underscore.</code>
+    <code class="nx">extend</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">extend</code><code class="p">(</code><code class="nx">obj</code><code class="p">)</code> <code class="p">{</code>
+      <code class="kd">var</code> <code class="nx">args</code> <code class="o">=</code> <code class="p">[].</code><code class="nx">slice</code><code class="p">.</code><code class="nx">call</code><code class="p">(</code><code class="nx">arguments</code><code class="p">,</code> <code class="mi">1</code><code class="p">);</code>
+      <code class="nx">args</code><code class="p">.</code><code class="nx">forEach</code><code class="p">(</code><code class="kd">function</code><code class="p">(</code><code class="nx">source</code><code class="p">)</code> <code class="p">{</code>
+        <code class="k">for</code> <code class="p">(</code><code class="kd">var</code> <code class="nx">prop</code> <code class="k">in</code> <code class="nx">source</code><code class="p">)</code> <code class="p">{</code>
+          <code class="k">if</code> <code class="p">(</code><code class="nx">source</code><code class="p">[</code><code class="nx">prop</code><code class="p">]</code> <code class="o">!==</code> <code class="k">void</code> <code class="mi">0</code><code class="p">)</code> <code class="nx">obj</code><code class="p">[</code><code class="nx">prop</code><code class="p">]</code> <code class="o">=</code> <code class="nx">source</code><code class="p">[</code><code class="nx">prop</code><code class="p">];</code>
+        <code class="p">}</code>
+      <code class="p">});</code>
+      <code class="k">return</code> <code class="nx">obj</code><code class="p">;</code>
+    <code class="p">},</code>
+    <code class="nx">plugins</code> <code class="o">=</code> <code class="p">{},</code>
+    <code class="c1">// Add to the global plugin collection.</code>
+    <code class="nx">addPlugins</code> <code class="o">=</code> <code class="kd">function</code> <code class="p">(</code><code class="nx">newPlugins</code><code class="p">)</code> <code class="p">{</code>
+      <code class="nx">extend</code><code class="p">(</code><code class="nx">plugins</code><code class="p">,</code> <code class="nx">newPlugins</code><code class="p">);</code>
+    <code class="p">},</code>
+    <code class="c1">// Add to the current object prototype.</code>
+    <code class="nx">plugin</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">plugin</code><code class="p">(</code><code class="nx">name</code><code class="p">,</code> <code class="nx">fn</code><code class="p">)</code> <code class="p">{</code>
+      <code class="k">this</code><code class="p">.</code><code class="nx">fn</code><code class="p">[</code><code class="nx">name</code><code class="p">]</code> <code class="o">=</code> <code class="nx">fn</code><code class="p">;</code>
+    <code class="p">},</code>
+    <code class="c1">// Pass the global plugins to the object</code>
+    <code class="c1">// prototype.</code>
+    <code class="nx">bless</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">bless</code><code class="p">(</code><code class="nx">fn</code><code class="p">)</code> <code class="p">{</code>
+      <code class="nx">fn</code><code class="p">.</code><code class="nx">plugin</code> <code class="o">=</code> <code class="nx">plugin</code><code class="p">;</code>
+
+      <code class="nx">extend</code><code class="p">(</code><code class="nx">fn</code><code class="p">,</code> <code class="nx">plugins</code><code class="p">);</code>
+
+      <code class="k">return</code> <code class="nx">fn</code><code class="p">;</code>
+    <code class="p">},</code>
+    <code class="nx">o</code><code class="p">,</code>
+    <code class="nx">api</code><code class="p">,</code>
+    <code class="nx">defaultInit</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">init</code><code class="p">()</code> <code class="p">{</code>
+      <code class="k">return</code> <code class="k">this</code><code class="p">;</code>
+    <code class="p">},</code>
+
+    <code class="cm">/**</code>
+<code class="cm">     * The user can pass in the formal parameters, or a named</code>
+<code class="cm">     * parameters. Either way, we need to initialize the</code>
+<code class="cm">     * variables to the expected values.</code>
+<code class="cm">     * </code>
+<code class="cm">     * @param {String} optionNames Parameter names.</code>
+<code class="cm">     * </code>
+<code class="cm">     * @return {object} New configuration object.</code>
+<code class="cm">     */</code>
+    <code class="nx">getConfig</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">getConfig</code><code class="p">(</code><code class="nx">optionNames</code><code class="p">)</code> <code class="p">{</code>
+      <code class="kd">var</code> <code class="nx">config</code> <code class="o">=</code> <code class="p">{},</code> <code class="c1">// New config object</code>
+        <code class="c1">// Comma separated string to Array</code>
+        <code class="nx">optionNames</code> <code class="o">=</code> <code class="nx">optionNames</code><code class="p">.</code><code class="nx">split</code><code class="p">(</code><code class="s1">','</code><code class="p">),</code>
+        <code class="c1">// Turn arguments into array, starting at index 1</code>
+        <code class="nx">args</code> <code class="o">=</code> <code class="p">[].</code><code class="nx">slice</code><code class="p">.</code><code class="nx">call</code><code class="p">(</code><code class="nx">arguments</code><code class="p">,</code> <code class="mi">1</code><code class="p">);</code>
+
+      <code class="nx">optionNames</code><code class="p">.</code><code class="nx">forEach</code><code class="p">(</code><code class="kd">function</code> <code class="p">(</code><code class="nx">optionName</code><code class="p">,</code> <code class="nx">index</code><code class="p">)</code> <code class="p">{</code>
+        <code class="c1">// Strip whitespace</code>
+        <code class="nx">optionName</code> <code class="o">=</code> <code class="nx">optionName</code><code class="p">.</code><code class="nx">trim</code><code class="p">();</code>
+        <code class="c1">// Use first argument as params object...</code>
+        <code class="nx">config</code><code class="p">[</code><code class="nx">optionName</code><code class="p">]</code> <code class="o">=</code> <code class="nx">args</code><code class="p">[</code><code class="mi">0</code><code class="p">][</code><code class="nx">optionName</code><code class="p">]</code>
+          <code class="o">||</code> <code class="nx">args</code><code class="p">[</code><code class="nx">index</code><code class="p">];</code> <code class="c1">// or grab the formal parameter.</code>
+      <code class="p">});</code>
+
+      <code class="k">return</code> <code class="nx">config</code><code class="p">;</code>
+    <code class="p">};</code>
+
+  <code class="cm">/**</code>
+<code class="cm">   * Create a new, blessed object with public properties,</code>
+<code class="cm">   * shared properties (on prototype), and support for</code>
+<code class="cm">   * privacy (via initFunction).</code>
+<code class="cm">   * </code>
+<code class="cm">   * @param {object} sharedProperties Prototype</code>
+<code class="cm">   * @param {object} instanceProperties Instance safe</code>
+<code class="cm">   * @param {function} initFunction Init and privacy</code>
+<code class="cm">   * </code>
+<code class="cm">   * @return {object}</code>
+<code class="cm">   */</code>
+  <code class="nx">o</code> <code class="o">=</code> <code class="kd">function</code> <code class="nx">o</code><code class="p">(</code><code class="nx">sharedProperties</code><code class="p">,</code> <code class="nx">instanceProperties</code><code class="p">,</code>
+      <code class="nx">initFunction</code><code class="p">)</code> <code class="p">{</code>
+    <code class="kd">var</code> <code class="nx">optionNames</code> <code class="o">=</code> <code class="s1">'sharedProperties, instanceProperties,'</code>
+        <code class="o">+</code> <code class="s1">' initFunction'</code><code class="p">,</code>
+      <code class="nx">config</code><code class="p">,</code>
+      <code class="nx">fn</code><code class="p">,</code>
+      <code class="nx">obj</code><code class="p">;</code>
+
+    <code class="nx">config</code> <code class="o">=</code> <code class="nx">getConfig</code><code class="p">(</code><code class="nx">optionNames</code><code class="p">,</code> <code class="nx">sharedProperties</code><code class="p">,</code>
+      <code class="nx">instanceProperties</code><code class="p">,</code> <code class="nx">initFunction</code><code class="p">);</code>
+    <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code> <code class="o">||</code> <code class="nx">defaultInit</code><code class="p">;</code>
+    <code class="nx">fn</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">sharedProperties</code><code class="p">;</code>
+
+    <code class="nx">bless</code><code class="p">(</code><code class="nx">fn</code><code class="p">);</code>
+
+    <code class="nx">obj</code> <code class="o">=</code> <code class="nx">extend</code><code class="p">(</code><code class="nb">Object</code><code class="p">.</code><code class="nx">create</code><code class="p">(</code><code class="nx">fn</code><code class="p">),</code> <code class="p">{</code><code class="nx">fn</code><code class="o">:</code> <code class="nx">fn</code><code class="p">},</code>
+      <code class="nx">config</code><code class="p">.</code><code class="nx">instanceProperties</code><code class="p">);</code>
+
+    <code class="k">return</code> <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code><code class="p">.</code><code class="nx">call</code><code class="p">(</code><code class="nx">obj</code><code class="p">);</code>
+  <code class="p">};</code>
+
+  <code class="nx">bless</code><code class="p">(</code><code class="nx">o</code><code class="p">);</code>
+
+  <code class="nx">extend</code><code class="p">(</code><code class="nx">o</code><code class="p">,</code> <code class="p">{</code>
+    <code class="cm">/**</code>
+<code class="cm">     * Returns an object factory that stamps out objects</code>
+<code class="cm">     * using a specified shared prototype and init.</code>
+<code class="cm">     * </code>
+<code class="cm">     * @param {object} sharedProperties Prototype</code>
+<code class="cm">     * @param {object} defaultProperties Instance safe</code>
+<code class="cm">     * @param {function} initFunction Init and privacy</code>
+<code class="cm">     * </code>
+<code class="cm">     * @return {function} A new object factory.</code>
+<code class="cm">     */</code>
+    <code class="nx">factory</code><code class="o">:</code> <code class="kd">function</code> <code class="nx">factory</code><code class="p">(</code><code class="nx">sharedProperties</code><code class="p">,</code> <code class="nx">defaultProperties</code><code class="p">,</code>
+        <code class="nx">initFunction</code><code class="p">)</code> <code class="p">{</code>
+      <code class="kd">var</code> <code class="nx">optionNames</code> <code class="o">=</code> <code class="s1">'sharedProperties, defaultProperties,'</code>
+          <code class="o">+</code> <code class="s1">' initFunction'</code><code class="p">,</code>
+        <code class="nx">config</code><code class="p">;</code>
+
+      <code class="nx">config</code> <code class="o">=</code> <code class="nx">getConfig</code><code class="p">(</code><code class="nx">optionNames</code><code class="p">,</code> <code class="nx">sharedProperties</code><code class="p">,</code>
+        <code class="nx">defaultProperties</code><code class="p">,</code> <code class="nx">initFunction</code><code class="p">);</code>
+      <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code> <code class="o">||</code> <code class="nx">defaultInit</code><code class="p">;</code>
+
+      <code class="k">return</code> <code class="nx">bless</code><code class="p">(</code><code class="kd">function</code> <code class="p">(</code><code class="nx">options</code><code class="p">)</code> <code class="p">{</code>
+        <code class="kd">var</code> <code class="nx">defaultProperties</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">defaultProperties</code> <code class="o">||</code> <code class="p">{},</code>
+          <code class="nx">sharedProperties</code> <code class="o">=</code> <code class="nx">config</code><code class="p">.</code><code class="nx">sharedProperties</code> <code class="o">||</code> <code class="p">{},</code>
+          <code class="nx">instance</code> <code class="o">=</code> <code class="nx">extend</code><code class="p">(</code><code class="nx">defaultProperties</code><code class="p">,</code> <code class="nx">options</code><code class="p">),</code>
+          <code class="nx">obj</code> <code class="o">=</code> <code class="nx">extend</code><code class="p">(</code><code class="nx">o</code><code class="p">(</code><code class="nx">sharedProperties</code><code class="p">,</code> <code class="nx">instance</code><code class="p">,</code>
+            <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code><code class="p">));</code>
+        <code class="k">return</code> <code class="nx">config</code><code class="p">.</code><code class="nx">initFunction</code><code class="p">.</code><code class="nx">call</code><code class="p">(</code><code class="nx">obj</code><code class="p">);</code>
+      <code class="p">});</code>
+    <code class="p">},</code>
+    <code class="nx">addPlugins</code><code class="o">:</code> <code class="nx">addPlugins</code>
+  <code class="p">});</code>
+
+  <code class="nx">api</code> <code class="o">=</code> <code class="p">{</code>
+    <code class="nx">getConfig</code><code class="o">:</code> <code class="nx">getConfig</code>
+  <code class="p">};</code>
+  <code class="nx">api</code><code class="p">[</code><code class="nx">name</code><code class="p">]</code> <code class="o">=</code> <code class="nx">o</code><code class="p">;</code>
+
+  <code class="nx">extend</code><code class="p">(</code><code class="nx">exports</code><code class="p">,</code> <code class="nx">api</code><code class="p">);</code>
+<code class="p">}((</code><code class="k">typeof</code> <code class="nx">exports</code> <code class="o">===</code> <code class="s1">'undefined'</code><code class="p">)</code>
+    <code class="o">?</code> <code class="k">this</code>
+    <code class="o">:</code> <code class="nx">exports</code><code class="p">));</code></pre>
+</div>
+</div></section><footer><div class="navfooter">
+<hr>
+<table style="width: 100%; ">
+<tr>
+<td style="width: 40%; text-align: left; ">
+<a accesskey="p" href="ch03.html">Prev</a> </td>
+<td style="width: 20%; text-align: center; "> </td>
+<td style="width: 40%; text-align: right; "> <a accesskey="n" href="ch05.html">Next</a>
+</td>
+</tr>
+<tr>
+<td style="width: 40%; text-align: left; vertical-align: top; ">Chapter 3. Functions </td>
+<td style="width: 20%; text-align: center; "><a accesskey="h" href="index.html">Home</a></td>
+<td style="width: 40%; text-align: right; vertical-align: top; "> Chapter 5. Modules</td>
+</tr>
+</table>
+</div></footer>
+
+
+	<div class="extra-footer">
+		<p>© 2013, O’Reilly Media, Inc.</p>
+		<ul>
+			<li><a href="http://oreilly.com/terms/">Terms of Service</a></li>
+			<li><a href="http://oreilly.com/oreilly/privacy.csp">Privacy Policy</a></li>
+			<li>Interested in <a href="mailto:scordesse@oreilly.com">sponsoring content?</a></li>
+		</ul>
+	</div>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "rpm-images.newrelic.com/42/eum/rum.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-3.newrelic.com","3e361aebcf","2194180","IApbRUBZXg1WEEoHDAwORh5aQl8N",42,226,new Date().getTime(),"","","","",""]);</script></body>
+</html>
