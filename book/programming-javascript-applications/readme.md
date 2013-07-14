@@ -1,4 +1,4 @@
-# [PJA] 《JavaScript 应用程序设计》目录
+# [译] [PJA] 《JavaScript 应用程序设计》目录
 
 ![programming-javascript-applications-cover](https://f.cloud.github.com/assets/1231359/794047/afc032be-ec64-11e2-853b-9dc795bf263d.jpg)
 
