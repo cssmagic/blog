@@ -125,7 +125,7 @@ Yellow shines with optimism, enlightenment, and happiness. Shades of golden yell
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * During the tenth century in France, the doors of traitors and criminals were painted yellow.
 
@@ -174,7 +174,7 @@ Green occupies more space in the spectrum visible to the human eye than most col
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * The solid green flag of Libya is currently the only national flag of a single color.
 
@@ -221,7 +221,7 @@ Blue is seen as trustworthy, dependable, and committed. The color of ocean and s
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * Blue is the least "gender specific" color, having equal appeal to both men and women.
 
@@ -270,7 +270,7 @@ Purple embodies the balance of red's stimulation and blue's calm. With a sense o
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * Purple was the royal color of the Caesars.
 
@@ -318,7 +318,7 @@ Brighter pinks are youthful, fun, and exciting while vibrant pinks have the same
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * In 1947, fashion designer Elsa Schiaparelli introduced the color "hot pink" to western fashion.
 
@@ -367,7 +367,7 @@ Red has more personal associations than any other color. Recognized as a stimula
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * Red is the highest arc of the rainbow.
 
@@ -414,7 +414,7 @@ Orange, a close relative of red, sparks more controversy than any other hue. The
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * The interior dash lights on older model Suburu cars were orange.
 
@@ -463,7 +463,7 @@ white projects purity, cleanliness, and neutrality. Doctors don white coats, bri
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * A white flag is universally recognized as a symbol of truce.
 
@@ -510,7 +510,7 @@ Gray is the color of intellect, knowledge, and wisdom. It is perceived as long-l
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * The New York Times is sometimes called "Gray Lady".
 
@@ -557,7 +557,7 @@ Black is authoritative and powerful; because black can evoke strong emotions, to
 
 ### Facts
 
-### 一些事实
+### 趣闻
 
 * In England, taxi cabs are traditionally black.
 
