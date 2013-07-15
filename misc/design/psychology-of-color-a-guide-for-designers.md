@@ -309,11 +309,8 @@ Brighter pinks are youthful, fun, and exciting while vibrant pinks have the same
 ### 效果
 
 * Bright pinks, like the color red, stimulate energy and can increase the blood pressure, respiration, heartbeat, and pulse rate. They also encourage action and confidence.
-
 * Pink has been used in prison holding cells to effectively reduce erratic behavior.
-
 * 亮粉色，具有类似红色的效果，可以激发能量，增加血压、呼吸、心跳和脉搏；还可以激发斗志和信心。
-
 * 粉色常被用于监狱的牢房隔间，可有效地降低异常行为。（译注：据说，在男厕使用粉色装修和粉色小便斗，可以有效减少小便洒落地面的情况。）
 
 ### Facts
