@@ -1,7 +1,9 @@
 # [译] GitHub 风格的 Markdown 语法
 
-> * Original: [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
+> * Original: [GitHub Flavored Markdown - GitHub Help](https://help.github.com/articles/github-flavored-markdown)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
+
+> **声明**：原文版权属于 GitHub。中文翻译部分并非官方文档，仅供参考。
 
 GitHub uses what we're calling "GitHub Flavored Markdown" (GFM) for messages, issues, and comments. It differs from standard Markdown (SM) in a few significant ways and adds some additional functionality.
 
