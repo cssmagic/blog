@@ -1,6 +1,6 @@
 # [译] [PJA] 《JavaScript 应用程序设计》目录
 
-![programming-javascript-applications-cover](https://f.cloud.github.com/assets/1231359/794047/afc032be-ec64-11e2-853b-9dc795bf263d.jpg)
+![programming-javascript-applications-book-cover](https://f.cloud.github.com/assets/1231359/794047/afc032be-ec64-11e2-853b-9dc795bf263d.jpg)
 
 ## 译者按
 
@@ -209,11 +209,11 @@
 
 ## 关于作者
 
-![programming-javascript-applications-author](https://f.cloud.github.com/assets/1231359/794048/b3932392-ec64-11e2-9ed5-db7327973502.jpg)
+![Eric Elliott](https://f.cloud.github.com/assets/1231359/802924/cbee2336-eddd-11e2-8f47-97c0315a6276.jpg)
 
 ### Eric Elliott
 
-Eric Elliott is a veteran of JavaScript application development. His roles include JavaScript Lead at Tout (social video), Senior JavaScript Rockstar at BandPage (an industry leading music app), head of client side architecture at Zumba Fitness (the leading global fitness brand), several years as a UX and viral application consultant, and author of h5Validate, an HTML5 form validation plugin for jQuery.
+Eric Elliott is a veteran of JavaScript application development. His roles include JavaScript Lead at Tout (social video), Senior JavaScript Rockstar at BandPage (an industry leading music app), head of client side architecture at Zumba Fitness (the leading global fitness brand), several years as a UX and viral application consultant, and author of h5Validate, an HTML5 form validation plugin for jQuery. You can find Eric online on his blog at [ericleads.com](http://ericleads.com/).
 
 ### 埃瑞克·埃利奥特
 
@@ -224,6 +224,8 @@ Eric Elliott is a veteran of JavaScript application development. His roles inclu
 * Zumba Fitness（全球领先的健身品牌）的客户端架构领导者
 * 多年的用户体验与病毒营销领域的顾问
 * 以及 h5Validate（一款 HTML5 表单校验 jQuery 插件）的作者等等
+
+你可以在他的博客 [ericleads.com](http://ericleads.com/) 找到他。
 
 ***
 

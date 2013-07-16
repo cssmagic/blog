@@ -574,7 +574,7 @@ Black is authoritative and powerful; because black can evoke strong emotions, to
 
 * 黑色在时尚界广受赞誉，比如人们经常使用“新黑色”这个名词来表达对一种色彩潮流的推崇。
 
-* 有一种迷信说法，如果一个女人被埋葬时穿着黑衣，她就会经常游荡在她的家人周围。
+* 有一种迷信说法认为，如果一个女人被埋葬时穿着黑衣，她就会经常游荡在她的家人周围。
 
 ***
 
