@@ -4,7 +4,7 @@
 
 ## 译者按
 
-> 这是一本 O'Reilly 的新书，于 2013 年 2 月发布 [在线预览版](http://chimera.labs.oreilly.com/books/1234000000262/index.html)，目前还未正式出版。
+> 这是一本 O'Reilly 的新书，于 2013 年 2 月发布 [在线预览版](http://chimera.labs.oreilly.com/books/1234000000262/index.html)，目前还未正式出版（预计英文原版纸质书的出版日期为 2013-11-22）。
 
 > 本书全名《Programming JavaScript Applications: Robust Web Architecture With Node, HTML5, and Modern JS Libraries》，暂译作《JavaScript 应用程序设计：基于 Node、HTML5 及主流 JS 类库构建网络应用》，本博客使用其缩写 `[PJA]` 作为代号。
 
@@ -14,7 +14,7 @@
 
 ## 目录
 
-> * 部分术语的翻译可能有误，请在本页底部评论，协助纠正。
+> * 部分术语的翻译可能有误，请在本页底部评论，感谢您协助纠正。
 > * 当任一章节翻译完成后，会在下面的目录中加链接。
 
 ### Preface
