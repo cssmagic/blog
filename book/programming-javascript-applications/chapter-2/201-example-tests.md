@@ -1,15 +1,81 @@
-# [译] 博文标题
+# [译] [PJA] [201] 测试示例
 
-> * Original: [XXXXXXXXXXXXXXXXXXXX](xxxxxxxxxxxxxxxxxxx)
+> * Original: [Example Tests](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#example_tests)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
-## 二级标题
+## Example Tests
 
-（博文内容）
+This book is about developing real world applications, and in the real world, applications are fragile. When you change them, things often break, and you need an easy way to detect those broken things so you can fix them before your users are impacted.
 
-***
+Manual quality assurance is an expensive, time consuming, and tedious process, and the larger your code base grows, the bigger the job gets. One commonly accepted solution to this problem is to write tests that assure your code does what you expect.
 
-> 原文版本：2013-XX-XX （如果原文已更新，请提醒我。）
+Tests can aid in debugging as well. Frequently when a large number of components interact (often indirectly), it's difficult to tell which component a bug is hiding in. If you have a test suite, and one component breaks, you'll be alerted immediately which component isn't behaving the way it was designed to behave.
+
+Throughout this book you'll see [QUnit][5] tests in examples to alert you to expected and actual behaviors. QUnit is a JavaScript unit test framework that generates clear, readable test output on whatever page you include it in. It's the test suite used by [jQuery][6].
+
+It is safe to assume that all tests pass, unless you see a comment that says otherwise. For example:
+
+    var highPass = function highPass(number, cutoff) {
+        if (number &gt;= cutoff) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+
+      lowPass = function lowPass(number, cutoff) {
+        if (number &gt;= cutoff) {
+          return true;
+        } else {
+          return false;
+        }
+      };
+
+    module('Filter Examples');
+
+    test('highPass', function () {
+      ok(!highPass(2, 5), 'Lower values should not pass.');
+      ok(highPass(8, 5), 'Higher values should pass.');
+    });
+
+    test('lowPass', function () {
+      ok(lowPass(2, 5), 'Lower values should pass.'); // Fails
+      ok(!lowPass(8, 5),
+        'Higher values should not pass.'); // Fails
+    });
+
+The first test passes the tests as written. The second test set fails because the logic needs to be inverted in `lowPass()`.
+
+### QUnit Primer
+
+In this book, we'll be using several QUnit functions:
+
+  * `module()`
+
+  * `test()`
+
+  * `ok()`
+
+  * `equal()`
+
+The `module()` function allows you to group related functionality in your test output. The `name` parameter can be any string. Usage:
+
+`module(_`'Name'`_);`
+
+The `test()` function lets you name and define individual module tests. All assertions go inside tests. Usage:
+
+    test(_'Name'_, function () {
+        _// Your assertions here..._
+    });
+
+You can test the truthiness of an expression with `ok():`
+
+    ok(_true_, _'Description'_);
+
+The first parameter can be any expression you wish to evaluate. If the expression is truthy, the assertion will pass. You can do anything you want with the Description, but I like to write them like: _`Subject`_ should _`verb`_. For e.g., "User should exist.", "Valid input should pass", etc... If you find yourself writing "_`Subject`_ should _be_...", consider using `equal()`, instead.
+
+[5]: http://docs.jquery.com/QUnit
+[6]: http://jquery.com/
 
 ***
 

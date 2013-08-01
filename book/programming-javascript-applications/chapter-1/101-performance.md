@@ -1,15 +1,13 @@
-# [译] 博文标题
+# [译] [PJA] [101] 性能
 
-> * Original: [XXXXXXXXXXXXXXXXXXXX](xxxxxxxxxxxxxxxxxxx)
+> * Original: [Performance](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#performance)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
-## 二级标题
+## Performance
 
-（博文内容）
+Just in Time compiling – In modern browsers, most JavaScript is compiled, highly optimized and executed like native code, so run-time performance is close to software written in C or C\+\+. Of course, there is still the overhead of garbage collection and dynamic binding, so it is possible to do certain things faster -- however, the difference is generally not worth sweating over until you’ve optimized everything else. With [Node.js][6] (a high-performance, evented, server-side JavaScript environment built on Google's highly optimized V8 JavaScript engine), JavaScript apps are event-driven and non-blocking, which generally more than makes up the code execution difference between JavaScript and less dynamic languages.
 
-***
-
-> 原文版本：2013-XX-XX （如果原文已更新，请提醒我。）
+[6]: http://nodejs.com/
 
 ***
 

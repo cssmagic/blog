@@ -1,15 +1,15 @@
-# [译] 博文标题
+# [译] [PJA] [507] Harmony 的模块机制
 
-> * Original: [XXXXXXXXXXXXXXXXXXXX](xxxxxxxxxxxxxxxxxxx)
+> * Original: [Harmony Modules](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#ch9phz70i00005ig1kqp3ed7t)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
-## 二级标题
+## Harmony Modules
 
-（博文内容）
+None of the module systems discussed so far are included in the official ECMAScript specifications. In the future, a module system will be built-in to all ECMA-compliant JavaScript engines.
 
-***
+The Harmony module specification hasn't stabilized yet, but when it does, it should be possible to write harmony modules and compile using build tools to fall back on the module pattern, AMD, and CommonJS where required.
 
-> 原文版本：2013-XX-XX （如果原文已更新，请提醒我。）
+Harmony module build tools are already beginning to appear, but since the specification is likely to change, you should probably wait a bit longer before you start to rely on them for your production applications.
 
 ***
 

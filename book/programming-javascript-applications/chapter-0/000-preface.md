@@ -1,6 +1,6 @@
 # [译] [PJA] [000] 序言
 
-> * Original: [XXXXXXXXXXXXXXXXXXXX](xxxxxxxxxxxxxxxxxxx)
+> * Original: [Preface](http://chimera.labs.oreilly.com/books/1234000000262/pr01.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 # Preface
@@ -11,27 +11,23 @@ The following typographical conventions are used in this book:
 
 _Italic_
 
-
 Indicates new terms, URLs, email addresses, filenames, and file extensions.
 
 `Constant width`
-
 
 Used for program listings, as well as within paragraphs to refer to program elements such as variable or function names, databases, data types, environment variables, statements, and keywords.
 
 **`Constant width bold`**
 
-
 Shows commands or other text that should be typed literally by the user.
 
 _`Constant width italic`_
 
-
 Shows text that should be replaced with user-supplied values or by values determined by context.
 
-This icon signifies a tip, suggestion, or general note.
+> `[$]` This icon signifies a tip, suggestion, or general note.
 
-This icon indicates a warning or caution.
+> `[!]` This icon indicates a warning or caution.
 
 ## Using Code Examples
 
@@ -39,11 +35,11 @@ This book is here to help you get your job done. In general, you may use the cod
 
 We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: “_Programming JavaScript Applications_ by Eric Elliott (O'Reilly). Copyright 2013 Eric Elliott, 978-1-4493-2094-2.”
 
-If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at ``.
+If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at <permissions@oreilly.com>.
 
 ## Safari&reg; Books Online
 
-Safari Books Online is an on-demand digital library that lets you easily search over 7,500 technology and creative reference books and videos to find the answers you need quickly.
+> Safari Books Online is an on-demand digital library that lets you easily search over 7,500 technology and creative reference books and videos to find the answers you need quickly.
 
 With a subscription, you can read any page and watch any video from our library online. Read books on your cell phone and mobile devices. Access new titles before they are available for print, and get exclusive access to manuscripts in development and post feedback for the authors. Copy and paste code samples, organize your favorites, download chapters, bookmark key sections, create notes, print out pages, and benefit from tons of other time-saving features.
 
@@ -53,33 +49,28 @@ O'Reilly Media has uploaded this book to the Safari Books Online service. To hav
 
 Please address comments and questions concerning this book to the publisher:
 
-O'Reilly Media, Inc.
-
-1005 Gravenstein Highway North
-
-Sebastopol, CA 95472
-
-800-998-9938 (in the United States or Canada)
-
-707-829-0515 (international or local)
-
-707-829-0104 (fax)
+> O'Reilly Media, Inc.  
+> 1005 Gravenstein Highway North  
+> Sebastopol, CA 95472  
+> 800-998-9938 (in the United States or Canada)  
+> 707-829-0515 (international or local)  
+> 707-829-0104 (fax)
 
 We have a web page for this book, where we list errata, examples, and any additional information. You can access this page at:
 
-
+<http://shop.oreilly.com/product/0636920024231.do>
 
 To comment or ask technical questions about this book, send email to:
 
-``
+<bookquestions@oreilly.com>
 
-For more information about our books, courses, conferences, and news, see our website at .
+For more information about our books, courses, conferences, and news, see our website at <http://www.oreilly.com/>.
 
-Find us on Facebook:
+Find us on Facebook: <http://facebook.com/oreilly>
 
-Follow us on Twitter:
+Follow us on Twitter: <http://twitter.com/oreillymedia>
 
-Watch us on YouTube:
+Watch us on YouTube: <http://www.youtube.com/oreillymedia>
 
 ## Introduction
 
@@ -127,18 +118,8 @@ If this is your first exposure to JavaScript, you would do well to study some in
 
 Eric Elliott is a veteran of JavaScript application development. He is currently a member of the Creative Cloud team at Adobe. Previous roles include JavaScript Lead at Tout (social video), Senior JavaScript Rockstar at BandPage (an industry leading music app), head of client side architecture at Zumba Fitness (the leading global fitness brand), and several years as a UX and viral application consultant. He lives in the San Francisco bay area with the most beautiful woman in the world.
 
-   [1]: http://chimera.labs.oreilly.com/books/1234000000262
-   [2]: http://chimera.labs.oreilly.com#
-   [3]: http://chimera.labs.oreilly.com/index.html
-   [4]: http://chimera.labs.oreilly.com/ch01.html
-   [5]: mailto:permissions%40oreilly.com
-   [6]: http://my.safaribooksonline.com/?portal=oreilly
-   [7]: mailto:bookquestions%40oreilly.com
-   [8]: http://eloquentjavascript.net/
-   [9]: http://oreilly.com/terms/
-   [10]: http://oreilly.com/oreilly/privacy.csp
-   [11]: mailto:scordesse%40oreilly.com
-
+[6]: http://my.safaribooksonline.com/?portal=oreilly
+[8]: http://eloquentjavascript.net/
 
 ***
 

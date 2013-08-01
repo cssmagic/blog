@@ -1,15 +1,13 @@
-# [译] 博文标题
+# [译] [PJA] [103] 语法
 
-> * Original: [XXXXXXXXXXXXXXXXXXXX](xxxxxxxxxxxxxxxxxxx)
+> * Original: [Syntax](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#syntax)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
-## 二级标题
+## Syntax
 
-（博文内容）
+The JavaScript syntax should be immediately familiar to anybody who has experience with C-family languages such as C\+\+, Java, C#, PHP, and so on. Part of JavaScript's popularity is due to its familiarity, though it's important to understand that JavaScript behaves very differently from all of these under the hood.
 
-***
-
-> 原文版本：2013-XX-XX （如果原文已更新，请提醒我。）
+JavaScript’s Object Literal syntax is so simple, flexible, and concise, it was adapted to become the dominant standard for client/server communication in the form of JSON, which is more compact and flexible than the XML that it replaced.
 
 ***
 
