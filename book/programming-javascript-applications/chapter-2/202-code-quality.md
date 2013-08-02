@@ -1,6 +1,6 @@
 # [译] [PJA] [202] 代码质量
 
-> * Original: [Code Quality](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#code_quality)
+> * Original: [Code Quality - Chapter 2. JavaScript Style Guide - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#code_quality)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Code Quality

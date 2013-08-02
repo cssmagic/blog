@@ -1,6 +1,6 @@
 # [译] [PJA] [406] 创建原型对象的类库
 
-> * Original: [A Prototypal Object Creation Library](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#a_prototypal_object_creation_library)
+> * Original: [A Prototypal Object Creation Library - Chapter 4. Objects - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#a_prototypal_object_creation_library)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## A Prototypal Object Creation Library

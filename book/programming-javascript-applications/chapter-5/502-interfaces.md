@@ -1,6 +1,6 @@
 # [译] [PJA] [502] 接口
 
-> * Original: [Interfaces](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#interfaces)
+> * Original: [Interfaces - Chapter 5. Modules - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#interfaces)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Interfaces

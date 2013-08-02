@@ -1,6 +1,6 @@
 # [译] [PJA] [500] 第五章 模块
 
-> * Original: [Chapter 5. Modules](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html)
+> * Original: [Chapter 5. Modules - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 # Chapter 5. Modules

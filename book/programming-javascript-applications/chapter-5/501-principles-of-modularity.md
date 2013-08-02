@@ -1,6 +1,6 @@
 # [译] [PJA] [501] 模块化的原则
 
-> * Original: [Principles of Modularity](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#principles_of_modularity)
+> * Original: [Principles of Modularity - Chapter 5. Modules - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#principles_of_modularity)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Principles of Modularity

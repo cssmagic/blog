@@ -1,6 +1,6 @@
 # [译] [PJA] [200] 第二章 JavaScript 代码风格指南
 
-> * Original: [Chapter 2. JavaScript Style Guide](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html)
+> * Original: [Chapter 2. JavaScript Style Guide - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 # Chapter 2. JavaScript Style Guide

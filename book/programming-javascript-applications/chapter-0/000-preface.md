@@ -1,6 +1,6 @@
 # [译] [PJA] [000] 序言
 
-> * Original: [Preface](http://chimera.labs.oreilly.com/books/1234000000262/pr01.html)
+> * Original: [Preface - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/pr01.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 # Preface

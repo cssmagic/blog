@@ -1,6 +1,6 @@
 # [译] [PJA] [102] 对象
 
-> * Original: [Objects](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#objects_id1)
+> * Original: [Objects - Chapter 1. The JavaScript Revolution - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#objects_id1)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Objects

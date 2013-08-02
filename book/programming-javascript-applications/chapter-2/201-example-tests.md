@@ -1,6 +1,6 @@
 # [译] [PJA] [201] 测试示例
 
-> * Original: [Example Tests](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#example_tests)
+> * Original: [Example Tests - Chapter 2. JavaScript Style Guide - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch02.html#example_tests)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Example Tests

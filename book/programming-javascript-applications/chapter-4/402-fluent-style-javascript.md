@@ -1,6 +1,6 @@
 # [译] [PJA] [402] 语流风格的 JavaScript
 
-> * Original: [Fluent Style JavaScript](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#fluent_style_javascript)
+> * Original: [Fluent Style JavaScript - Chapter 4. Objects - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#fluent_style_javascript)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Fluent Style JavaScript

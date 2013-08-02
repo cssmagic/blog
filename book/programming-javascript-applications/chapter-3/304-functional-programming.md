@@ -1,6 +1,6 @@
 # [译] [PJA] [304] 函数式编程
 
-> * Original: [Functional Programming](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#functional_programming)
+> * Original: [Functional Programming - Chapter 3. Functions - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#functional_programming)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Functional Programming

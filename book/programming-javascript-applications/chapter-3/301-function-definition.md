@@ -1,6 +1,6 @@
 # [译] [PJA] [301] 函数定义
 
-> * Original: [Function Definition](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#function_definition)
+> * Original: [Function Definition - Chapter 3. Functions - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#function_definition)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Function Definition

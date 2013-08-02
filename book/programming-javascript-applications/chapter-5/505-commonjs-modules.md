@@ -1,6 +1,6 @@
 # [译] [PJA] [505] CommonJS 模块规范
 
-> * Original: [CommonJS Modules](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#commonjs_modules)
+> * Original: [CommonJS Modules - Chapter 5. Modules - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#commonjs_modules)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## CommonJS Modules

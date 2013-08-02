@@ -1,6 +1,6 @@
 # [译] [PJA] [106] 重用
 
-> * Original: [Reusability](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#reusability)
+> * Original: [Reusability - Chapter 1. The JavaScript Revolution - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#reusability)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Reusability

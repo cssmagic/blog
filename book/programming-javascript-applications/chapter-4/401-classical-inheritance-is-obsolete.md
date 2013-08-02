@@ -1,6 +1,6 @@
 # [译] [PJA] [401] 传统的继承已经过时了
 
-> * Original: [Classical Inheritance is Obsolete](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#chcss2i1z00025eilzn6ki8ds)
+> * Original: [Classical Inheritance is Obsolete - Chapter 4. Objects - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#chcss2i1z00025eilzn6ki8ds)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Classical Inheritance is Obsolete

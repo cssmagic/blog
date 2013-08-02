@@ -1,6 +1,6 @@
 # [译] [PJA] [101] 性能
 
-> * Original: [Performance](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#performance)
+> * Original: [Performance - Chapter 1. The JavaScript Revolution - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#performance)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Performance

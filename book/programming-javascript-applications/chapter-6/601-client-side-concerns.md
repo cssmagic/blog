@@ -1,6 +1,6 @@
 # [译] [PJA] [600] 客户端的关注点
 
-> * Original: [Client Side Concerns](http://chimera.labs.oreilly.com/books/1234000000262/ch06.html#client_side_concerns)
+> * Original: [Client Side Concerns - Chapter 6. Separation of Concerns - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch06.html#client_side_concerns)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Client Side Concerns

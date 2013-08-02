@@ -1,6 +1,6 @@
 # [译] [PJA] [107] 最终结果
 
-> * Original: [The Net Result](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#the_net_result)
+> * Original: [The Net Result - Chapter 1. The JavaScript Revolution - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#the_net_result)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## The Net Result

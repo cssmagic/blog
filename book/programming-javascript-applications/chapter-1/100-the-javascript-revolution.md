@@ -1,6 +1,6 @@
 # [译] [PJA] [100] 第一章 JavaScript 革命
 
-> * Original: [Chapter 1. The JavaScript Revolution](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html)
+> * Original: [Chapter 1. The JavaScript Revolution - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 # Chapter 1. The JavaScript Revolution

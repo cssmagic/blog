@@ -1,6 +1,6 @@
 # [译] [PJA] [403] 原型
 
-> * Original: [Prototypes](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#chcsrdou100015eilvj6l9inj)
+> * Original: [Prototypes - Chapter 4. Objects - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#chcsrdou100015eilvj6l9inj)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Prototypes

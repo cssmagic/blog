@@ -1,6 +1,6 @@
 # [译] [PJA] [503] 模块的模式
 
-> * Original: [The Module Pattern](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#the_module_pattern)
+> * Original: [The Module Pattern - Chapter 5. Modules - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#the_module_pattern)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## The Module Pattern

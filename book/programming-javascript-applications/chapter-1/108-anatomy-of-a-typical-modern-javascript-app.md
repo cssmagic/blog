@@ -1,6 +1,6 @@
 # [译] [PJA] [108] 解构一个典型的现代 JavaScript 应用
 
-> * Original: [Anatomy of a Typical Modern JavaScript App](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#anatomy_of_a_typical_modern_javascript_app)
+> * Original: [Anatomy of a Typical Modern JavaScript App - Chapter 1. The JavaScript Revolution - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#anatomy_of_a_typical_modern_javascript_app)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Anatomy of a Typical Modern JavaScript App

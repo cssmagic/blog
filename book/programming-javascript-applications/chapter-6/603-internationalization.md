@@ -1,6 +1,6 @@
 # [译] [PJA] [600] 国际化工程
 
-> * Original: [Internationalization](http://chimera.labs.oreilly.com/books/1234000000262/ch06.html#internationalization)
+> * Original: [Internationalization - Chapter 6. Separation of Concerns - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch06.html#internationalization)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Internationalization
