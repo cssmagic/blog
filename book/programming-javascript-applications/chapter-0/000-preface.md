@@ -35,7 +35,7 @@ This book is here to help you get your job done. In general, you may use the cod
 
 We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: “_Programming JavaScript Applications_ by Eric Elliott (O'Reilly). Copyright 2013 Eric Elliott, 978-1-4493-2094-2.”
 
-If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at <permissions@oreilly.com>.
+If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at <permissions#oreilly.com>.
 
 ## Safari&reg; Books Online
 
@@ -62,7 +62,7 @@ We have a web page for this book, where we list errata, examples, and any additi
 
 To comment or ask technical questions about this book, send email to:
 
-<bookquestions@oreilly.com>
+<bookquestions#oreilly.com>
 
 For more information about our books, courses, conferences, and news, see our website at <http://www.oreilly.com/>.
 
