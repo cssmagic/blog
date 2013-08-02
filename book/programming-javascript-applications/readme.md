@@ -59,7 +59,7 @@
 
 ### [第一章 JavaScript 革命](https://github.com/cssmagic/blog/issues/18)
 
-* 性能
+* [性能](https://github.com/cssmagic/blog/issues/19)
 * 对象
 * 语法
 * 一等公民——函数

@@ -5,6 +5,8 @@
 
 # Chapter 5. Modules
 
+# 第五章 模块
+
 Modules are reusable software components which form the building blocks of applications. Modularity satisfies some very important design goals, perhaps the most important of which is simplicity.
 
 When you design an application with a lot of interdependencies between different parts of the application, it becomes more difficult to fully understand the impact of your changes across the whole system.
