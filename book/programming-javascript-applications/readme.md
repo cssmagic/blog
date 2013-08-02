@@ -57,7 +57,7 @@
 	* NoSQL Datastores
 	* RESTful JSON Web Services
 
-### 第一章 JavaScript 革命
+### [第一章 JavaScript 革命](https://github.com/cssmagic/blog/issues/18)
 
 * 性能
 * 对象
