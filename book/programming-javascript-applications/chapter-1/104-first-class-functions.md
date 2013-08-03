@@ -1,6 +1,6 @@
 # [译] [PJA] [104] 一等公民——函数
 
-> * Original: [First Class Functions](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#first_class_functions)
+> * Original: [First Class Functions - Chapter 1. The JavaScript Revolution - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#first_class_functions)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## First Class Functions

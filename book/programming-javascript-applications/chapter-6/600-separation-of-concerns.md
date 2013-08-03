@@ -1,6 +1,6 @@
 # [译] [PJA] [600] 第六章 关注点分离
 
-> * Original: [Chapter 6. Separation of Concerns](http://chimera.labs.oreilly.com/books/1234000000262/ch06.html)
+> * Original: [Chapter 6. Separation of Concerns - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch06.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 # Chapter 6. Separation of Concerns

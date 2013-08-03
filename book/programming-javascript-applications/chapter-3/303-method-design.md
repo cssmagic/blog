@@ -1,6 +1,6 @@
 # [译] [PJA] [303] 方法的设计
 
-> * Original: [Method Design](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#method_design)
+> * Original: [Method Design - Chapter 3. Functions - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#method_design)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Method Design

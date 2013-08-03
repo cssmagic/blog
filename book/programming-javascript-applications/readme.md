@@ -1,5 +1,8 @@
 # [译] [PJA] 《JavaScript 应用程序设计》目录
 
+> * Original: [Table of Contents - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
+> * Translated by: [cssmagic](https://github.com/cssmagic)
+
 ![programming-javascript-applications-book-cover](https://f.cloud.github.com/assets/1231359/794047/afc032be-ec64-11e2-853b-9dc795bf263d.jpg)
 
 ## 译者按
@@ -54,9 +57,9 @@
 	* NoSQL Datastores
 	* RESTful JSON Web Services
 
-### 第一章 JavaScript 革命
+### [第一章 JavaScript 革命](https://github.com/cssmagic/blog/issues/18)
 
-* 性能
+* [性能](https://github.com/cssmagic/blog/issues/19)
 * 对象
 * 语法
 * 一等公民——函数
@@ -173,7 +176,7 @@
 
 * 模块化的原则
 * 接口
-* 模块的模式
+* 模块模式
 * AMD 规范
 	* 插件
 * CommonJS 模块规范
@@ -217,7 +220,7 @@ Eric Elliott is a veteran of JavaScript application development. His roles inclu
 
 ### 埃瑞克·埃利奥特
 
-埃瑞克·埃利奥特一名 JavaScript 应用开发高手。他的身份数不胜数：
+埃瑞克·埃利奥特是一名 JavaScript 应用开发高手。他的身份数不胜数：
 
 * Tout（一家视频分享网站）的 JavaScript 领头人
 * BandPage（一款业内领先的音乐应用）上的资深 JavaScript 大腕

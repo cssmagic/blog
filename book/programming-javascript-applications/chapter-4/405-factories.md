@@ -1,6 +1,6 @@
 # [译] [PJA] [405] 工厂函数
 
-> * Original: [Factories](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#factories)
+> * Original: [Factories - Chapter 4. Objects - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#factories)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Factories

@@ -1,6 +1,6 @@
 # [译] [PJA] [302] 函数作用域
 
-> * Original: [Function Scope](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#function_scope)
+> * Original: [Function Scope - Chapter 3. Functions - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#function_scope)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Function Scope

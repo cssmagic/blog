@@ -1,6 +1,6 @@
 # [译] [PJA] [305] 异步操作
 
-> * Original: [Asynchronous Operations](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#asynchronous_operations)
+> * Original: [Asynchronous Operations - Chapter 3. Functions - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html#asynchronous_operations)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Asynchronous Operations

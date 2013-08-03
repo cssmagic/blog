@@ -1,6 +1,6 @@
 # [译] [PJA] [404] 创建对象
 
-> * Original: [Object Creation](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#object_creation_id1)
+> * Original: [Object Creation - Chapter 4. Objects - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html#object_creation_id1)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Object Creation

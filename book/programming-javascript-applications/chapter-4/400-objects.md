@@ -1,6 +1,6 @@
 # [译] [PJA] [400] 第四章 对象
 
-> * Original: [Chapter 4. Objects](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html)
+> * Original: [Chapter 4. Objects - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch04.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 # Chapter 4. Objects

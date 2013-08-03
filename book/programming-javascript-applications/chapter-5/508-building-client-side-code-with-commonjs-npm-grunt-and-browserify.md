@@ -1,6 +1,6 @@
 # [译] [PJA] [508] 基于 CommonJS、npm、Grunt 和 Browserify 构建客户端代码
 
-> * Original: [Building Client-Side Code With CommonJS, npm, Grunt, and Browserify](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#building_clientside_code_with_commonjs_npm_grunt_and_browserify)
+> * Original: [Building Client-Side Code With CommonJS, npm, Grunt, and Browserify - Chapter 5. Modules - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#building_clientside_code_with_commonjs_npm_grunt_and_browserify)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Building Client-Side Code With CommonJS, npm, Grunt, and Browserify

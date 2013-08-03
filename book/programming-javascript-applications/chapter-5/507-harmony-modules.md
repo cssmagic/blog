@@ -1,6 +1,6 @@
 # [译] [PJA] [507] Harmony 的模块机制
 
-> * Original: [Harmony Modules](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#ch9phz70i00005ig1kqp3ed7t)
+> * Original: [Harmony Modules - Chapter 5. Modules - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch05.html#ch9phz70i00005ig1kqp3ed7t)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Harmony Modules

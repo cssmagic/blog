@@ -1,6 +1,6 @@
 # [译] [PJA] [103] 语法
 
-> * Original: [Syntax](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#syntax)
+> * Original: [Syntax - Chapter 1. The JavaScript Revolution - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch01.html#syntax)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Syntax

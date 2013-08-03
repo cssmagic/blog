@@ -1,6 +1,6 @@
 # [译] [PJA] [600] 服务器端的关注点
 
-> * Original: [Server Side Concerns](http://chimera.labs.oreilly.com/books/1234000000262/ch06.html#server_side_concerns)
+> * Original: [Server Side Concerns - Chapter 6. Separation of Concerns - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch06.html#server_side_concerns)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 ## Server Side Concerns

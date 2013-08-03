@@ -1,6 +1,6 @@
 # [译] [PJA] [300] 第三章 函数
 
-> * Original: [Chapter 3. Functions](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html)
+> * Original: [Chapter 3. Functions - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/ch03.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
 # Chapter 3. Functions
