@@ -5,26 +5,37 @@
 
 ## Classical Inheritance is Obsolete
 
-&nbsp;
+> "Those who are unaware they are walking in darkness will never seek the light."
 
-"Those who are unaware they are walking in darkness will never seek the light."
-
-&nbsp;
-
-&nbsp;
-\--Bruce Lee
+> \-- Bruce Lee
+> 
+> “不知道自己正在走在黑暗中的人是永远不会去搜寻光明的。”
+> 
+> ——李小龙
 
 In "Design Patterns: Elements of Reusable Object Oriented Software", the Gang of Four opened the book with two foundational principles of object oriented design:
 
-  1. Program to an interface, not an implementation.
+在《设计模式：可复用面向对象软件的基础》一书的开头，“四人帮”就推出了面向对象设计的两大基本原则：（译注：该书由四位作者合著，均为国际公认的面向对象软件领域的专家。）
 
-  2. _Favor object composition over class inheritance._
+1. Program to an interface, not an implementation.
+
+2. _Favor object composition over class inheritance._
+
+1. 面向接口编程，而非面向实现编程。
+
+2. *优先使用对象组合，而非继承。*
 
 In a sense, the second principle could follow from the first, because inheritance exposes the parent class to all child classes. The child classes are all programming to an implementation, not an interface. Classical inheritance breaks the principle of encapsulation, and tightly couples the child class to its ancestors.
 
+从某种意义上说，第二条规则可由第一条推导出来，因为继承把父类暴躁给了所有子类。子类都是面向实现编程，而非面向接口。传统的继承打破了封装的原则，而且把子类和它的祖先紧密地耦合起来了。
+
 Think of it this way: _Classical inheritance is like Ikea furniture_. You have a bunch of pieces that are designed to fit together in a very specific way. If everything goes exactly according to plan, chances are high that you'll come out with a usable piece of furniture, but if anything at all goes wrong or deviates from the preplanned specification, there is little room for adjustment or flexibility. Here's where the analogy (and the furniture, and the software) breaks down: The design is in a constant state of change.
 
+不妨从这个角度来想：*传统的继承类似于宜家的家具。*你有一堆零件，设计为以一种非常特定的方式来组装到一起。如果每个零件都严格按照计划进行，会有很高的机会你会拿出一个有用的家具零件；但如果任何零件装错了，或偏离了预定计划的说明书，那就没有多少空间可以调整或机动了。这就是这个比喻（家具或是软件）崩溃的原因：这种设计处在一种变化的恒定状态。
+
 _Composition is more like Lego blocks_. The various pieces aren't designed to fit with any specific piece. Instead, they are all designed to fit together with any other piece, with few exceptions.
+
+而组合更像是乐高积木块。不同的零件被设计为可以和任何特定的零件组合。
 
 When you design for classical inheritance, you design a child class to inherit from a specific parent class. The specific parent class name is usually hard coded right in the child class, with no mechanism to override it. Right from the start, you're boxing yourself in -- limiting the ways that you can reuse your code without rethinking its design at a fundamental level.
 
@@ -44,14 +55,9 @@ Back to "Design Patterns". Why is the seminal work on Object Oriented design so 
 
 These problems are summed up nicely by Joe Armstrong in "Coders at Work", by Peter Siebel:
 
-&nbsp;
+> “The problem with object-oriented languages is they've got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.”
 
-“The problem with object-oriented languages is they've got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.”
-
-&nbsp;
-
-&nbsp;
-\--Joe Armstrong
+> \-- Joe Armstrong
 
 Inheritance works beautifully for a short time, but eventually the app architecture becomes arthritic. When you've built up your entire app on a foundation of classical inheritance, the dependencies on ancestors run so deep that even reusing or changing trivial amounts of code can turn into a gigantic refactor. Deep inheritance trees are brittle, inflexible, and difficult to extend.
 
