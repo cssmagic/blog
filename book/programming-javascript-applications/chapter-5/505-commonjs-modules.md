@@ -13,7 +13,7 @@ _CommonJS_ 是为 Javascript 环境制定的一系列标准的集合，它试图
 
 Before Node.JS, there were several other attempts to run JavaScript on the server side, as far back as the late 1990's. Both Netscape and Microsoft allowed JavaScript compatible scripting in their server environments. However, few people used those capabilities. The first server side JavaScript solution to gain any real traction was Rhino, but it was too slow and cumbersome to build web scale applications on top of.
 
-在 Node.js 之前，就有一些想把 javascript 运行在服务器端的尝试，这可以追溯到 1990 年。网景和微软都允许 javascript 兼容脚本在他们的服务器环境。不管怎样，确实有一些人曾使用过这些功能。最早的服务器端 javascript 解决方案，获得真正的关注的是 rhino，但它的动作太慢而且笨重，很难基于它来构建网络范围的应用程序。
+在 Node.js 之前，就有一些想把 javascript 运行在服务器端的尝试，这些尝试可以追溯到上世纪 90 年代。当年网景和微软都允许 javascript 兼容脚本在他们的服务器环境。不管怎样，确实有一些人曾使用过这些功能。最早的服务器端 javascript 解决方案，获得真正的关注的是 rhino，但它的动作太慢而且笨重，很难基于它来构建网络范围的应用程序。
 
 By the time Node.JS arrived on the scene, there were several different server side environments for JavaScript, that all started out using different conventions for dealing with issues such as module loading. CommonJS was created to solve that problem.
 
@@ -25,52 +25,63 @@ commonjs 的模块系统拥有一个比模块模式或 AMD 更简单的语法。
 
 First, assign to keys on the free variable `exports` to declare your module's public API:
 
-首先，对自由的变量  的键赋值，来声明你的模块的公开的 API：
+首先，对自由的变量 `exports` 的键赋值，来声明你的模块的公开的 API：
 
-    'use strict';
-    var foo = function () {
-      return true;
-    };
+```js
+'use strict';
+var foo = function () {
+  return true;
+};
 
-    exports.foo = foo;
+exports.foo = foo;
+```
 
 Then use `require()` to import your module and assign it to a local variable. You can specify the name of a module in the list of installed Node modules, or specify a path to the module using relative paths.
 
-然后使用  来导入你的模块，并将其赋值到一个本地变量。你可以指定一个已经安装的 Node 模块的名字，或者通过相对路径来指定一个模块的路径。
+然后使用 `require()` 来导入你的模块，并将其赋值到一个本地变量。你可以指定一个已经安装的 Node 模块的名字，或者通过相对路径来指定一个模块的路径。
 
 For example, if you want to use the Flatiron HTTP Module, you can `require()` by name. (From the [Flatiron.js][12] docs):
 
-举个例子，如果你想使用  模块，你可以通过名字  它。（来自于  的文档）：
+举个例子，如果你想使用 Flatiron 的 HTTP 模块，你可以通过名字 `require()` 它。（来自于 [Flatiron.js][12] 的文档）：
 
-    var flatiron = require('flatiron'),
-      app = flatiron.app;
+```js
+var flatiron = require('flatiron'),
+  app = flatiron.app;
 
-    app.use(flatiron.plugins.http, {
-      // HTTP options
-    });
+app.use(flatiron.plugins.http, {
+  // HTTP options
+  // HTTP 选项
+});
 
-    //
-    // app.router is now available. app[HTTP-VERB] is also available
-    // as a shortcut for creating routes
-    //
-    app.router.get('http://chimera.labs.oreilly.com/version', function () {
-      this.res.writeHead(200, { 'Content-Type': 'text/plain' })
-      this.res.end('flatiron ' %2B flatiron.version);
-    });
+//
+// app.router is now available. app[HTTP-VERB] is also available
+// as a shortcut for creating routes
+// app.router 现在可用了。
+// app[HTTP-VERB] 作为一个创建路由的快捷方式也可用了。
+//
+app.router.get('http://chimera.labs.oreilly.com/version', function () {
+  this.res.writeHead(200, { 'Content-Type': 'text/plain' })
+  this.res.end('flatiron ' %2B flatiron.version);
+});
 
-    app.start(8080);
+app.start(8080);
+```
 
 Or specify a relative path:
 
 或指定一个相对路径：
 
-    'use strict';
-    var mod = require('./ch05-modules.js'),
-      result = (mod.foo() === true) ? 'Pass:' : 'Fail:';
+```js
+'use strict';
+var mod = require('./ch05-modules.js'),
+  result = (mod.foo() === true) ? 'Pass:' : 'Fail:';
 
-    console.log(result, '.foo() should return true.');
+console.log(result, '.foo() should return true.');
+```
 
 You can use `console.log()` to simulate a unit testing framework, but there are several better alternatives for Node. See the Chapter "RESTful APIs with Node" for an introduction to unit testing with NodeUnit.
+
+你可以使用 `console.log()` 来模拟一个单元测试框架，但对 Node 来说还有一些更好的候选方案。参见“基于 Node 实现 REST 风格的 API”章节来了解如何使用 NodeUnit 进行单元测试。
 
 [12]: http://flatironjs.org/#routing
 
