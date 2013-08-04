@@ -17,7 +17,7 @@ JavaScript、HTML 和 CSS 已经变得如此流行，以至于许多操作系统
 
 Creating a JavaScript program is as simple as editing a text file and opening it in the browser. No complex development environments to download and install. No complex IDE to learn. JavaScript is easy to learn, too. The basic syntax is immediately familiar to any programmer who has been exposed to the C family syntax. No other language can boast a barrier to entry as low as JavaScript.
 
-创建一个 JavaScript 程序十分简单，编辑一个文本文件并在浏览器中打开它就行了。并不需要下载安装复杂的开发环境；不需要学习复杂的 IDE 工具；JavaScript 语言本身也十分易学。对于任何一个接触过类 C 语法的程序员来说，JavaScript 的基本语法可以立即上手。没有其它语言可以像 JavaScript 这样拥有如此低的学习门槛。
+创建一个 JavaScript 程序十分简单，编辑一个文本文件并在浏览器中打开它就行了。并不需要下载安装复杂的开发环境；不需要学习复杂的 IDE 工具；JavaScript 语言本身也十分易学。对于任何一个接触过类 C 语法的程序员来说，JavaScript 的基本语法可以立即上手。没有其它语言可以像 JavaScript 这样拥有如此之低的学习门槛。
 
 That low barrier to entry is probably the main reason that JavaScript was once widely (perhaps rightly) shunned as a toy. It was mainly used to create UI effects in the browser. That situation has changed.
 
