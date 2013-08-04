@@ -9,7 +9,7 @@
 
 > \-- Bruce Lee
 > 
-> “不知道自己正在走在黑暗中的人是永远不会去搜寻光明的。”
+> 不知道自己正在走在黑暗中的人是永远不会去搜寻光明的。
 > 
 > ——李小龙
 
@@ -35,7 +35,7 @@ Think of it this way: _Classical inheritance is like Ikea furniture_. You have a
 
 _Composition is more like Lego blocks_. The various pieces aren't designed to fit with any specific piece. Instead, they are all designed to fit together with any other piece, with few exceptions.
 
-而组合更像是乐高积木块。不同的零件被设计为可以和任何特定的零件组合。
+*而组合更像是乐高积木块*。不同的零件被设计为可以和任何特定的零件组合。
 
 When you design for classical inheritance, you design a child class to inherit from a specific parent class. The specific parent class name is usually hard coded right in the child class, with no mechanism to override it. Right from the start, you're boxing yourself in -- limiting the ways that you can reuse your code without rethinking its design at a fundamental level.
 
