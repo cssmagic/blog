@@ -205,7 +205,7 @@ module.exports = api;
 
 This is the file doing all the work. First it uses `.require()` to get a reference to jQuery, and sets a few self-documenting variable names. The `toggleCheckedIn()` function is an event handler for the `click` event.
 
-这就是这个文件所做的所有工作。首先它使用 `.require()` 来获取对 jQuery 的引用，在后设置了一些自我描述的变量名。那个 `toggleCheckedIn()` 函数是一个事件处理函数，用于处理 `click` 事件。
+这就是这个文件所做的所有工作。首先它使用 `require()` 来获取对 jQuery 的引用，在后设置了一些自我描述的变量名。那个 `toggleCheckedIn()` 函数是一个事件处理函数，用于处理 `click` 事件。
 
 The list element gets added. Note that it's using jQuery's `.on()` method to delegate the click events. `.on()` is the recently recommended way to hook up event handlers in jQuery. It replaces the deprecated `.bind()`, `.live()`, and `.delegate()` methods with a simplified syntax, and more consistent signature.
 
@@ -217,163 +217,202 @@ By delegating to the parent ordered list element, you can replace, remove, and a
 
 The `.render()` method takes an array of guest names, iterates over each one, and adds a corresponding list item to the `$listView` element. It then returns the rendered element to the calling function.
 
-
+ 方法接收来宾姓名的数组，遍历每个姓名，然后增加一个相关的列表项到  元素中。最后它返回渲染出的元素来调用函数。
 
 The rest of the code simply defines the public API and exposes it via CommonJS.
 
+剩下的代码简单地定义了公开 API，并且通过 CommonJS 规范暴露出来。
+
 Some developers will intersperse `module.exports` assignments throughout a module. I find that having a single `module.exports` at the bottom of the file more clearly documents the module's public API.
+
+有些开发者会在模块内部四处零星地为  赋值。而我认为在模块底部只保留一条赋值的做法可以更加清晰地表明这个模块的所有公开 API。
 
 So far, the modules don't know about each other, so there's no way for them to do any work. To bring all the pieces together and manage the initial render, you'll need a higher level abstraction to kick things off. Enter `app.js`:
 
-Example&nbsp;5-6.&nbsp;guestlist/src/app.js
+到目前为止，模块们彼些不知道，所以它们还无法协同工作。把所有的零件组合起来，管理初始渲染，你会需要一个更高级别的抽象来发动你的大作。进入 `app.js` 文件：
 
-    var $ = require('jquery-browserify'),
-      guestlistModel = require('./guestlistmodel'),
-      guestlistView = require('./guestlistview'),
-      $container = $('http://chimera.labs.oreilly.com#container');
+Example 5-6. `guestlist/src/app.js`
+示例 5-6. `guestlist/src/app.js`
 
-    $(function init() {
-      var guestlistData = guestlistModel.load();
-        $guestlist = guestlistView.render(guestlistData);
-      $container.empty().append($guestlist);
-    });
+```js
+var $ = require('jquery-browserify'),
+  guestlistModel = require('./guestlistmodel'),
+  guestlistView = require('./guestlistview'),
+  $container = $('http://chimera.labs.oreilly.com#container');
+
+$(function init() {
+  var guestlistData = guestlistModel.load();
+    $guestlist = guestlistView.render(guestlistData);
+  $container.empty().append($guestlist);
+});
+```
 
 This one should be fairly simple to follow. It uses `.require()` to reference `guestlistModel` and `guestlistView`, loads the guestlist, passes the data into `guestlistView.render()`, and adds it to the `container` element.
 
+这段代码应该很容易看明白。它使用了 `.require()` 来引用  和 ，加载来宾名单，将数据传入 ，然后将它们加入  元素中。
+
 The `.append()` line at the end of the `init()` function calls jQuery's `.empty()` method first for a couple of important reasons: First, if there's anything in that space already, it should be replaced, but it also releases references to event listeners so that the memory can be garbage collected. This is a better strategy than simply calling `.html()`. The latter is by far the more popular method, but it can be a major source of bugs and confusion when you start to develop large, client-heavy applications in JavaScript.
+
+ 函数最后包含  的一行首先调用了  的  方法，这是基于一些重要的原因：首先：如果那里已经有一些东西的话，它应该被替换掉，而这样做也将释放对事件监听器的引用，从而内存可以被回收。这个策略比单纯地调用  方法要更好一些。后者明显更加流行，但当你在开发重客户端的 JavaScript 应用程序时，它可能会导致 bug 或一些莫名其妙的情况。
 
 None of this is going to work yet, because the modules all need to be compiled together in order of their dependencies. For that, you'll need Browserify.
 
+它们还无法正式投入工作，因为所有模块都需要按照它们的依赖关系进行编译打包。因此，你需要 Browserify。
+
 [Browserify][19] is a Node module that makes CommonJS modules work in the browser, using a server-side build step. The `browserify` command is available to kick off the bundle:
+
+ 是一个 Node 模块，可以令 CommonJS 模块工作在浏览器中，通过一个服务器端的构建步骤。 命令可以启动软件包。
 
     $ browserify src/app.js -o public/app.js
 
 That's a bit too manual, though. You'll want to use `grunt` to automate the build. That way you can lint, build, and run your unit tests all in one step. Start with `package.json`:
 
-Example&nbsp;5-7.&nbsp;guestlist/package.json
+但这看起来有一点手工。你可能会想用  来实现自动构建。通过这种方式，你只需一步就可以校验、构建、运行你的单元测试。从  开始：
 
-    {
-      "name": "guestlist",
-      "version": "0.1.0",
-      "author": "Eric Elliott",
-      "description": "A handy tool for bouncers.",
-      "keywords": ["party", "guestlist"],
-      "main": "dist/app.js",
-      "scripts": {
-        "test": "grunt test"
-      },
-      "dependencies": {
-        "jquery-browserify": "*"
-      },
-      "devDependencies": {
-        "traverse": "*",
-        "grunt": "*",
-        "grunt-browserify": "*",
-        "browserify": "*"
-      },
-      "engines": {
-        "node": "&gt;=0.6"
-      }
-    }
+Example 5-7. guestlist/package.json
+
+示例 5-7. guestlist/package.json
+
+```js
+{
+  "name": "guestlist",
+  "version": "0.1.0",
+  "author": "Eric Elliott",
+  "description": "A handy tool for bouncers.",
+  "keywords": ["party", "guestlist"],
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "jquery-browserify": "*"
+  },
+  "devDependencies": {
+    "traverse": "*",
+    "grunt": "*",
+    "grunt-browserify": "*",
+    "browserify": "*"
+  },
+  "engines": {
+    "node": "&gt;=0.6"
+  }
+}
+```
 
 Since you'll be deploying this app, you should consider all of the code it uses to be part of the app, including its dependencies. You don't want those dependency versions shifting around under your feet during your deploy step. The less uncertainty and moving parts you have in a deploy step the better. For that reason, you're going to want to check in your `node_modules` directory (don't add it to `.gitignore`).
+鉴于你可能会把这个应用部署出去，你应该把这个应用所用到的代码看作这个应用的一部分，包括它的依赖关系。你不会想要那些依赖版本在你部署的期间变来变去。在部署步骤中，不确定因素和活动部件当然是越少越好。因此，你将尝试把你的  目录提交至代码仓库（千万不要把它加到  文件中）。
 
 Because all of the dependencies are going to be checked into the repository, you don't need to specify the versions to install. The "`*`" indicates that you want to use the latest version.
 
+由于所有的依赖库都将被提交到仓库，你就不需要特别指定需要安装的版本。这里的  表明了你想使用最新的版本。
+
 You'll also need a gruntfile. Currently the latest stable version of `grunt` looks for `grunt.js` by default. That's changed in the current alpha version, so you might need to use `gruntfile.js` as the filename. Here's what it looks like:
 
-Example&nbsp;5-8.&nbsp;guestlist/grunt.js
+你还需要有一个 Grunt 启动文件。目前最新的稳定版 Grunt 会默认去找 `grunt.js` 文件。但在当前的内测版中，这一行为发生了变化，因此你可能需要使用  作为文件名。这个文件看起来是这样的：
 
-    /*global module*/
-    module.exports = function(grunt) {
-      'use strict';
-      grunt.initConfig({
+Example 5-8. guestlist/grunt.js
+示例 5-8. guestlist/grunt.js
 
-        // Read package.json into an object for later
-        // reference (for example, in meta, below).
-        pkg: '',
+```js
+/*global module*/
+module.exports = function(grunt) {
+  'use strict';
+  grunt.initConfig({
 
-        meta: {
+    // Read package.json into an object for later
+    // reference (for example, in meta, below).
+    pkg: '',
 
-          // A template to add to the top of the bundled
-          // output.
-          banner: '
-    /*!  ' %2B
-            '- v - ' %2B
-            '
-     ' %2B
-            '' %2B
-            '* Copyright (c) ' %2B
-            ' ' %2B
-            ';
-    ' %2B
-            ' * Licensed under the ' %2B
-            ' license */'
-        },
+    meta: {
 
-        // Specify which files to send through JSHint.
-        lint: {
-          all: ['./grunt.js', './src/**/*.js',
-            './test-src/test.js']
-        },
+      // A template to add to the top of the bundled
+      // output.
+      banner: '
+/*!  ' %2B
+        '- v - ' %2B
+        '
+ ' %2B
+        '' %2B
+        '* Copyright (c) ' %2B
+        ' ' %2B
+        ';
+' %2B
+        ' * Licensed under the ' %2B
+        ' license */'
+    },
 
-        // JSHint configuration options.
-        jshint: {
-          browser: false,
-          node: true,
-          strict: false,
-          curly: true,
-          eqeqeq: true,
-          immed: true,
-          latedef: true,
-          newcap: true,
-          nonew: true,
-          noarg: true,
-          sub: true,
-          undef: true,
-          unused: true,
-          eqnull: true,
-          boss: false
-        },
+    // Specify which files to send through JSHint.
+    lint: {
+      all: ['./grunt.js', './src/**/*.js',
+        './test-src/test.js']
+    },
 
-        // Specify test locations for QUnit.
-        qunit: {
-          browser: ['test/index.html']
-        },
+    // JSHint configuration options.
+    jshint: {
+      browser: false,
+      node: true,
+      strict: false,
+      curly: true,
+      eqeqeq: true,
+      immed: true,
+      latedef: true,
+      newcap: true,
+      nonew: true,
+      noarg: true,
+      sub: true,
+      undef: true,
+      unused: true,
+      eqnull: true,
+      boss: false
+    },
 
-        // Configuration for browserify.
-        browserify: {
-          "public/app.js": {
-            requires: ['traverse'],
-            entries: ['src/**/*.js'],
-            prepend: [''],
-            append: [],
-            hook: function () {
-              // bundle is passed in as first param
-            }
-          }
+    // Specify test locations for QUnit.
+    qunit: {
+      browser: ['test/index.html']
+    },
+
+    // Configuration for browserify.
+    browserify: {
+      "public/app.js": {
+        requires: ['traverse'],
+        entries: ['src/**/*.js'],
+        prepend: [''],
+        append: [],
+        hook: function () {
+          // bundle is passed in as first param
         }
+      }
+    }
 
-      });
+  });
 
-      // Load browserify tasks. Needed for bundling.
-      grunt.loadNpmTasks('grunt-browserify');
+  // Load browserify tasks. Needed for bundling.
+  grunt.loadNpmTasks('grunt-browserify');
 
-      // Setup command line argument tasks. For e.g.:
-      // $ grunt # executes lint, browserify, qunit
-      // $ grunt test # runs qunit task, only.
-      grunt.registerTask('default', 'lint browserify qunit');
-      grunt.registerTask('install', 'browserify');
-      grunt.registerTask('test', 'qunit');
-    };
+  // Setup command line argument tasks. For e.g.:
+  // $ grunt # executes lint, browserify, qunit
+  // $ grunt test # runs qunit task, only.
+  grunt.registerTask('default', 'lint browserify qunit');
+  grunt.registerTask('install', 'browserify');
+  grunt.registerTask('test', 'qunit');
+};
+```
 
 The Grunt configuration file is just a Node JavaScript module, so you can write functions in it, evaluate expressions, and so on.
 
+grunt 配置文件就是一个 Node 的 js 模块，因此你可以在它里面编写函数、执行表达式、等等。
+
 Browserify requires a little extra configuration sometimes. Please refer to the ` [grunt-browserify][20] ` documentation for specific settings. Just don't forget to load the grunt tasks with `grunt.loadNpmTasks('grunt-browserify')`.
+
+ 有时需要一点额外的配置。详细设置请参考  文档。别忘了要使用  来加载  任务。
 
 The `.registerTask()` calls make grunt command line arguments available. For example, all the `default` tasks will run when you execute `grunt` without any arguments, and `grunt test` will only run the tests.
 
+这里的多个  调用将使  的命令行参数变得可用。举个例子，所有的  任务将运行，当你执行  不指定任何参数，而且  将会只运行测试。
+
 Time for some action:
+
+该来些动作了：
 
     $ grunt
     Running "lint:all" (lint) task
@@ -389,46 +428,60 @@ Time for some action:
 
 Notice the QUnit task output. The tests are green, and in this form, you can run them on an automated continuous integration system.
 
+请注意 QUnit 任务的输出。测试都是绿色的了，而且使用这种形式，你可以在一个自动的持续集成系统中运行测试。
+
 In case you're curious, the browser output looks like this:
+
+如果你还好奇，可以看一下浏览器中的输出：
 
 ![Passing QUnit Screenshot][21]
 
-Figure&nbsp;5-4.&nbsp;Passing QUnit Screenshot
+Figure 5-4. Passing QUnit Screenshot
 
-In general, CSS is a little outside the scope of this book, but there are a few tips you should be aware of. For some great ideas on how to use CSS for applications, see [[Scalable and Modular Architecture for CSS], by Jonathan Snook][22].
+图 5-4. Passing QUnit Screenshot
+
+In general, CSS is a little outside the scope of this book, but there are a few tips you should be aware of. For some great ideas on how to use CSS for applications, see [*Scalable and Modular Architecture for CSS*, by Jonathan Snook][22].
+
+大体来说，CSS 有点超出了本书的范畴，但你应该知道一些小技巧。对于如何在应用程序中使用 CSS 有一些好想法，参见  带来的《可扩展模块化的 CSS 架构》一书。
 
 The Guestlist code employs a custom icon font for the checkbox. Fonts provide a major advantage over traditional methods like `png` icons. For instance, they are infinitely scaleable, and you can apply any CSS you'd normally apply to text. You can also create a single, custom font that is easy for clients to download. The font was created using a free custom font app called [IcoMoon][23]. The icon font related CSS looks like this:
 
-Example&nbsp;5-9.&nbsp;Icon Font CSS
+来宾名单应用的代码使用了一个自定义的图标字体来显示复选框。字体提供了比传统方式（比如  格式的图片）更大的优势。比如说，它们可以无限放大，而且你可以对它应用任何适用于文本的 CSS 样式。你也可以创建一个单独的、自定义的字体，从而很易于客户端下载。这种字体可以使用一个叫做  的免费字体自定义应用来创建。跟图标字体相关的 CSS 代码如下：
 
-    @font-face {
-      font-family: 'guestlist';
-      src:url('fonts/guestlist.eot');
-      src:url('fonts/guestlist.eot?#iefix')
-          format('embedded-opentype'),
-        url('fonts/guestlist.svg#guestlist')
-          format('svg'),
-        url('fonts/guestlist.woff') format('woff'),
-        url('fonts/guestlist.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
+Example 5-9. Icon Font CSS
 
-    [class^="icon-check"]:before,
-    [class*=" icon-check"]:before {
-      font-family: 'guestlist';
-      font-style: normal;
-      font-size: .75em;
-      speak: none;
-      font-weight: normal;
-      -webkit-font-smoothing: antialiased;
-    }
-    .icon-check:before {
-      content: "\e000";
-    }
-    .dropdown-menu .icon-check .name {
-      padding-left: 1em;
-    }
+示例 5-9. Icon Font CSS
+
+```css
+@font-face {
+  font-family: 'guestlist';
+  src:url('fonts/guestlist.eot');
+  src:url('fonts/guestlist.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/guestlist.svg#guestlist')
+      format('svg'),
+    url('fonts/guestlist.woff') format('woff'),
+    url('fonts/guestlist.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-check"]:before,
+[class*=" icon-check"]:before {
+  font-family: 'guestlist';
+  font-style: normal;
+  font-size: .75em;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-check:before {
+  content: "\e000";
+}
+.dropdown-menu .icon-check .name {
+  padding-left: 1em;
+}
+```
 
 [14]: http://yeoman.io/
 [15]: http://yeoman.io/packagemanager.html

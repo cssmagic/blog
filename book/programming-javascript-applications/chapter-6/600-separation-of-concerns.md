@@ -5,11 +5,19 @@
 
 # Chapter 6. Separation of Concerns
 
+# 第六章 关注点分离
+
 _Separation of concerns_ is the idea that each module or layer in an application should only be responsible for one thing, and should not contain code that deals with other things. Separating concerns reduces code complexity by breaking a large application down into many smaller units of encapsulated functionality.
+
+*关注点分离* 的意思是，一个应用程序中的每个模块或逻辑层只应该对一件事情负责，而不应该包含处理其它事件的代码。分离关注点将减少代码的复杂度，通过把一个大型的应用程序打散为多个稍小一些的封闭功能单元。
 
 It's easy to confuse separation of concerns with employing modules for the construction of your application, but separation of concerns also implies the layering of functionality in your application. For example, n-tier architecture and MVC architectures are the result of separating concerns across the entire application, rather than at the individual module level. The goal of MVC and related patterns is to separate data management and presentation.
 
+我们很容易误以为关注点分离就是对应用程序的结构进行模块划分，但关注点分离同时也意味着在你的应用程序中对功能进行分层。举个例子，多层架构和 mvc 架构就是在整个应用程序中进行关注点分离的结果，而不仅仅是在单独的模型层面。mvc 和相关模式的目标就是为了将数据管理和表现层分离。
+
 Separation of concerns can be expressed as functions, modules, controls, widgets, layers, tiers, services, and so on. The various units of concern vary from one app to the next, and each different app may use a different combination. Functions and modules have already been discussed.
+
+关注点分离可以表现为函数、模块、控件、组件、功能层、逻辑层、服务等等。
 
 A _control_ is a reusable GUI input that enables user interaction with your application. For example, combo boxes, calendar inputs, sliders, buttons, switches, and knobs are all controls.
 
