@@ -2,9 +2,9 @@
 
 ## About
 
-Archive of my blog posts, which are all published as [issues](https://github.com/cssmagic/blog/issues?state=open) (almost in Chinese).
+Archive of my blog posts, which are all published as [Issues](https://github.com/cssmagic/blog/issues?state=open) (almost in Chinese).
 
-用于博客存档，所有文章均以 [issue](https://github.com/cssmagic/blog/issues?state=open) 的方式发布。
+用于博客存档，所有文章均以 [Issue](https://github.com/cssmagic/blog/issues?state=open) 的形式发布。
 
 如果你觉得文章不错，不妨：
 
@@ -17,7 +17,7 @@ Archive of my blog posts, which are all published as [issues](https://github.com
 
 * Twitter: [@cssmagic](https://twitter.com/cssmagic)
 * 新浪微博: [@CSS魔法](http://weibo.com/cssmagic)
-* [(More)](https://github.com/cssmagic/blog/issues/9)
+* [(More...)](https://github.com/cssmagic/blog/issues/9)
 
 ## License
 
@@ -29,4 +29,4 @@ Except otherwise stated, all posts are released under [Creative Commons BY-NC-ND
 
 ### 注意
 
-不建议你 Fork 本项目。如果你已将文章下载到本地磁盘，请合理使用。
+不建议你 Fork 本项目。如果你已将文章下载到本地磁盘，请留意版权归属、合理使用。
