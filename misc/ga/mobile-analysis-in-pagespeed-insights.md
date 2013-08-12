@@ -153,11 +153,11 @@ Lower roundtrip latencies are one of the key improvements in 4G networks. This w
 
 ### I am using a JavaScript library, such as JQuery, any advice?
 
-### 我正在使用一个 JavaScript 类库，比如 JQuery，有什么建议吗？
+### 我正在使用一个 JavaScript 类库，比如 jQuery，有什么建议吗？
 
 Many JavaScript libraries, such as JQuery, are used to enhance the page to add additional interactivity, animations, and other effects. However, many of these behaviors can be safely added after the ATF content is rendered. Investigate moving the execution and loading of such JavaScript until after the page is loaded.
 
-大多数 JavaScript 类库，比如 JQuery，通常用来增强页面、提供附加的交互、动画和其它效果。但是，大多数这些行为可以安全地在首屏渲染之后再加入进来。研究一下是否可以把这些 JavaScript 的加载和执行推迟到页面加载之后。
+大多数 JavaScript 类库，比如 jQuery，通常用来增强页面、提供附加的交互、动画和其它效果。但是，大多数这些行为可以安全地在首屏渲染之后再加入进来。研究一下是否可以把这些 JavaScript 的加载和执行推迟到页面加载之后。
 
 ### I am using a JavaScript framework, to construct the page, any advice?
 
@@ -213,7 +213,7 @@ If you are using CSP, then you may need to update your default policy.
 
 First, inline CSS attributes on HTML elements(e.g., `<p style=...>`) should be avoided where possible, as they often lead to unnecessary code duplication, and are blocked by default with CSP (disabled via “unsafe inline” on “style-src”). If you have inline JavaScript, then you will need to update the CSP policy with “unsafe-inline” to enable its execution. By default, CSP will block all inline script tags.
 
-首先，尽可能避免在 HTML 元素中内联 CSS 属性（比如这样 `<p style=...>`），因为它们常常导致不必要的重复代码，而且默认会被 CSP 拦截（对 `style-src` 字段使用 `unsafe-inline` 指令可以禁用此类拦截）。如果你使用了内联的 JavaScript，那么你需要在 CSP 策略中使用 `unsafe-inline` 指令来令其执行。默认情况下，CSP 将拦截所有内联脚本标签。（译注：这里的“内联 JavaScript”包括多种形态的脚本代码，包括类似 `<script>foo();</script>` 这样的内嵌脚本标签、类似 `<a href="javascript:foo();">` 这样的伪协议 URL、类似 `<a href="#" onclick="foo();">` 这样的事件处理属性。）
+首先，尽可能避免在 HTML 元素中内联 CSS 属性（比如这样 `<p style=...>`），因为它们常常导致不必要的重复代码，而且默认会被 CSP 拦截（对 `style-src` 字段使用 `unsafe-inline` 指令可以禁用此类拦截）。如果你使用了内联的 JavaScript，那么你需要在 CSP 策略中使用 `unsafe-inline` 指令来令其执行。默认情况下，CSP 将拦截所有内联脚本标签。（译注：这里的“内联 JavaScript”包括多种形态的 HTML 内部的脚本代码，包括类似 `<script>foo();</script>` 这样的内嵌脚本标签、`<a href="javascript:foo();">` 这样的伪协议 URL、以及 `<a href="#" onclick="foo();">` 这样的事件处理属性。）
 
 Have more questions? Please feel free to ask and provide feedback in our discussion group at [page-speed-discuss](http://groups.google.com/group/page-speed-discuss).
 
