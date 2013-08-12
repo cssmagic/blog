@@ -3,7 +3,7 @@
 > * Original: [Table of Contents - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
-![programming-javascript-applications-book-cover](https://f.cloud.github.com/assets/1231359/794047/afc032be-ec64-11e2-853b-9dc795bf263d.jpg)
+![programming-javascript-applications-book-cover](https://f.cloud.github.com/assets/1231359/945961/f2d25566-0323-11e3-8498-4948059d5b87.png)
 
 ## 译者按
 
