@@ -1,4 +1,4 @@
-# [译] 在 PageSpeed Insights 中分析移动网站
+# [译] 在 PageSpeed Insights 中分析移动网站（又名：如何做到一秒渲染一个移动页面）
 
 > * Original: [Mobile Analysis in PageSpeed Insights - PageSpeed Insights - Google Developers](https://developers.google.com/speed/docs/insights/mobile)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
@@ -40,7 +40,7 @@ With that in mind, let’s now work backwards. If we look at a typical sequence 
 
 > #### [Figure 1] Render a mobile page in 1 second
 
-> #### [图 1] 一秒渲染一个移动端页面
+> #### [图 1] 一秒渲染一个移动页面
 
 > * DNS Lookup (200 ms)
 > * TCP Connection (200 ms)
@@ -126,9 +126,9 @@ Complicated scripts and inefficient code can take tens and hundreds of milliseco
 
 执行复杂的脚本和低效的代码可能会耗费几十或上百毫秒——可以使用浏览器内建的开发者工具来收集概况、优化代码。如果你想深入这个话题，不妨看看我们的[《Chrome 开发者工具交互教程》](http://discover-devtools.codeschool.com)。
 
-> **Note: **The above is also not the complete list of all possible optimizations - it is a list of top mobile criteria to deliver a sub one second rendering time - and all other [web performance best practices](/speed/docs/insights/rules) should be applied. Check out [PageSpeed Insights](/speed/pagespeed/insights) for further advice and recommendations.
+> **Note: **The above is also not the complete list of all possible optimizations - it is a list of top mobile criteria to deliver a sub one second rendering time - and all other [web performance best practices](https://developers.google.com/speed/docs/insights/rules) should be applied. Check out [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights) for further advice and recommendations.
 
-> **请注意**：以上并未列举出所有可能的优化方案——只列出了一些移动端达成半秒渲染时间的基本准则——其它所有的[网页性能最佳实践](/speed/docs/insights/rules)也应该运用起来。到 [PageSpeed Insights](/speed/pagespeed/insights) 来看看，获取进一步的建议和推荐方案。
+> **请注意**：以上并未列举出所有可能的优化方案——只列出了一些移动端达成半秒渲染时间的基本准则——其它所有的[网页性能最佳实践](https://developers.google.com/speed/docs/insights/rules)也应该运用起来。到 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights) 来看看，获取进一步的建议和推荐方案。
 
 > For a deep-dive on the above mobile criteria, also check out
 
@@ -187,9 +187,9 @@ In Chrome Developer Tools, open the Audits panel, and run a Web Page Performance
 
 ### 这些最佳实践可以自动化吗？
 
-Absolutely. There are many commercial and open-source web performance optimization (WPO) products which can help you meet some or all of the criteria above. For open-source solutions, take a look at the [PageSpeed optimization tools](/speed/pagespeed/optimization).
+Absolutely. There are many commercial and open-source web performance optimization (WPO) products which can help you meet some or all of the criteria above. For open-source solutions, take a look at the [PageSpeed optimization tools](https://developers.google.com/speed/pagespeed/optimization).
 
-当然可以。有很多商业的或开源的网页性能优化（WPO）产品都可以帮你达成上述部分或全部准则。对于开源解决方案，不妨看看 [PageSpeed 优化工具](/speed/pagespeed/optimization)。
+当然可以。有很多商业的或开源的网页性能优化（WPO）产品都可以帮你达成上述部分或全部准则。对于开源解决方案，不妨看看 [PageSpeed 优化工具](https://developers.google.com/speed/pagespeed/optimization)。
 
 ### How do I tune my server to meet these criteria?
 
@@ -228,5 +228,5 @@ Have more questions? Please feel free to ask and provide feedback in our discuss
 &copy; Creative Commons BY-NC-ND 3.0 &nbsp; | &nbsp; [我要订阅](http://www.cssmagic.net/blog/subscribe) &nbsp; | &nbsp; [我要捐助](http://www.cssmagic.net/blog/donate)
 
 &nbsp;
-> * [参与评论](https://github.com/cssmagic/blog/issues/XXXXXXXXXX)
+> * [参与评论](https://github.com/cssmagic/blog/issues/20)
 > * [查看更多文章](https://github.com/cssmagic/blog/issues?state=open)
