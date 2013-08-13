@@ -158,9 +158,9 @@ mergeTo; // is: [4, 5, 6, 7, 8, 9]
 
 A wonderful example of a lessor-known, simple native method for completing the basic task of array merging.
 
-这是一个典型的冷知识，简单的方法就可以实现数组合并这样的常见任务。
+这是一项不为人知的小技巧，简单的原生方法就可以实现数组合并这样的常见任务。
 
-（译注：真正的技巧不在于 `push` 方法，而在于 `aplly` 方法的第二个参数。）
+（译注：这个方法的巧妙之外不仅在于 `push` 方法可以接收多个参数，还涉及到 `apply` 方法的第二个参数的用法。）
 
 ## 6. Efficient Feature/Object Property Detection
 
@@ -213,7 +213,7 @@ $("a.trigger").on("click", function(e) {
 
 The problem with this lazy method of stopping the event is that not only does it prevent the default action, but it stops propagation of the event, meaning other event listeners for the elements wont fire because they don't know about the event. It's best to simply use `preventDefault`!
 
-这个懒方法有一个问题，它不仅阻止了浏览器的默认动作，同时也阻止了事件继续冒泡。这意味着元素上绑定的其它事件监听器将不会被触发，因为其它事件监听器根本就不知道有事件发生。此时不妨使用 `preventDefault` 吧！
+这个懒方法有一个问题，它不仅阻止了浏览器的默认动作，同时也阻止了事件继续冒泡。这意味着元素上绑定的其它事件监听器将不会被触发，因为它们根本就不知道有事件发生。此时不妨使用 `preventDefault` 吧！
 
 Seasoned JavaScript developers will see this post and say "I knew those," but at one point or another, they got tripped up on some of these points. Be mindful of the little things in JavaScript because they can make a big difference.
 
