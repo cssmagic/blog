@@ -46,7 +46,7 @@ Every JavaScript developer has been bitten by each of the flags in the past -- s
 
 Array's slice method is principally for grabbing segments of an array. What many developers don't know is that slice can be used to covert Array-like objects like arguments, NodeLists, and attributes into true arrays of data:
 
-数组的 `slice` 方法通常用来从一个数组中抽取片断。但很多开发者不了解的是，这个方法还可以用来将“类数组”元素（比如 `arguments` 参数列表、节点列表和 attributes）转换成真正的数组：（译注：抱歉，实在不明白这里的 attributes 是指什么。）
+数组的 `slice` 方法通常用来从一个数组中抽取片断。但很多开发者不了解的是，这个方法还可以用来将“类数组”元素（比如 `arguments` 参数列表、节点列表和属性列表）转换成真正的数组：（译注：DOM 元素的属性列表通过 `attributes` 属性获取，比如 `document.body.attributes`。）
 
 ```js
 var nodesArr = Array.prototype.slice.call(document.querySelectorAll("div"));
