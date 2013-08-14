@@ -116,7 +116,7 @@ As a result, the JavaScript and CSS needed to render the above the fold region s
 
 The process of parsing the HTML, CSS, and executing JavaScript takes time and client resources! Depending on the speed of the mobile device, and the complexity of the page, this process can take hundreds of milliseconds. Our recommendation is to reserve 200 milliseconds for browser overhead.
 
-解析 HTML 和 CSS、执行 JavaScript 的过程也将消耗时间和客户端资源！取决于移动设置的速度和页面的复杂度，这个过程将占用几百毫秒。我们的建议是预留 200 ms 作为浏览器的时间消耗。
+解析 HTML 和 CSS、执行 JavaScript 的过程也将消耗时间和客户端资源！取决于移动设备的速度和页面的复杂度，这个过程将占用几百毫秒。我们的建议是预留 200 ms 作为浏览器的时间消耗。
 
 ### (6) Optimize JavaScript execution and rendering time
 
