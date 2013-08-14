@@ -126,7 +126,7 @@ Complicated scripts and inefficient code can take tens and hundreds of milliseco
 
 执行复杂的脚本和低效的代码可能会耗费几十或上百毫秒——可以使用浏览器内建的开发者工具来收集概况、优化代码。如果你想深入这个话题，不妨看看我们的[《Chrome 开发者工具交互教程》](http://discover-devtools.codeschool.com)。
 
-> **Note: **The above is also not the complete list of all possible optimizations - it is a list of top mobile criteria to deliver a sub one second rendering time - and all other [web performance best practices](https://developers.google.com/speed/docs/insights/rules) should be applied. Check out [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights) for further advice and recommendations.
+> **Note**: The above is also not the complete list of all possible optimizations - it is a list of top mobile criteria to deliver a sub one second rendering time - and all other [web performance best practices](https://developers.google.com/speed/docs/insights/rules) should be applied. Check out [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights) for further advice and recommendations.
 
 > **请注意**：以上并未列举出所有可能的优化方案——只列出了一些移动端达成半秒渲染时间的基本准则——其它所有的[网页性能最佳实践](https://developers.google.com/speed/docs/insights/rules)也应该运用起来。到 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights) 来看看，获取进一步的建议和推荐方案。
 
