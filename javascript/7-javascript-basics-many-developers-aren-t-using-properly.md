@@ -3,6 +3,8 @@
 > * Original: [7 JavaScript Basics Many Developers Aren't Using (Properly)](http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
+![JavaScript](https://f.cloud.github.com/assets/1231359/967278/4822777c-0571-11e3-8241-19d3e4468795.png)
+
 JavaScript, at its base, is a simple language that we continue to evolve with intelligent, flexible patterns. We've used those patterns in JavaScript frameworks which fuel our web applications today. Lost in JavaScript framework usage, which many new developers are thrust right into, are some of the very useful JavaScript techniques that make basic tasks possible. Here are seven of those basics:
 
 JavaScript 本身可以算是一门简单的语言，但我们也不断用智慧和灵活的模式来改进它。昨天我们将这些模式应用到了 JavaScript 框架中，今天这些框架又驱动了我们的 Web 应用程序。很多新手开发者被各种强大的 JavaScript 框架吸引进来，但他们却忽略了框架身后浩如星海的 JavaScript 实用技巧。本文将为你呈献其中七个基础知识点：
