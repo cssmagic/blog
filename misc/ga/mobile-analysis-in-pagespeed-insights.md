@@ -1,4 +1,4 @@
-# [译] 在 PageSpeed Insights 中分析移动网站（又名：如何做到一秒渲染一个移动页面）
+# [译] 如何做到一秒渲染一个移动页面（原名：在 PageSpeed Insights 中分析移动网站）
 
 > * Original: [Mobile Analysis in PageSpeed Insights - PageSpeed Insights - Google Developers](https://developers.google.com/speed/docs/insights/mobile)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
