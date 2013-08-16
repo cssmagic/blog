@@ -6,7 +6,7 @@ Archive of my blog posts, which are all published as [Issues](https://github.com
 
 用于博客存档，所有文章均以 [Issue](https://github.com/cssmagic/blog/issues?state=open) 的形式发布。
 
-如果你觉得文章不错，不妨：
+不想错过更多好文？请立即：
 
 * [订阅](http://www.cssmagic.net/blog/subscribe)
 * [小额捐助](http://www.cssmagic.net/blog/donate)
