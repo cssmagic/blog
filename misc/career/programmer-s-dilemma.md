@@ -15,7 +15,7 @@ But most of them cannot answer a really basic question: **When we call the stand
 
 Don't be astonished. When I ask one of the candidate to write a simple LRU cache framework based on glib hash functions, he firstly claimed he had never used glib -- that's what I expected -- I showed the glib hash api page and explained the APIs to him in detail, then after almost an hour he wrote only a few lines of messy code.
 
-先别吃惊。当我要求其中一位候选人基于 glib 的哈希函数写一个简单的 LRU 缓存框架时，他先是表示从来没用过 glib——这正是我所期望的——于是我帮他打开了 glib 哈希 API 的页面，并向他详细讲解了这些 API；然后大约一个小时以后，他只写出几行凌乱的代码。
+先别吃惊。当我要求其中一位候选人基于 glib 的哈希函数写一个简单的 LRU 缓存框架时，他先是表示从来没用过 glib——如我所料——于是我帮他打开了 glib 哈希 API 的页面，并向他详细讲解了这些 API；然后大约一个小时以后，他只写出了几行凌乱的代码。
 
 I don't know if the situation is similar in other countries, but in China, or more specifically, in Beijing, this is reality. "Senior" programmers who worked for big, famous foreign companies for years cannot justify themselves in simple, fundamental problems.
 
@@ -45,25 +45,25 @@ This is so called " **Expert Trap** ". From day to day, we programmers dreamed o
 
 ### 对于个人：
 
-First of all, **Do your own personal projects**. You need to "sharpen your saw" continuously. If the job itself cannot help you do so, pick up the problems you want to concur and conquer it in your personal time. By doing so, most likely you will learn new things. If you publish your personal projects, say in github, you may get chances to know people who may pull you away from your existing position.
+* First of all, **Do your own personal projects**. You need to "sharpen your saw" continuously. If the job itself cannot help you do so, pick up the problems you want to concur and conquer it in your personal time. By doing so, most likely you will learn new things. If you publish your personal projects, say in github, you may get chances to know people who may pull you away from your existing position.
 
-首先， **打造你自己的私人项目**。你需要不断地打磨自己的技艺。如果工作本身并不能帮助你做到这一点，就捡起那些你感兴趣的问题，然后用你的私人时间去攻克它。通过这个方法，你应该会学到新东西。如果把你的私人项目发布出去，比如在 GitHub 上，你说不定会认识一些人，帮助你大踏步地向前迈进。
+* 首先， **打造你自己的私人项目**。你需要不断地打磨自己的技艺。如果工作本身并不能帮助你做到这一点，就捡起那些你感兴趣的问题，然后用你的私人时间去攻克它。通过这个方法，你应该会学到新东西。如果把你的私人项目发布出去，比如在 GitHub 上，你说不定会认识一些人，帮助你大踏步地向前迈进。
 
-**Do not stay in a same team for more than two years**. Force yourself to move around, even if in the same organization, same company, you will face new challenges and new technologies. Try to do job interviews every 18 months. You don't need to change your job, but you can see what does the market require and how you fit into it.
+* **Do not stay in a same team for more than two years**. Force yourself to move around, even if in the same organization, same company, you will face new challenges and new technologies. Try to do job interviews every 18 months. You don't need to change your job, but you can see what does the market require and how you fit into it.
 
-**不要在一个团队中停留超过两年**。强迫你自己四处转转，哪怕在是同一家公司内，你会面对新的挑战和新的技术。试着每隔 18 个月就出去面试工作。你并不需要真的换工作，但是这能让你看到真实的市场需求，以及怎样与时俱进。
+* **不要在一个团队中停留超过两年**。强迫你自己四处转转，哪怕在是同一家公司内，你会面对新的挑战和新的技术。试着每隔 18 个月就出去面试工作。你并不需要真的换工作，但是这能让你看到真实的市场需求，以及怎样与时俱进。
 
 ### For team/company --
 
 ### 对于团队和公司：
 
-**Give pressures and challenges to the employees.** Rotate the jobs, let the "experts" have chance to broaden their skills. Start new projects, feed the warriors with battles.
+* **Give pressures and challenges to the employees.** Rotate the jobs, let the "experts" have chance to broaden their skills. Start new projects, feed the warriors with battles.
 
-**给予员工压力和挑战**。实行轮岗制度，让“专家”们有机会拓展他们的技能。启动新项目，用战役来磨炼你的勇士。
+* **给予员工压力和挑战**。实行轮岗制度，让“专家”们有机会拓展他们的技能。启动新项目，用战役来磨炼你的勇士。
 
-**Hold hackathon periodically.** This will help to build a culture that embrace innovation and creation. People will be motivated by their peers -- "gee, that bustard can write such a beautiful framework for 24 hours, I gotta work hard".
+* **Hold hackathon periodically.** This will help to build a culture that embrace innovation and creation. People will be motivated by their peers -- "gee, that bustard can write such a beautiful framework for 24 hours, I gotta work hard".
 
-**周期性地举办黑客马拉松活动**。这有助于营造一种崇尚创新和创作的企业文化，人们会受到同伴的激励——“擦，这个混蛋居然可以在 24 小时内写出这么漂亮的框架，我也得加把劲儿了！”
+* **周期性地举办黑客马拉松活动**。这有助于营造一种崇尚创新和创作的企业文化，人们会受到同伴的激励——“擦，这个混蛋居然可以在 24 小时内写出这么漂亮的框架，我也得加把劲儿了！”
 
 ***
 
