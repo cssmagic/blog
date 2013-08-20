@@ -19,7 +19,7 @@ Don't be astonished. When I ask one of the candidate to write a simple LRU cache
 
 I don't know if the situation is similar in other countries, but in China, or more specifically, in Beijing, this is reality. "Senior" programmers who worked for big, famous foreign companies for years cannot justify themselves in simple, fundamental problems.
 
-我不知道其它国家是否也有类似的情况，但在中国，或者更精确一些，在北京，这就是现状。那些在不错的大公司里工作了多年的“资深”程序员们无法在一些简单的、基本的问题上证明自己。
+我不知道其它国家是否也有类似的情况，但在中国，或者更具体一点，在北京，这就是现状。那些在不错的大公司里工作了多年的“资深”程序员们无法在一些简单的、基本的问题上证明自己。
 
 ***
 
