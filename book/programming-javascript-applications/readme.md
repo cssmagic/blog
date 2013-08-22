@@ -62,7 +62,7 @@
 * [性能](https://github.com/cssmagic/blog/issues/19)
 * 对象
 * 语法
-* 一等公民——函数
+* 函数是一等公民
 * 事件
 * 重用
 * 最终结果
