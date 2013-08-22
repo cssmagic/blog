@@ -8,4 +8,4 @@ Except otherwise stated, all posts are released under [Creative Commons BY-NC-ND
 
 ### 注意
 
-不建议你 Fork 本项目。如果你已将文章下载到本地磁盘，请合理使用。
+不建议你 Fork 本项目。如果你已将文章下载到本地磁盘，请留意版权归属、合理使用。
