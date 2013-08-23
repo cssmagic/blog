@@ -146,7 +146,7 @@
 
 ### 第四章 对象
 
-* 传统的继承已经过时了
+* [类继承已经过时了](https://github.com/cssmagic/blog/issues/25)
 * 语流风格的 JavaScript
 * 原型
 	* 原型属性
