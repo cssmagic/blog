@@ -6,9 +6,7 @@
 
 > **声明**：原文版权属于 [Louie Dinh](http://ldinh.ca/)，原文以 CC BY-SA 3.0 协议发布。
 
-Python was created by Guido Van Rossum in the early 90's. It is now one of the most popular
-languages in existence. I fell in love with Python for its syntactic clarity. It's basically
-executable pseudocode.
+Python was created by Guido Van Rossum in the early 90's. It is now one of the most popular languages in existence. I fell in love with Python for its syntactic clarity. It's basically executable pseudocode.
 
 Python 是 90 年代初由 Guido Van Rossum 创立的。它是当前最流行的程序语言之一。它那纯净的语法令我一见倾心，它简直就是可以运行的伪码。
 
@@ -16,10 +14,9 @@ Feedback would be highly appreciated! You can reach me at [@louiedinh](http://tw
 
 非常欢迎您提交反馈！您可以通过 [@louiedinh](http://twitter.com/louiedinh) 联系到我，也可以发邮件到 `louiedinh` 开头的 Google Email 账号。
 
-Note: This article applies to Python 2.7 specifically, but should be applicable
-to Python 2.x. Look for another tour of Python 3 soon!
+Note: This article applies to Python 2.7 specifically, but should be applicable to Python 2.x. Look for another tour of Python 3 soon!
 
-请注意：本文以 Python 2.7 为基准，但也应该适用于所有 2.X 版本。记得继续学习未来的 Python 3 哦！
+请注意：本文以 Python 2.7 为基准，但也应该适用于所有 2.X 版本。还要继续学习最新的 Python 3 哦！
 
 ```python
 # Single line comments start with a hash.
@@ -561,7 +558,7 @@ class Human(object):
     species = "H. sapiens"
 
     # Basic initializer
-    # 基本的初始化函数（构建函数）
+    # 基本的初始化函数（构造函数）
     def __init__(self, name):
         # Assign the argument to the instance's name attribute
         # 把参数赋值为实例的 name 属性
