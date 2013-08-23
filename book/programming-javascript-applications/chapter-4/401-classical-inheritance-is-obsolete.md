@@ -41,7 +41,7 @@ _Composition is more like Lego blocks_. The various pieces aren't designed to fi
 
 When you design for classical inheritance, you design a child class to inherit from a specific parent class. The specific parent class name is usually hard coded right in the child class, with no mechanism to override it. Right from the start, you're boxing yourself in -- limiting the ways that you can reuse your code without rethinking its design at a fundamental level.
 
-当你在设计类继承时，你会从一个特定的父类继承出一个子类。这个特定的父类的名称通常会在子类中写死，而没有任何机制可以覆盖它。而从一开始，你就在跟自己搏斗——限制了你重用代码的方式，而没有在基本层面去重新思考它的设计。
+当你在设计类继承时，你会从一个特定的父类继承出一个子类。这个特定的父类的名称通常会在子类中写死，而没有任何机制可以覆盖它。而从一开始，你就在跟自己搏斗——你限制了重用代码的方式，而没有在一个基本层面去反思它的设计。
 
 When you design for composition, the sky is the limit. As long as you can successfully avoid colliding with properties from other source objects, objects can be composed and reused virtually any way you see fit. Once you get the hang of it, composition affords a tremendous amount of freedom compared to classical inheritance. For people who have been immersed in classical inheritance for years, and learn how to take real advantage of composition (specifically using prototypal techniques), it is literally like walking out of a dark tunnel into the light and seeing a whole new world of possibilities open up for you.
 
