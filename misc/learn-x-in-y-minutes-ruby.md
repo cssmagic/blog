@@ -117,7 +117,7 @@ x #=> 10
 y #=> 10
 
 # By convention, use snake_case for variable names
-# 按照惯例，变更名使用下划线串连的小写字母
+# 按照惯例，变量名使用由下划线串连的小写字母
 # （译注：因为看起来像一条蛇，这种拼写称作“snake case”）
 snake_case = true
 
