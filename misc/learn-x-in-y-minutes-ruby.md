@@ -8,7 +8,7 @@
 
 ```ruby
 # This is a comment
-# 这是一条注释
+# 这是一行注释
 
 =begin
 This is a multiline comment
@@ -25,9 +25,10 @@ You shouldn't either
 # 数字是对象
 
 3.class #=> Fixnum
-        # （译注：返回 Fixnum，即整数类。）
+        # （译注：`class` 属性指向对象所属的类。这里的 Fixnum 即整数类。）
 
 3.to_s #=> "3"
+       # （译注：`to_s` 是整数对象的一个方法，其作用是转换为字符串。）
 
 
 # Some basic arithmetic
@@ -39,7 +40,7 @@ You shouldn't either
 
 # Arithmetic is just syntactic sugar
 # for calling a method on an object
-# 这些运算实际上都是语法糖
+# 这些运算符实际上都是语法糖，
 # 相当于在对象上调用方法
 1.+(3) #=> 4
 10.* 5 #=> 50
@@ -78,22 +79,23 @@ false.class #=> FalseClass
        # （译注：这个毁三观啊！）
 
 # More comparisons
-# 更多的比较操作
+# 更多比较操作
 1 < 10 #=> true
 1 > 10 #=> false
 2 <= 2 #=> true
 2 >= 2 #=> true
 
 # Strings are objects
-# 字符串是对象
+# 字符串当然还是对象
 
 'I am a string'.class #=> String
 "I am a string too".class #=> String
+# （译注：用单引号或双引号来标记字符串。）
 
 placeholder = "use string interpolation"
 "I can #{placeholder} when using double quoted strings"
 #=> "I can use string interpolation when using double quoted strings"
-# （译注：这里展现了字符串插入。）
+# （译注：这里展现了字符串插入方法。）
 
 
 # print to the output
@@ -115,7 +117,8 @@ x #=> 10
 y #=> 10
 
 # By convention, use snake_case for variable names
-# 按照惯例，变更名使用下划线串连的全小写（称作“snake case”）
+# 按照惯例，变更名使用下划线串连的小写字母
+# （译注：因为看起来像一条蛇，这种拼写称作“snake case”）
 snake_case = true
 
 # Use descriptive variable names
@@ -129,7 +132,7 @@ path = '/bad/name/'
 # specific, meaningful values
 # 符号（也是对象）
 # 符号是不可修改的、可重用的常量，在内部表示为一个整数值。
-# 它们经常被用来代替字符串，来有效地传递一些特定的、有意义的值。
+# 它们通常被用来代替字符串，来有效地传递一些特定的、有意义的值。
 
 :pending.class #=> Symbol
 
@@ -155,15 +158,15 @@ array = [1, "hello", false] #=> => [1, "hello", false]
 
 # Arrays can be indexed
 # From the front
-# 数组可以用索引来查询，下面是顺序方式
+# 数组可以用索引号来查询，下面是顺序索引查询
 array[0] #=> 1
 array[12] #=> nil
 
 # Like arithmetic, [var] access
 # is just syntactic sugar
 # for calling a method [] on an object
-# 类似于运算，[var] 这种语法也是语法糖，
-# 相当于在对象上调用一个 [] 方法
+# 类似于运算符，[var] 这种查询语法也是语法糖，
+# 相当于在对象上调用 [] 方法
 array.[] 0 #=> 1
 array.[] 12 #=> nil
 
@@ -207,7 +210,7 @@ hash.each do |k, v|
 end
 
 # Since Ruby 1.9, there's a special syntax when using symbols as keys:
-# 从 Ruby 1.9 开始，当使用符号作为键名时，有一种特殊语法：
+# 从 Ruby 1.9 开始，当使用符号作为键名时，有其特定语法：
 
 new_hash = { defcon: 3, action: true}
 
@@ -241,7 +244,7 @@ end
 # HOWEVER
 # No-one uses for loops
 # Use `each` instead, like this:
-# 但是，
+# 不过，
 # 没人喜欢用 for 循环，
 # 大家都用 `each` 来代替了，像这样：
 
@@ -290,7 +293,7 @@ def double(x)
 end
 
 # Functions (and all blocks) implcitly return the value of the last statement
-# 函数（包括所有的代码块）隐式地返回最后一句声明的值
+# 函数（包括所有的代码块）隐式地返回最后一行语句的值
 double(2) #=> 4
 
 # Parentheses are optional where the result is unambiguous
@@ -305,7 +308,7 @@ def sum(x,y)
 end
 
 # Method arguments are separated by a comma
-# 参数使用逗号来分隔
+# 方法的参数使用逗号来分隔
 sum 3, 4 #=> 7
 
 sum sum(3,4), 5 #=> 12
@@ -341,10 +344,10 @@ class Human
     # 基本的初始化函数（构造函数）
     def initialize(name, age=0)
         # Assign the argument to the "name" instance variable for the instance
-        # 把参数赋值给 `name` 实例变量
+        # 把参数 `name` 赋值给实例变量 `@name`
         @name = name
         # If no age given, we will fall back to the default in the arguments list.
-        # 如果没有指定 age，我们会从参数列表中获取作为后备的默认值。
+        # 如果没有指定 age，我们会从参数列表中获取后备的默认值。
         @age = age
     end
 
@@ -362,7 +365,7 @@ class Human
 
     # A class method uses self to distinguish from instance methods.
     # It can only be called on the class, not an instance.
-    # 一个类方法使用 `self` 来与实例方法区分开来。
+    # 一个类方法使用开头的 `self` 来与实例方法区分开来。
     # 它只能在类上调用，而无法在实例上调用。
     def self.say(msg)
        puts "#{msg}"
