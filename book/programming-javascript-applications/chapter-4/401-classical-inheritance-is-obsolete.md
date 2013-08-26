@@ -57,7 +57,7 @@ Back to "Design Patterns". Why is the seminal work on Object Oriented design so 
 
 2. _Inflexible hierarchies._ Single parent hierarchies are rarely capable of describing all possible use cases. Eventually, all hierarchies are "wrong" for new uses -- a problem that necessitates code duplication.
 
-    **不灵活的层级系统**。单个父类层级很难描述所有用例的可能性。最终，所有层级对新用法来说都是“错误”的——不得不引入代码重复的问题。
+    **不灵活的层级系统**。单个父类层级很难描述所有应用场景的可能性。最终，所有层级对新用法来说都是“错误”的——不得不引入代码重复的问题。
 
 3. _Multiple inheritance is complicated._ It's often desirable to inherit from more than one parent. That process is inordinately complex and its implementation is inconsistent with the process for single inheritance, which makes it harder to read and understand.
 
