@@ -49,7 +49,7 @@ When you design for composition, the sky is the limit. As long as you can succes
 
 Back to "Design Patterns". Why is the seminal work on Object Oriented design so distinctly anti-inheritance? Because inheritance causes several problems:
 
-回到“设计模式”。为什么这本 OO 领域的著作会如此旗帜鲜明地反对继承？因为继承会导致以下问题：
+回到“设计模式”。为什么这本面向对象领域的著作会如此旗帜鲜明地反对继承？因为继承会导致以下问题：（译注：“面向对象”即 Object Oriented，以下简称 OO。）
 
 1. _Tight coupling._ Inheritance is the tightest coupling available in OO design. Descendant classes have an intimate knowledge of their ancestor classes.
 
