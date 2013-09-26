@@ -101,14 +101,14 @@ JavaScript can do most of the OO things you're accustomed to in other languages,
 
 JavaScript 几乎可以实现所有其它语言所能做到的 OO 行为，比如继承、数据私有化、多态等等。然而，JavaScript 原生具备的很多能力就足以让一些基于类的 OO 特性和模式变得过时。所以最好别再问“怎样在 JavaScript 中实现类继承”，而应该问“我在 JavaScript 中可以做哪些不一样的、超酷的事情？”
 
-I wish I could tell you that you'll never have to deal with classical inheritance in JavaScript. Unfortunately, because classical inheritance is easy to mimic in JavaScript, and many people come from class-based programming backgrounds, there are several popular libraries which feature classical inheritance prominently, including Backbone.js, which you'll have a chance to explore soon. When you do encounter situations in which you're forced to subclass by other programmers, keep in mind that inheritance hierarchies should be kept as small as possible. Avoid subclassing subclasses, remember that you can mix and match different code, reuse styles, and things will go more smoothly.
+> `[!]` I wish I could tell you that you'll never have to deal with classical inheritance in JavaScript. Unfortunately, because classical inheritance is easy to mimic in JavaScript, and many people come from class-based programming backgrounds, there are several popular libraries which feature classical inheritance prominently, including Backbone.js, which you'll have a chance to explore soon. When you do encounter situations in which you're forced to subclass by other programmers, keep in mind that inheritance hierarchies should be kept as small as possible. Avoid subclassing subclasses, remember that you can mix and match different code, reuse styles, and things will go more smoothly.
 
-但愿你可以明白，你永远不需要在 JavaScript 中使用类继承模式。但不幸的是，由于类继承在 JavaScript 中很容易模似，而且有太人来自于基于类的编程背景，导致很一些流行的类库特意引入了类继承的特性，这其中包括 Backbone.js，我们后面会有机会详细了解它。如果你确实遇到不得不使用其它程序员写的子类的情况，请牢记继承层级应该控制得尽可能少。要避免创建子类的子类，别忘了你可以混合并匹配不同的代码、重用样式，然后事情会变得更加顺利。
+> `[!]` 但愿你可以明白，你永远不需要在 JavaScript 中使用类继承模式。但不幸的是，由于类继承在 JavaScript 中很容易模似，而且有太人来自于基于类的编程背景，导致很一些流行的类库特意引入了类继承的特性，这其中包括 Backbone.js，我们后面会有机会详细了解它。如果你确实遇到不得不使用其它程序员写的子类的情况，请牢记继承层级应该控制得尽可能少。要避免创建子类的子类，别忘了你可以混合并匹配不同的代码、重用样式，然后事情会变得更加顺利。
 
 ***
 
 &copy; Creative Commons BY-NC-ND 3.0 &nbsp; | &nbsp; [我要订阅](http://www.cssmagic.net/blog/subscribe) &nbsp; | &nbsp; [我要捐助](http://www.cssmagic.net/blog/donate)
 
 &nbsp;
-> * [参与评论](https://github.com/cssmagic/blog/issues/XXXXXXXXXX)
+> * [参与评论](https://github.com/cssmagic/blog/issues/25)
 > * [查看更多文章](https://github.com/cssmagic/blog/issues?state=open)
