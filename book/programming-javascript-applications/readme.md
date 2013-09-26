@@ -172,10 +172,10 @@
 * Building Client-Side Code With CommonJS, npm, Grunt, and Browserify
 	* Defining the App
 
-### 第五章 模块
+### [第五章 模块](https://github.com/cssmagic/blog/issues/30)
 
-* 模块化的原则
-* 接口
+* [模块化的原则](https://github.com/cssmagic/blog/issues/31)
+* [接口](https://github.com/cssmagic/blog/issues/32)
 * 模块模式
 * AMD 规范
 	* 插件
