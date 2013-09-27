@@ -17,7 +17,7 @@
 
 _Interfaces_ are one of the primary tools of modular software design. Interfaces define a contract that an implementing module will fulfill. For instance, a common problem in JavaScript applications is that the application stops functioning if the Internet connection is lost. In order to solve that problem, you could use local storage and sync changes periodically with the server. Unfortunately, some browsers don't support local storage, so you may have to fall back to cookies or even flash (depending on how much data you need to store).
 
-**接口** 是模块化软件设计的一个基本工具。接口约定了一个完整模块所能实现的功能。我们用一个实例来讲解吧。JavaScript 应用程序有一个常见问题，一旦互联网连接断开之后，应用程序就停止工作了。为了解决这个问题，你可能会使用本地存储（localStorage）特性，并且定期向服务器同步数据变化。不幸的是，部分浏览器并不支持本地存储，所以你可能不得不降级到 Cookie 或 Flash 的存储功能（这取决于你需要保存的数据量）。
+**接口** 是模块化软件设计的一个基本工具。接口约定了一个还在开发中的模块将要实现哪些功能。我们用一个实例来讲解吧。JavaScript 应用程序有一个常见问题，一旦互联网连接断开之后，应用程序就停止工作了。为了解决这个问题，你可能会使用本地存储（localStorage）特性，并且定期向服务器同步数据变化。不幸的是，部分浏览器并不支持本地存储，所以你可能不得不降级到 Cookie 或 Flash 的存储功能（这取决于你需要存储的数据量大小）。
 
 That will be difficult if your business logic depends directly on <del>your</del> the localStorage features. For example, in *Figure 5-1*:
 
@@ -74,7 +74,7 @@ For example, using `O.js` to define the factory:
         save: function saveStream() {
           // Save the post stream.
           // 保存待发送的数据流。
-          // （译注：这个方法会在下面被覆盖掉。）
+          // （译注：这个空函数只是占位而已，这个方法会在下面被覆盖掉。）
         }
       }
     }),
@@ -172,7 +172,9 @@ The important part here is the stream interface. First you create the factory (u
 
 Create a concrete implementation by calling the factory function, and passing in the concrete methods. If the interface is especially large, you might want to put each implementation in a separate file. In this case, it's a single one-line method. Notice that the concrete implementations are using named function expressions. During debugging, you'll be able to see which concrete implementation you're using by looking at the function name in the call stack:
 
-通过调用工厂函数来创建一个具体实现，然后把具体方法传进去。如果接口的代码量特别大，你可能倾向于把每个实现分别放进独立的文件中。在这种情况下，每个文件就只包含一个单行方法。请注意这些具体实现都在使用具名的函数表达式。这样在调试期间，你可以通过观察调用堆栈中的函数名来判断你正在使用哪种具体实现：
+通过调用工厂函数来创建一个具体实现，然后把具体方法传进去。如果接口的代码量特别大，你可能倾向于把每个实现分别放进独立的文件中。在这种情况下，每个文件就只包含一个单行方法。请注意这些具体实现都使用了具名函数表达式。这样在调试期间，你可以通过观察调用堆栈中的函数名来判断你正在使用哪种具体实现：
+
+（译注：这是一个不错的调试技巧。“具名函数表达式”是指使用了 `saveStreamLocal` 和 `saveStreamCookie` 这样的函数名的函数表达式。）
 
 ```js
     localStorageProvider = streamInterface({
