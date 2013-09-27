@@ -1,9 +1,9 @@
-# [译] iOS7 之 HTML5 综合评测：亮点、弱点和槽点
+# [译] iOS 7 之 HTML5 综合评测：亮点、弱点和槽点
 
 > * Original: [The HTML5 Scorecard: The Good, The Bad and the Ugly in iOS 7](http://www.sencha.com/blog/the-html5-scorecard-the-good-the-bad-and-the-ugly-in-ios7/)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
-![iOS7][58]
+![iOS7]
 
 We've been testing the final release of iOS 7 over the last few days against our usual battery of HTML5 tests. Normally we're effusive about new releases of iOS to the point of fanboy-dom, but this time, and for the first time ever, we're disappointed in the execution of iOS software. Although there are some impressive performance gains in SVG and JavaScript, the sheer number of bugs and broken features, clearly mark this release as a beta. While nowhere as bad as the Android 3 browser -- our all time champ of broken web releases -- we recommend that organizations standardized on HTML5 development hold off upgrading until an iOS update fixes these issues.
 
@@ -75,7 +75,7 @@ In our own testing, we discovered a number of additional bugs in the iOS 7 runti
 
 In addition to feature/bug testing, we also put iOS 7 through a battery of our standard performance tests on an iPhone 5 running iOS 6.1 vs. iOS 7. There are some remarkable increases in benchmark performance as well as some very notable misses. First up, we want to note that something odd has happened to the JavaScript timer on iOS 7. In previous versions, iOS had an exceptionally well implemented timer: 4ms with extremely good consistency (see below). But using [John Resig's standard timer test][62] resulted in this odd profile: a timer that jumps between 4ms and 12ms with clockwork regularity and much more noise than iOS 6.
 
-除了特性测试和 bug 测试之外，我们对 iOS 7 进行了一系列我们自己的标准性能测试，分别观察 iPhone 5 上 iOS 7 和 iOS 6.1 的测试结果。在性能跑分方面，有一些值得注意的增长，同时也有一些引人注目的失误。首先，我们想指出，iOS 7 上的 JavaScript 定时器出现了一些奇怪的情况。在上一个版本中，iOS 的定时期实现得出人意料地好：4 ms 并且有着非常好的一致性（见下图）。但 iOS 7 在进行 [John Resig 的标准定时器测试][62] 时，结果十分奇怪：定时器的间隔在 4ms 和 12ms 之间来回有规律地摆动，与 iOS 6 相比要杂乱不少。
+除了特性测试和 bug 测试之外，我们对 iOS 7 进行了一系列我们自己的标准性能测试，分别观察 iPhone 5 上 iOS 7 和 iOS 6.1 的测试结果。在性能跑分方面，有一些值得注意的增长，同时也有一些引人注目的失误。首先，我们想指出，iOS 7 上的 JavaScript 定时器出现了一些奇怪的情况。在上一个版本中，iOS 的定时期实现得出人意料地好：4 ms 并且有着非常好的一致性（见下图）。但 iOS 7 在进行 [John Resig 的标准定时器测试][62] 时，结果十分奇怪：定时器的间隔在 4ms 和 12ms 之间有规律地来回摆动，与 iOS 6 相比要杂乱不少。
 
 ![iOS7 timer][63]
 
@@ -97,7 +97,7 @@ In good news, raw JavaScript performance has increased substantially. SunSpider 
 
 好消息是，单纯的 JavaScript 性能有大幅度的提升。与 iOS 6 相比，iOS 7 的 SunSpider 1.0 的跑分提升了 15%，Octane 跑分提升了 70%。部分 Octane 测试显示出了惊人的速度增长：Navier-Stokes 性能涨幅几乎达到了 4 倍。要知道 Safari 在我的两年前的老 MacBook 笔记本上的得分是 5600 分，这么说来，在某种程度上，iOS 7 的性能已经相当于桌面平台的 50% 了！这有可能是某些 JIT 技巧的功劳，也有可能是 GPU 在 iOS 7 下以某种方式分担了 CPU 的运算工作？
 
-![iOS7][65]
+![Octane Benchmark]
 
 Figure 2: Octane Benchmark - iPhone 5 iOS 6 vs. iOS 7 (higher is better)
 
@@ -107,7 +107,7 @@ But it's not all good news on the performance front. During the iOS 7 beta, we w
 
 不过这还不是性能方面的所有好消息。在 iOS 7 的 beta 期间，我们就曾为 iOS 7 在 Dromaeo 测试上超低的 DOM 操作得分捏把汗，并期待苹果在最终正式版中扭转局面。在 DOM 遍历、存取属性和修改操作方面，性能已经回到了 iOS 6 的水准，这很好。但是 DOM 查询的速度仍然只有 iOS 6 的 50% 左右。这对很多需要大量查询 DOM 的 HTML5 应用来说，会是一个很大的顾虑，这也是苹果在下一次更新时需要重点考虑的问题。
 
-![iOS7][66]
+![Dromaeo benchmark]
 
 Figure 3: Dromaeo benchmark - iOS 6 vs iOS 7 (iOS 6 = 1.00 - higher is better)
 
@@ -121,7 +121,7 @@ Test of Canvas performance show a minor improvement in iOS 7 -- about 10% in the
 
 在 Canvas 性能方面，iOS 7 显示出了少量的进步——在 [Fishtank][67] 测试和 [Mindcat][68] 的性能评分中有 10% 左右的提升。但真正令人惊讶的是 SVG 性能。得益于全新的绘图算法，SVG 路径绘制速度提升了 **200 倍**，是的，你没有看错，两百倍。在 iOS 6 中，[一个 10,000 段的 SVG 路径需要花费 11 秒才能绘制完成][69]；但在 iOS 7 中，只需要 53 毫秒。iOS 目前以 6 倍性能领先于 Surface RT——它是上一代的 SVG 绘图性能之王。
 
-![iOS7][70]
+![SVG Path Drawing Benchmark]
 
 Figure 4: SVG Path Drawing Benchmark (lower is better)
 
@@ -139,7 +139,7 @@ And now the real killer. In the rush to get iOS 7 out the door, making sure SVG 
 
 ## iOS 7 在 web 方面仍未成熟
 
-![20130924-iOS7.png][72]
+![iOS7 Logo]
 
 Given all these bugs and issues, combined with some genuine major advances, it's hard not to interpret this as a beta release that was rushed into production for the release of the iPhone 5S. In a way, it reminds us of the Android 3 release -- which was rushed into production for the Motorola Xoom tablet -- with severe bugs and performance deficiencies. We're eagerly awaiting the release of the first update for iOS 7 when we hope Apple delivers on its usual commitment to quality.
 
@@ -159,78 +159,15 @@ Michael Mullany is Sencha's CEO. He has held various product and executive marke
 
 Michael Mullany 是 Sencha 的 CEO。他曾在很多有影响力的硅谷创业公司（比如网景、Loudcloud、VMware）中担任过多个产品和营销总监职位。他获得了斯坦福大学的 MBA 学位，以及哈佛大学的经济学学士学位。
 
-[1]: http://www.sencha.com/img/sencha-large.png
-[2]: http://www.sencha.com#content
-[3]: http://www.sencha.com/products/
-[4]: http://www.sencha.com/products/complete/
-[5]: http://www.sencha.com/products/touch-bundle/
-[6]: http://www.sencha.com/products/touch/
-[7]: http://www.sencha.com/products/extjs/
-[8]: http://www.sencha.com/products/gxt/
-[9]: http://www.sencha.com/products/architect/
-[10]: http://www.sencha.com/products/animator/
 [11]: http://www.sencha.com/products/space/
-[12]: http://www.sencha.com/support/
-[13]: http://www.sencha.com/support/services/
-[14]: http://www.sencha.com/support/faq/
-[15]: http://www.sencha.com/training/
-[16]: http://www.sencha.com/training/courses/
-[17]: http://www.sencha.com/company/
-[18]: http://www.sencha.com/company/team/
-[19]: http://www.sencha.com/company/careers/
-[20]: http://www.sencha.com/company/events/
-[21]: http://www.sencha.com/company/press/
-[22]: http://www.sencha.com/company/partners/
-[23]: http://www.sencha.com/company/contact/
-[24]: http://www.sencha.com/company/customers/
-[25]: http://www.sencha.com/blog/
-[26]: http://www.sencha.com/company/contact
-[27]: http://www.sencha.com/store/
-[28]: http://www.sencha.com/store/sencha-complete/
-[29]: http://www.sencha.com/store/sencha-touch-bundle/
-[30]: http://www.sencha.com/store/architect/
-[31]: http://www.sencha.com/store/extjs/
-[32]: http://www.sencha.com/store/touch/
-[33]: http://www.sencha.com/store/gxt/
-[34]: http://www.sencha.com/store/animator/
-[35]: http://www.sencha.com/store/ordering-information/
-[36]: http://www.sencha.com/store/licensing-faq/
-[37]: http://www.sencha.com/store/authorized-resellers/
-[38]: http://www.sencha.com/login
-[39]: http://www.sencha.com/forum/register.php
-[40]: http://www.sencha.com/forum/
-[41]: http://www.sencha.com/apps/
-[42]: http://developer.sencha.com/
-[43]: http://www.senchadevs.com/
-[44]: http://market.sencha.com/
-[45]: http://try.sencha.com/
-[46]: http://docs.sencha.com/
-[47]: http://docs.sencha.com/extjs/
-[48]: http://docs.sencha.com/extjs3/
-[49]: http://docs.sencha.com/gxt/3/
-[50]: http://docs.sencha.com/touch/
-[51]: http://docs.sencha.com/touch/1-1/
-[52]: http://docs.sencha.com/touch-charts/
-[53]: http://docs.sencha.com/architect/2/#!/guide
-[54]: http://docs.sencha.com/animator/#!/guide
-[55]: https://www.sencha.com/store/cart
-[56]: http://www.sencha.com
-[57]: http://twitter.com/share
-[58]: http://cdn.sencha.io/img/20130924-iOS7/iOS7-hero.png
 [59]: http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review
 [60]: http://webreflection.blogspot.com
 [61]: http://druckit.wordpress.com/2013/09/24/about-sencha-touch-2-x-phonegapcordova-and-ios-7/
 [62]: http://ejohn.org/apps/timers/
-[63]: http://cdn.sencha.io/img/20130924-iOS7/iOS7-1.png
-[64]: http://cdn.sencha.io/img/20130924-iOS7/iOS7-5.png
-[65]: http://cdn.sencha.io/img/20130924-iOS7/iOS7-2.png
-[66]: http://cdn.sencha.io/img/20130924-iOS7/iOS7-3.png
 [67]: http://ie.microsoft.com/testdrive/performance/fishietank/
 [68]: http://dl.dropboxusercontent.com/u/1865210/mindcat/canvas_perf.html
 [69]: http://bl.ocks.org/stepheneb/1296930
-[70]: http://cdn.sencha.io/img/20130924-iOS7/iOS7-4.png
 [71]: http://themaninblue.com/experiment/AnimationBenchmark/svg/
-[72]: http://cdn.sencha.io/img/20130924-iOS7.png
 
 ***
 
