@@ -213,7 +213,9 @@ You could also define the concrete implementations as prototype objects, and the
 
 Erich Gamma, one of the Gang of Four authors who created "Design Patterns", shared some interesting thoughts about interfaces in an interview with Bill Venners: ["Leading-Edge Java Design Principles from Design Patterns: A Conversation with Erich Gamma, Part III"][9].
 
-Erich Gamma，“四人帮”中创造了“设计模式”概念的那位，在接受 Bill Venners 采访时，分享了一些关于接口的有趣想法：[“源自《设计模式》的前沿 Java 设计原则：与 Erich Gamma 对话（第三部分）”](http://www.artima.com/lejava/articles/designprinciples.html)。
+Erich Gamma，“四人帮”中创造了“设计模式”概念的那位，在接受 Bill Venners 采访时，分享了一些关于接口的有趣想法：[“源自《设计模式》的前沿 Java 设计原则：与 Erich Gamma 对话（第三部分）”][9]。
+
+[9]: http://www.artima.com/lejava/articles/designprinciples.html
 
 ***
 
