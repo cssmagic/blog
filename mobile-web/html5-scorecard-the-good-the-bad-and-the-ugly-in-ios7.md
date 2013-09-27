@@ -7,7 +7,7 @@
 
 We've been testing the final release of iOS 7 over the last few days against our usual battery of HTML5 tests. Normally we're effusive about new releases of iOS to the point of fanboy-dom, but this time, and for the first time ever, we're disappointed in the execution of iOS software. Although there are some impressive performance gains in SVG and JavaScript, the sheer number of bugs and broken features, clearly mark this release as a beta. While nowhere as bad as the Android 3 browser -- our all time champ of broken web releases -- we recommend that organizations standardized on HTML5 development hold off upgrading until an iOS update fixes these issues.
 
-过去几天以来，我们一直在用我们的那套常规 HTML5 测试套件来考验 iOS 7 的最终发布版。正常来说，每当迎来 iOS 的新版发布，我们都忍不住像果粉一般喜大普奔；但这一次，也是有历以来的第一次，我们对 iOS 软件的完成度表现表示失望。虽然在 SVG 和 JavaScript 方面有一些突出的性能增长，但面对如此之多的 bug 和不正常的特性，我们只能无情地为这个版本打上 beta 的标签。当然，它还远远没有败坏到 Android 3 自带浏览器的程度——那才是无可争议的烂浏览器之最终奥义——但我们仍然建议那些以 HTML5 作为开发标准的公司暂不升级，等到 iOS 7 后续版本修复这些问题之后再说。
+过去几天以来，我们一直在用我们的那套常规 HTML5 测试套件来考验 iOS 7 的最终发布版。正常来说，每当迎来 iOS 的新版发布，我们都忍不住像果粉一样喜大普奔；但这一次，也是有史以来的第一次，我们对 iOS 软件的完成度表示失望。虽然在 SVG 和 JavaScript 方面有一些突出的性能增长，但面对如此之多的 bug 和不正常的特性，我们只能无情地为这个版本打上 beta 的标签。当然，它还远远没有败坏到 Android 3 浏览器的程度——那才是无可争议的烂浏览器之终极奥义——但我们仍然建议那些以 HTML5 作为开发标准的公司暂不升级，等到 iOS 7 后续版本修复这些问题之后再说。
 
 ## iOS 7 Bugs &amp; Features
 
@@ -15,11 +15,11 @@ We've been testing the final release of iOS 7 over the last few days against our
 
 Max Firtman has already done an excellent first pass about [the new features, bugs and quirks in iOS 7's web runtime][59]. If you haven't read his post, you should read it now. We will not repeat all the findings here; but to review, there are two very big bugs in iOS 7. First, WebSQL permissions to increase the default 5MB of space for an app to the previously permitted 50MB limit no longer work correctly, and require a workaround. Second, "Save to Home Screen" apps are basically broken. Once more than four apps are saved to home screen, the save slots are recycled and sometimes duplicated, and the phone has to be rebooted in order to clear itself. Further, any external URI no longer opens correctly and all JavaScript modal dialogs (alert, prompt etc.) are disabled. Finally, If your app uses AppCache and you are managing state via hash or other mechanisms, the history object will never update, disabling history.back.
 
-Max Firtman 已经对 [iOS7 浏览器的新功能、bug 以及奇怪特性][59] 进行了出色的首轮总结，强烈建议你先读一遍这篇文章。（译注：也可以参考这篇文章的 [中文译版](http://jinlong.github.io/blog/2013/09/23/safari-ios7-html5-problems-apis-review/)。）本文不再重复他的所有发现，我们只回顾一下其中的两个巨大的 bug。
+Max Firtman 已经对 [iOS7 浏览器的新功能、bug 以及奇怪特性][59] 进行了出色的首轮总结，强烈建议你先读一遍这篇文章。（译注：也可以参考 [这篇文章的中文译版](http://jinlong.github.io/blog/2013/09/23/safari-ios7-html5-problems-apis-review/)。）本文不再重复他的所有发现，我们只回顾一下其中两个巨大的 bug。
 
-首先，单个应用对 WebSQL 存储空间的需求从默认的 5MB 申请为 50 MB 上限的过程不再正常工作（译注：实际上是 iOS 7 在这方面的许可策略发生了变化），并且需要想办法绕过去。
+首先，单个应用对 WebSQL 存储空间的需求从默认的 5MB 申请为 50 MB 上限的过程无法正常实现（译注：实际上是 iOS 7 在这方面的许可策略发生了变化），需要想办法绕过去。
 
-其次，“保存到主屏幕”的应用基本上废掉了。似乎主屏幕最多只提供 4 个坑来显示 web app 图标，一旦你试图突破这个数量，web app 图标就会循环覆盖，有时甚至出现重复，此时手机不得不重启才能将主屏幕恢复正常。此外，所有的外部 URL 都无法正常打开（译注：包括可以拨打电话的 `tel:` 伪协议链接），而且所有的 JavaScript 原生模态对话框（`alert` 和 `prompt` 等等）也都被禁用。别着急，还有，如果你的应用使用了 AppCache（译注：HTML5 的离线应用缓存特性）并且你通过 hash 或其它机制来管理浏览进程，那么 history 对象永远都不会更新，`history.back` 也被禁用。
+其次，“保存到主屏幕”的 web app 基本上废掉了。似乎主屏幕最多只提供 4 个蹲位来容纳 web app 图标，一旦你试图突破这个数量，web app 图标就会相互循环覆盖，有时甚至出现重复，此时手机不得不重启才能将主屏幕恢复正常。此外，所有的外部 URL 都无法正常打开（译注：包括可以拨打电话的 `tel:` 伪协议链接），而且所有的 JavaScript 原生模态对话框（`alert()` 和 `prompt()` 等等）也都被禁用。别着急，还有，如果你的应用使用了 AppCache（译注：HTML5 的离线应用缓存特性）并且你通过 hash 或其它机制来管理浏览进程，那么 history 对象永远都不会更新，`history.back()` 方法也被禁用。
 
 > "We recommend that organizations standardized on HTML5 development, hold off on upgrading to iOS 7 until an update fixes these issues."
 
@@ -27,15 +27,15 @@ Max Firtman 已经对 [iOS7 浏览器的新功能、bug 以及奇怪特性][59] 
 
 Beyond these major bugs, there are also some very troublesome design decisions in iOS 7. First, there is no way to hide the URL bar using JavaScript (and the user no longer has a "full screen" button in mobile Safari). This will throw a wrench into layouts if your app relies on absolute positioning. One workaround, [suggested by Andrea Giammarchi][60], is to ask the user to take an action (such as swiping up) in order to reset into full-screen. But there is no programmatic way to do this (as of yet). And once you are in full-screen, tapping anywhere in the bottom region first summons the browser chrome and there is no way to cancel this. This makes for poor UX for bottom-positioned toolbars: the first user tap summons the browser chrome, which boosts the tool-bar up the page, and then requires the user to tap again to take an action. There are related problems with the status bar [which can be worked around.][61]
 
-除了这些重大 bug 之外，iOS 7 还存在一些非常令人烦恼的设计决策。首先，无法通过 JavaScript 来隐藏地址栏（而且 Safari 也不再提供一个“全屏”按钮）。如果你的应用依赖于绝对定位，这个问题将破坏应用的布局。有一个变通方案（[由 Andrea Giammarchi 提议][60]），就是要求用户做一个动作（比如向上滚屏），以便进入全屏状态。但到目前为止，还没有一个纯程序的方式可以实现类似的效果。而且一旦你进入了全屏状态，在屏幕底部区域的任意位置点击会首先呼出浏览器边框（包括地址栏和工具栏），而且没有办法能阻止这种行为。这将导致定位在底部的工具栏呈现出非常恶心的用户体验（译注：这里的工具栏是指应用自身的工具栏）：用户的第一次点击工具栏会呼出浏览器的边框，工具栏会被向上推起，然后用户还需要移动手指并再次点击，才能最终触发工具栏上的某个动作按钮。状态栏也有着类似的问题，不过幸好有人找出了 [一个变通方法][61]。
+抛开这些重大 bug 不谈，iOS 7 还采用了一些非常讨厌的设计决策。首先，无法通过 JavaScript 来隐藏地址栏（而且 Safari 也不再提供一个“全屏”按钮）。如果你的应用依赖于绝对定位，这个问题将破坏应用的布局。有一个变通方案（[由 Andrea Giammarchi 提议][60]），就是要求用户做一个动作（比如向上滚屏），以便进入全屏状态。但到目前为止，还没有一个纯程序的方式可以实现类似的效果。而且一旦你进入了全屏状态，在屏幕底部区域的任意位置点击，会首先呼出浏览器边框（包括浏览器的工具栏和地址栏），而且没有办法能阻止这种行为。这将导致定位在底部的工具栏呈现出非常恶心的用户体验（译注：这里的工具栏是指应用自己实现的工具栏）：用户的第一次点击工具栏会呼出浏览器的边框，工具栏会被向上推起，然后用户还需要移动手指并再次点击，才能最终触发工具栏上的某个动作按钮。状态栏也有着类似的问题，不过幸好有人找出了 [一个变通方法][61]。
 
-（译注：上面这个链接所描述的状态栏的问题实际上只出现在基于 PhoneGap 的混合应用身上，并不涉及 Safari 或 web view 形态的页面布局。下个版本的 PhoneGap 很可能会从自身层面来避免这个问题。）
+（译注：上面这个链接所描述的状态栏问题实际上只出现在基于 PhoneGap 开发的混合应用身上，并不涉及 Safari 或 web view 形态的页面布局。下个版本的 PhoneGap 很可能会从自身层面来解决这个问题。）
 
 In addition to these decisions, right and left swipe gestures within about 10 percent of display edge are always grabbed by iOS and treated as a forward/back request, and not passed to the browser. Furthermore, if you've built back/forward behavior into your app using history push-state, then accidental swipes will load the previous state as if it was a prior web-site. This will probably be unexpected behavior. Chrome for Android was the first browser to introduce this behavior, but has now removed it based on feedback from web developers. We hope Apple follows suit quickly.
 
-除了这些设计决策之外，在屏幕边缘大约 10% 区域内的左右横扫手势总是会被系统捕获，并被视为一次后退/前进的导航操作，而不会作为事件传递给浏览器。不仅如此，如果你的应用使用了历史记录的 pushState 接口来管理后退/前进行为，那么无意的横扫动作将导致页面回到上一个状态，本质上相当于后退到上了一个页面。这很可能不是我们所期望的行为。Android 版的 Chrome 是最先引入了这种行为的浏览器，但后来又在 web 开发者的要求下去除了。我们也希望苹果能尽快回到正轨。
+除了这些设计决策之外，从屏幕边缘大约 10% 区域内发起的左右横扫手势总是会被系统捕获，并被视为一次后退/前进的导航操作，而不会作为事件传递给浏览器。不仅如此，如果你的应用使用了历史记录的 pushState 接口来管理后退/前进行为，那么无意的横扫动作将导致页面回到上一个状态，本质上相当于后退到上了一个页面。这很可能不是我们所期望的行为。Android 版的 Chrome 是最先引入了这种行为的浏览器，但后来又在 web 开发者的要求下去除了。我们也希望苹果能尽快回到正轨。
 
-（译注：上面提到的后退/前进手势只会在 Safari 下起作用，主屏幕 web app 或 web view 并没有这两种手势。）
+（译注：上面提到的后退/前进手势只会在 Safari 下起作用，主屏幕 web app 或 web view 并没有这两个手势。）
 
 In our own testing, we discovered a number of additional bugs in the iOS 7 runtime.
 
@@ -71,11 +71,11 @@ In our own testing, we discovered a number of additional bugs in the iOS 7 runti
 
 ## Performance Characteristics
 
-## 性能方面
+## 性能评估
 
 In addition to feature/bug testing, we also put iOS 7 through a battery of our standard performance tests on an iPhone 5 running iOS 6.1 vs. iOS 7. There are some remarkable increases in benchmark performance as well as some very notable misses. First up, we want to note that something odd has happened to the JavaScript timer on iOS 7. In previous versions, iOS had an exceptionally well implemented timer: 4ms with extremely good consistency (see below). But using [John Resig's standard timer test][62] resulted in this odd profile: a timer that jumps between 4ms and 12ms with clockwork regularity and much more noise than iOS 6.
 
-除了特性测试和 bug 测试之外，我们对 iOS 7 进行了一系列我们自己的标准性能测试，分别观察 iPhone 5 上 iOS 7 和 iOS 6.1 的测试结果。在性能跑分方面，有一些值得注意的增长，同时也有一些引人注目的失误。首先，我们想指出，iOS 7 上的 JavaScript 定时器出现了一些奇怪的情况。在上一个版本中，iOS 的定时期实现得出人意料地好：4 ms 并且有着非常好的一致性（见下图）。但 iOS 7 在进行 [John Resig 的标准定时器测试][62] 时，结果十分奇怪：定时器的间隔在 4ms 和 12ms 之间有规律地来回摆动，与 iOS 6 相比要杂乱不少。
+除了特性测试和 bug 测试之外，我们对 iOS 7 进行了一系列我们自己的标准性能测试，并对比 iPhone 5 上 iOS 7 和 iOS 6.1 的测试结果。在跑分方面，有一些值得注意的增长，同时也有一些无法忽视的失误。首先，我们想指出，iOS 7 上的 JavaScript 定时器出现了一些奇怪的情况。在上一个 iOS 版本中，定时期的实现好得让人不敢相信：4ms 并且有着非常好的一致性（见下图）。但 iOS 7 在进行 [John Resig 的标准定时器测试][62] 时，结果十分奇怪：定时器的间隔在 4ms 和 12ms 之间有规律地来回摆动，与 iOS 6 相比要杂乱不少。
 
 ![iOS7 timer][63]
 
@@ -91,11 +91,11 @@ Figure 1B: JavaScript timer resolution: iPhone 5/iOS 6
 
 Perhaps this is a limitation of the test in some way, but it's certainly nothing we've ever seen before, and one more reason to make sure that you use requestAnimationFrame for JavaScript animation.
 
-可能这个测试在某些方面存在局限性，但这种情况是我们以前从没见过的，于是我们又多了一个理由使用 requestAnimationFrame 来实现 JavaScript 动画。
+可能这个测试在某些方面存在局限性，但这种情况是我们以前从未见过的，于是我们又多了一个使用 requestAnimationFrame 来实现动画的理由。
 
 In good news, raw JavaScript performance has increased substantially. SunSpider 1.0 is about 15% faster on iOS 7 vs iOS 6.1, and iOS 7's Octane score is 70% better vs. iOS 6. Some Octane tests showed dramatic speed-ups: Navier-Stokes performance increased by almost 4x. By comparison, Safari on my 2 year old MacBook clocks in at 5,600 -- so iOS 7 is now 50% as fast as desktop Safari on Octane! This is either some serious JIT hacking, or we also speculate that there may be some GPU offloading of general computation in iOS 7?
 
-好消息是，单纯的 JavaScript 性能有大幅度的提升。与 iOS 6 相比，iOS 7 的 SunSpider 1.0 的跑分提升了 15%，Octane 跑分提升了 70%。部分 Octane 测试显示出了惊人的速度增长：Navier-Stokes 性能涨幅几乎达到了 4 倍。要知道 Safari 在我的两年前的老 MacBook 笔记本上的得分是 5600 分，这么说来，在某种程度上，iOS 7 的性能已经相当于桌面平台的 50% 了！这有可能是某些 JIT 技巧的功劳，也有可能是 GPU 在 iOS 7 下以某种方式分担了 CPU 的运算工作？
+好消息还是有的，纯 JavaScript 性能有了大幅度的提升。与 iOS 6 相比，iOS 7 的 SunSpider 1.0 跑分提升了 15%，Octane 跑分提升了 70%。部分 Octane 测试显示出了惊人的速度增长：Navier-Stokes 运算的性能涨幅几乎达到了 4 倍。要知道 Safari 在我的两年前的老 MacBook 笔记本上的得分是 5600 分，这么说来，在某种程度上，iOS 7 的性能已经相当于桌面平台的 50% 了！这有可能是某些 JIT 技巧的功劳，也有可能是 GPU 在 iOS 7 下以某种方式分担了 CPU 的运算工作？
 
 ![Octane Benchmark]
 
@@ -105,7 +105,7 @@ Figure 2: Octane Benchmark - iPhone 5 iOS 6 vs. iOS 7 (higher is better)
 
 But it's not all good news on the performance front. During the iOS 7 beta, we were concerned at the very slow DOM interaction benchmarks that we were seeing from Dromaeo on iOS 7, and expected that Apple would get performance back to snuff before final release. For DOM traversal, attributes and modification, performance is now back at iOS 6 levels, which is good. However DOM Query is still 50% of iOS 6 speed. This is a major concern for the many HTML5 apps that perform high numbers of DOM queries, and this needs to be on Apple's fix-list for its next update.
 
-不过这还不是性能方面的所有好消息。在 iOS 7 的 beta 期间，我们就曾为 iOS 7 在 Dromaeo 测试上超低的 DOM 操作得分捏把汗，并期待苹果在最终正式版中扭转局面。在 DOM 遍历、存取属性和修改操作方面，性能已经回到了 iOS 6 的水准，这很好。但是 DOM 查询的速度仍然只有 iOS 6 的 50% 左右。这对很多需要大量查询 DOM 的 HTML5 应用来说，会是一个很大的顾虑，这也是苹果在下一次更新时需要重点考虑的问题。
+不过在性能方面并不都是好消息。在 iOS 7 的 beta 期间，我们就曾为 iOS 7 在 Dromaeo 测试上超低的 DOM 操作得分捏把汗，并期待苹果在最终正式版中扭转局面。果然，在 DOM 遍历、存取属性和修改操作方面，iOS 7 的性能已经回到了 iOS 6 的水准，这很好。但是 DOM 查询的速度仍然只有 iOS 6 的 50% 左右。这对很多需要大量查询 DOM 的 HTML5 应用来说，会是一个很大的顾虑，这也是苹果在下一次更新时需要重点考虑的问题。
 
 ![Dromaeo benchmark]
 
@@ -119,7 +119,7 @@ Figure 3: Dromaeo benchmark - iOS 6 vs iOS 7 (iOS 6 = 1.00 - higher is better)
 
 Test of Canvas performance show a minor improvement in iOS 7 -- about 10% in the [Fishtank][67] test and on [Mindcat][68] microbenchmarks. But SVG is the real revelation. Thanks to a switch to a new drawing algorithm, SVG Path drawing speed has improved _200x_. Yes that's literally 200 times faster. In iOS 6, [a 10,000 segment SVG path took about 11 seconds to draw][69]. In iOS 7 that's now 53 milliseconds. iOS is now 6x faster than the Surface RT -- the previous champ at SVG drawing performance.
 
-在 Canvas 性能方面，iOS 7 显示出了少量的进步——在 [Fishtank][67] 测试和 [Mindcat][68] 的性能评分中有 10% 左右的提升。但真正令人惊讶的是 SVG 性能。得益于全新的绘图算法，SVG 路径绘制速度提升了 **200 倍**，是的，你没有看错，两百倍。在 iOS 6 中，[一个 10,000 段的 SVG 路径需要花费 11 秒才能绘制完成][69]；但在 iOS 7 中，只需要 53 毫秒。iOS 目前以 6 倍性能领先于 Surface RT——它是上一代的 SVG 绘图性能之王。
+在 Canvas 性能方面，iOS 7 表现出了少许进步——在 [Fishtank][67] 测试和 [Mindcat][68] 性能评分中均有 10% 左右的提升。但真正令人惊讶的是 SVG 性能。得益于全新的绘图算法，SVG 路径绘制速度提升了 **200 倍**，是的，你没有看错，两百倍。在 iOS 6 中，[一条 10,000 个片段的 SVG 路径需要花费 11 秒才能绘制完成][69]；但在 iOS 7 中，只需要 53 毫秒。iOS 目前以 6 倍性能领先于 Surface RT——它是上一代的 SVG 性能之王。
 
 ![SVG Path Drawing Benchmark]
 
@@ -129,11 +129,11 @@ Figure 4: SVG Path Drawing Benchmark (lower is better)
 
 Other SVG capabilities experience similar speed-ups. Some SVG Filter operations now appear to be GPU accelerated -- which means that meaningful filter animations are now possible on iOS. But performance is dependent on specific filters. Color transformations (Color Matrix &amp; Color Curves) and displacementMaps are fast. Complex compositing and lighting effects are still slow.
 
-其它的 SVG 指标方面也有着类似的速度提升。一些 SVG 滤镜操作看起来已经支持 GPU 加速——这意味着精心设计的滤镜动画在 iOS 上将成为可能。不过性能表现还是因滤镜而异，色彩变换（色彩矩阵与色彩曲线）和置换贴图是最快的。复杂的合成和光照效果仍然比较慢。
+其它的 SVG 指标方面也有着类似的速度提升。一些 SVG 滤镜操作看起来已经支持 GPU 加速——这意味着精心设计的滤镜动画在 iOS 上将成为可能。不过性能表现还是因滤镜而异，色彩变换（色彩矩阵与色彩曲线）和置换贴图是最快的，但复杂的合成和光照效果仍然比较慢。
 
 And now the real killer. In the rush to get iOS 7 out the door, making sure SVG animation via JavaScript was fast seems to have been dropped on the floor. Animating SVG with JavaScript is now a hit or miss proposition. [Animating 500 SVG circles][71] used to be 50 fps on iOS 6. On iOS 7, the animation simply freezes after a few frames. We tried other apps that have interactive UI elements built with SVG, and we saw a similar severe performance degradation.
 
-接下来的这个才是极品。苹果赶着把 iOS 7 推到台前，早把 SVG 动画这件事儿抛到九霄云外了。用 JavaScript 实现的 SVG 动画这一需求被完全地漠视了。[500 个动态的 SVG 圆圈测试][71] 在 iOS 6 上可以轻易跑到 50 帧/秒，但在 iOS 7 上，动画在跑了几帧之后就完全卡住了。我们心有不甘，又尝试了其它一些基于 SVG 实现 UI 交互的应用，但我们遭遇到了同样不忍直视的低下性能。
+接下来的这个才是极品。苹果赶着把 iOS 7 推到台前，结果把 SVG 动画这件事儿抛到九霄云外了。用 JavaScript 实现的 SVG 动画这一需求被完全地漠视了。[500 个动态的 SVG 圆圈测试][71] 在 iOS 6 上可以轻易跑到 50 帧/秒，但在 iOS 7 上，动画在跑了几帧之后就完全卡住了。我们心有不甘，又尝试了其它一些基于 SVG 实现 UI 交互的应用，但我们遭遇到了同样不忍直视的低下性能。
 
 ## iOS 7: A Beta Release of Web
 
@@ -143,11 +143,11 @@ And now the real killer. In the rush to get iOS 7 out the door, making sure SVG 
 
 Given all these bugs and issues, combined with some genuine major advances, it's hard not to interpret this as a beta release that was rushed into production for the release of the iPhone 5S. In a way, it reminds us of the Android 3 release -- which was rushed into production for the Motorola Xoom tablet -- with severe bugs and performance deficiencies. We're eagerly awaiting the release of the first update for iOS 7 when we hope Apple delivers on its usual commitment to quality.
 
-综合所有这些 bug 和缺陷，以及少许有诚意的进步，我们不得不认为，为了配合 iPhone 5s 的如期发布，一个 beta 级别的系统就这么仓促地被推到台前了。在某种程度上，这让我们想起了 Android 3 的发布——为了配合 Motorola Xoom 平板电脑的发布而不得不赶着上线——结果留下了严重的 bug 和性能缺陷。我们急切盼望 iOS 7 后续更新的发布，同时我们希望苹果可以履行它一直以来对品质的承诺。
+综合所有这些 bug 和缺陷，以及少许有诚意的进步，我们不得不认为，为了配合 iPhone 5s 的如期发布，一个 beta 级别的系统就这么仓促地被推到了台前。在某种程度上，这让我们想起了 Android 3 的发布——为了配合 Motorola Xoom 平板电脑的发布而不得不赶着上线——结果留下了严重的 bug 和性能缺陷。我们急切盼望 iOS 7 后续更新的发布，同时我们希望苹果可以履行它一直以来对品质的承诺。
 
 But beyond bugs, the design decisions in iOS 7 clearly privilege consumer content over business applications. We remain convinced that Enterprises that want to deploy HTML5 applications to mobile devices can't rely on consumer browsers and need a secure and predictable mobile environment designed for business applications. iOS 7 has convinced us that more than ever that the future of HTML5 app deployment for business is [Sencha Space][11].
 
-但是抛开这些 bug 不谈，iOS 7 所采用的设计决策十分清晰——重消费者内容，轻商业应用。我们相信，那些需要将 HTML5 应用部署到移动端上的企业们不能依赖消费级浏览器，而是需要一个专为商业应用设计的、安全可控的移动环境。iOS 7 更加明确地让我们意识到，HTML5 商业应用部署方式的未来就是 [Sencha Space][11]。
+但是抛开这些 bug 不谈，iOS 7 所采用的设计策略是十分清晰的——重消费者内容，轻商业应用。我们相信，那些需要将 HTML5 应用部署到移动端的企业们不能依赖消费级浏览器，而是需要一个专为商业应用设计的、安全可控的移动环境。iOS 7 更加明确地告诉我们，HTML5 商业应用部署方式的未来就是 [Sencha Space][11]。
 
 （译注：你妹，翻译了这大半天，原来是篇软文？不过 iOS 7 这回真的让人揪心啊，曾经的 web 技术先锋，曾经的最佳 web app 平台，如今迷失在自己曾经的辉煌里。）
 
