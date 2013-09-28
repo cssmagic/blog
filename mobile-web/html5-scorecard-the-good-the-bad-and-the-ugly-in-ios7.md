@@ -3,7 +3,7 @@
 > * Original: [The HTML5 Scorecard: The Good, The Bad and the Ugly in iOS 7](http://www.sencha.com/blog/the-html5-scorecard-the-good-the-bad-and-the-ugly-in-ios7/)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
 
-![iOS7]
+![iOS7 iPhone](https://f.cloud.github.com/assets/1231359/1230752/fe826190-2802-11e3-92e9-3f1fb0c058c2.png)
 
 We've been testing the final release of iOS 7 over the last few days against our usual battery of HTML5 tests. Normally we're effusive about new releases of iOS to the point of fanboy-dom, but this time, and for the first time ever, we're disappointed in the execution of iOS software. Although there are some impressive performance gains in SVG and JavaScript, the sheer number of bugs and broken features, clearly mark this release as a beta. While nowhere as bad as the Android 3 browser -- our all time champ of broken web releases -- we recommend that organizations standardized on HTML5 development hold off upgrading until an iOS update fixes these issues.
 
@@ -75,15 +75,15 @@ In our own testing, we discovered a number of additional bugs in the iOS 7 runti
 
 In addition to feature/bug testing, we also put iOS 7 through a battery of our standard performance tests on an iPhone 5 running iOS 6.1 vs. iOS 7. There are some remarkable increases in benchmark performance as well as some very notable misses. First up, we want to note that something odd has happened to the JavaScript timer on iOS 7. In previous versions, iOS had an exceptionally well implemented timer: 4ms with extremely good consistency (see below). But using [John Resig's standard timer test][62] resulted in this odd profile: a timer that jumps between 4ms and 12ms with clockwork regularity and much more noise than iOS 6.
 
-除了特性测试和 bug 测试之外，我们对 iOS 7 进行了一系列我们自己的标准性能测试，并对比 iPhone 5 上 iOS 7 和 iOS 6.1 的测试结果。在跑分方面，有一些值得注意的增长，同时也有一些无法忽视的失误。首先，我们想指出，iOS 7 上的 JavaScript 定时器出现了一些奇怪的情况。在上一个 iOS 版本中，定时期的实现好得让人不敢相信：4ms 并且有着非常好的一致性（见下图）。但 iOS 7 在进行 [John Resig 的标准定时器测试][62] 时，结果十分奇怪：定时器的间隔在 4ms 和 12ms 之间有规律地来回摆动，与 iOS 6 相比要杂乱不少。
+除了特性测试和 bug 测试之外，我们对 iOS 7 进行了一系列我们自己的标准性能测试，并对比 iPhone 5 上 iOS 7 和 iOS 6.1 的测试结果。在跑分方面，有一些值得注意的增长，同时也有一些无法忽视的倒退。首先，我们想指出，iOS 7 上的 JavaScript 定时器出现了一些奇怪的情况。在上一个 iOS 版本中，定时期简直就是梦幻般地完美：4ms 并且有着非常好的一致性（见下图）。但 iOS 7 在进行 [John Resig 的标准定时器测试][62] 时，结果十分奇怪：定时器的间隔在 4ms 和 12ms 之间有规律地来回摆动，与 iOS 6 相比要杂乱不少。
 
-![iOS7 timer][63]
+![iOS7 timer](https://f.cloud.github.com/assets/1231359/1230755/055f5e1e-2803-11e3-9034-08cd4bd0bb1c.png)
 
 Figure 1A: JavaScript timer resolution: iPhone 5/iOS 7
 
 图 1A：JavaScript 定时器解析度：iPhone 5/iOS 7
 
-![iOS6 timer][64]
+![iOS6 timer](https://f.cloud.github.com/assets/1231359/1230757/09d28ef8-2803-11e3-9368-c9170358de1a.png)
 
 Figure 1B: JavaScript timer resolution: iPhone 5/iOS 6
 
@@ -95,9 +95,9 @@ Perhaps this is a limitation of the test in some way, but it's certainly nothing
 
 In good news, raw JavaScript performance has increased substantially. SunSpider 1.0 is about 15% faster on iOS 7 vs iOS 6.1, and iOS 7's Octane score is 70% better vs. iOS 6. Some Octane tests showed dramatic speed-ups: Navier-Stokes performance increased by almost 4x. By comparison, Safari on my 2 year old MacBook clocks in at 5,600 -- so iOS 7 is now 50% as fast as desktop Safari on Octane! This is either some serious JIT hacking, or we also speculate that there may be some GPU offloading of general computation in iOS 7?
 
-好消息还是有的，纯 JavaScript 性能有了大幅度的提升。与 iOS 6 相比，iOS 7 的 SunSpider 1.0 跑分提升了 15%，Octane 跑分提升了 70%。部分 Octane 测试显示出了惊人的速度增长：Navier-Stokes 运算的性能涨幅几乎达到了 4 倍。要知道 Safari 在我的两年前的老 MacBook 笔记本上的得分是 5600 分，这么说来，在某种程度上，iOS 7 的性能已经相当于桌面平台的 50% 了！这有可能是某些 JIT 技巧的功劳，也有可能是 GPU 在 iOS 7 下以某种方式分担了 CPU 的运算工作？
+好消息还是有的，纯 JavaScript 性能有了大幅度的提升。与 iOS 6 相比，iOS 7 的 SunSpider 1.0 跑分提升了 15%，Octane 跑分提升了 70%。部分 Octane 测试显示出了惊人的速度增长：Navier-Stokes 运算的性能涨幅几乎达到了 4 倍。要知道在两年前的老 MacBook 笔记本上，Safari 的 Octane 综合得分是 5600 分，相比之下，现在 iOS 7 的性能已经相当于桌面平台的 50% 了！这有可能是某些 JIT 技巧的功劳，也有可能是 GPU 在 iOS 7 下以某种方式分担了 CPU 的运算工作？
 
-![Octane Benchmark]
+![Octane Benchmark](https://f.cloud.github.com/assets/1231359/1230758/0c470826-2803-11e3-8292-3fee4016d36f.png)
 
 Figure 2: Octane Benchmark - iPhone 5 iOS 6 vs. iOS 7 (higher is better)
 
@@ -107,7 +107,7 @@ But it's not all good news on the performance front. During the iOS 7 beta, we w
 
 不过在性能方面并不都是好消息。在 iOS 7 的 beta 期间，我们就曾为 iOS 7 在 Dromaeo 测试上超低的 DOM 操作得分捏把汗，并期待苹果在最终正式版中扭转局面。果然，在 DOM 遍历、存取属性和修改操作方面，iOS 7 的性能已经回到了 iOS 6 的水准，这很好。但是 DOM 查询的速度仍然只有 iOS 6 的 50% 左右。这对很多需要大量查询 DOM 的 HTML5 应用来说，会是一个很大的顾虑，这也是苹果在下一次更新时需要重点考虑的问题。
 
-![Dromaeo benchmark]
+![Dromaeo benchmark](https://f.cloud.github.com/assets/1231359/1230759/0f008448-2803-11e3-910a-0a8c2896d954.png)
 
 Figure 3: Dromaeo benchmark - iOS 6 vs iOS 7 (iOS 6 = 1.00 - higher is better)
 
@@ -119,9 +119,9 @@ Figure 3: Dromaeo benchmark - iOS 6 vs iOS 7 (iOS 6 = 1.00 - higher is better)
 
 Test of Canvas performance show a minor improvement in iOS 7 -- about 10% in the [Fishtank][67] test and on [Mindcat][68] microbenchmarks. But SVG is the real revelation. Thanks to a switch to a new drawing algorithm, SVG Path drawing speed has improved _200x_. Yes that's literally 200 times faster. In iOS 6, [a 10,000 segment SVG path took about 11 seconds to draw][69]. In iOS 7 that's now 53 milliseconds. iOS is now 6x faster than the Surface RT -- the previous champ at SVG drawing performance.
 
-在 Canvas 性能方面，iOS 7 表现出了少许进步——在 [Fishtank][67] 测试和 [Mindcat][68] 性能评分中均有 10% 左右的提升。但真正令人惊讶的是 SVG 性能。得益于全新的绘图算法，SVG 路径绘制速度提升了 **200 倍**，是的，你没有看错，两百倍。在 iOS 6 中，[一条 10,000 个片段的 SVG 路径需要花费 11 秒才能绘制完成][69]；但在 iOS 7 中，只需要 53 毫秒。iOS 目前以 6 倍性能领先于 Surface RT——它是上一代的 SVG 性能之王。
+在 Canvas 性能方面，iOS 7 表现出了少许进步——在 [Fishtank][67] 测试和 [Mindcat][68] 性能评分中均有 10% 左右的提升。但真正令人惊讶的是 SVG 性能。得益于全新的绘图算法，SVG 路径绘制速度提升了 **200 倍**，是的，你没有看错，两百倍。在 iOS 6 中，[一条 10,000 个片段的 SVG 路径需要花费 11 秒才能绘制完成][69]；但在 iOS 7 中，只需要 53 毫秒。iOS 目前以 6 倍性能领先于 Surface RT——上一代的 SVG 性能之王。
 
-![SVG Path Drawing Benchmark]
+![SVG Path Drawing Benchmark](https://f.cloud.github.com/assets/1231359/1230760/11d38e36-2803-11e3-8424-1e97af857c24.png)
 
 Figure 4: SVG Path Drawing Benchmark (lower is better)
 
@@ -139,7 +139,7 @@ And now the real killer. In the rush to get iOS 7 out the door, making sure SVG 
 
 ## iOS 7 在 web 方面仍未成熟
 
-![iOS7 Logo]
+![iOS7 Logo](https://f.cloud.github.com/assets/1231359/1230754/01ffc1e6-2803-11e3-8930-adc652ad30f2.png)
 
 Given all these bugs and issues, combined with some genuine major advances, it's hard not to interpret this as a beta release that was rushed into production for the release of the iPhone 5S. In a way, it reminds us of the Android 3 release -- which was rushed into production for the Motorola Xoom tablet -- with severe bugs and performance deficiencies. We're eagerly awaiting the release of the first update for iOS 7 when we hope Apple delivers on its usual commitment to quality.
 
@@ -174,5 +174,5 @@ Michael Mullany 是 Sencha 的 CEO。他曾在很多有影响力的硅谷创业�
 &copy; Creative Commons BY-NC-ND 3.0 &nbsp; | &nbsp; [我要订阅](http://www.cssmagic.net/blog/subscribe) &nbsp; | &nbsp; [我要捐助](http://www.cssmagic.net/blog/donate)
 
 &nbsp;
-> * [参与评论](https://github.com/cssmagic/blog/issues/XXXXXXXXXX)
+> * [参与评论](https://github.com/cssmagic/blog/issues/33)
 > * [查看更多文章](https://github.com/cssmagic/blog/issues?state=open)
