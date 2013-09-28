@@ -9,6 +9,7 @@ $RECYCLE.BIN/
 *.tmp
 *.bak
 *.swp
+*.lnk
 
 .svn
 .idea
