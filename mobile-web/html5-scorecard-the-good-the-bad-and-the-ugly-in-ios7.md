@@ -1,4 +1,4 @@
-# [译] iOS 7 之 HTML5 综合评测：亮点、弱点和槽点
+# [译] iOS 7 之 HTML5 综合测评：亮点、缺点和槽点
 
 > * Original: [The HTML5 Scorecard: The Good, The Bad and the Ugly in iOS 7](http://www.sencha.com/blog/the-html5-scorecard-the-good-the-bad-and-the-ugly-in-ios7/)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
@@ -149,7 +149,7 @@ But beyond bugs, the design decisions in iOS 7 clearly privilege consumer conten
 
 但是抛开这些 bug 不谈，iOS 7 所采用的设计策略是十分清晰的——重消费者内容，轻商业应用。我们相信，那些需要将 HTML5 应用部署到移动端的企业们不能依赖消费级浏览器，而是需要一个专为商业应用设计的、安全可控的移动环境。iOS 7 更加明确地告诉我们，HTML5 商业应用部署方式的未来就是 [Sencha Space][11]。
 
-（译注：你妹，翻译了这大半天，原来是篇软文？不过 iOS 7 这回真的让人揪心啊，曾经的 web 技术先锋，曾经的最佳 web app 平台，如今迷失在自己曾经的辉煌里。）
+（译注：你妹，翻译了这大半天，原来是篇软文？不过 iOS 7 这回真的让人揪心啊，曾经的 web 技术先锋，曾经的最佳 web app 平台，如今迷失在自己曾经的辉煌里。话说近日 iOS 7.0.2 已经发布，不知道是否有所改观……）
 
 **Written by Michael Mullany**
 
@@ -157,7 +157,7 @@ But beyond bugs, the design decisions in iOS 7 clearly privilege consumer conten
 
 Michael Mullany is Sencha's CEO. He has held various product and executive marketing roles at influential Silicon Valley startups Netscape, Loudcloud, and VMware. He holds an MBA from Stanford University and a BA in economics from Harvard College.
 
-Michael Mullany 是 Sencha 的 CEO。他曾在很多有影响力的硅谷创业公司（比如网景、Loudcloud、VMware）中担任过多个产品和营销总监职位。他获得了斯坦福大学的 MBA 学位，以及哈佛大学的经济学学士学位。
+Michael Mullany 是 Sencha 的 CEO。他曾在很多有影响力的硅谷创业公司（比如网景、Loudcloud、VMware）中担任过多个产品和营销高层职位。他获得了斯坦福大学的 MBA 学位，以及哈佛大学的经济学学士学位。
 
 [11]: http://www.sencha.com/products/space/
 [59]: http://www.mobilexweb.com/blog/safari-ios7-html5-problems-apis-review
