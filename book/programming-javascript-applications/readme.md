@@ -176,10 +176,10 @@
 
 * [模块化的原则](https://github.com/cssmagic/blog/issues/31)
 * [接口](https://github.com/cssmagic/blog/issues/32)
-* 模块模式
-* AMD 规范
-	* 插件
-* CommonJS 模块规范
+* [模块模式](https://github.com/cssmagic/blog/issues/34)
+* [AMD 规范](https://github.com/cssmagic/blog/issues/35)
+	* [插件](https://github.com/cssmagic/blog/issues/35)
+* [CommonJS 模块规范](https://github.com/cssmagic/blog/issues/36)
 * npm 包管理器
 	* 指令介绍
 * Harmony 的模块机制
