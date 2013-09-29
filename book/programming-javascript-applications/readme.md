@@ -1,4 +1,4 @@
-# [译] [PJA] 《JavaScript 应用程序设计》目录
+# [译] [PJA] 《JavaScript 应用程序设计》总目录
 
 > * Original: [Table of Contents - Programming JavaScript Applications](http://chimera.labs.oreilly.com/books/1234000000262/index.html)
 > * Translated by: [cssmagic](https://github.com/cssmagic)
@@ -182,7 +182,7 @@
 * [CommonJS 模块规范](https://github.com/cssmagic/blog/issues/36)
 * [npm 包管理器](https://github.com/cssmagic/blog/issues/37)
 	* [指令介绍](https://github.com/cssmagic/blog/issues/37)
-* Harmony 的模块机制
+* [Harmony 的模块机制](https://github.com/cssmagic/blog/issues/38)
 * 基于 CommonJS、npm、Grunt 和 Browserify 构建客户端代码
 	* 定义你的应用
 
