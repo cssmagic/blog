@@ -45,7 +45,7 @@ The problem with this pattern is that you have no choice but to expose at least 
 
 Here that variable is called `exports`, for compatibility with CommonJS (see the section on Node Modules for an explanation of CommonJS). If `exports` does not exist, you can fall back on window:
 
-为了与 CommonJS 保持兼容（后面的《Node 模块》章节会详细解释 CommonJS），我们将这个变量命名为 `exports`。如果 `exports` 不存在，那么至少你还可以回退至 `window` 对象：（译注：扩展 `window` 对象即相当于暴露新的全局变量。不过不用担心，这只是以防万一的退路。）
+为了与 CommonJS 保持兼容（后面的[《CommonJS 模块规范》](https://github.com/cssmagic/blog/issues/36)章节会详细解释 CommonJS），我们将这个变量命名为 `exports`。如果 `exports` 不存在，那么至少你还可以回退至 `window` 对象：（译注：扩展 `window` 对象即相当于暴露新的全局变量。不过不用担心，这只是以防万一的退路。）
 
 ```js
 (function (exports) {
