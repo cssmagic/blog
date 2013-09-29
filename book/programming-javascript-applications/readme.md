@@ -180,8 +180,8 @@
 * [AMD 规范](https://github.com/cssmagic/blog/issues/35)
 	* [插件](https://github.com/cssmagic/blog/issues/35)
 * [CommonJS 模块规范](https://github.com/cssmagic/blog/issues/36)
-* npm 包管理器
-	* 指令介绍
+* [npm 包管理器](https://github.com/cssmagic/blog/issues/37)
+	* [指令介绍](https://github.com/cssmagic/blog/issues/37)
 * Harmony 的模块机制
 * 基于 CommonJS、npm、Grunt 和 Browserify 构建客户端代码
 	* 定义你的应用
