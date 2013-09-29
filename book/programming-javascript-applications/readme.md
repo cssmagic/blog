@@ -183,8 +183,8 @@
 * [npm 包管理器](https://github.com/cssmagic/blog/issues/37)
 	* [指令介绍](https://github.com/cssmagic/blog/issues/37)
 * [Harmony 的模块机制](https://github.com/cssmagic/blog/issues/38)
-* 基于 CommonJS、npm、Grunt 和 Browserify 构建客户端代码
-	* 定义你的应用
+* [基于 CommonJS、npm、Grunt 和 Browserify 构建客户端代码](https://github.com/cssmagic/blog/issues/39)
+	* [定义你的应用](https://github.com/cssmagic/blog/issues/39)
 
 ### Chapter 6\. Separation of Concerns
 
