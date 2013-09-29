@@ -63,7 +63,9 @@ In our own testing, we discovered a number of additional bugs in the iOS 7 runti
 
 * CSS Animations will sometimes fire before implicit z-indexes have been calculated, resulting in incorrect z layering during an animation.
 
-* CSS 动画有时会在隐式的 `z-index` 被计算之前启动，这导致动画期间图层的堆叠不正确。
+* CSS 动画启动时，隐式的 `z-index` 并不会被计算，这导致动画期间图层的堆叠不正确。
+
+	（译注：“隐式的 `z-index`”是指定位元素未明确设置 `z-index` 的情况。）
 
 * Scripts running within Web Workers are not suspended unless either the originating page is explicitly killed, or the Safari process is explicitly terminated. Neither switching to another tab, nor minimizing Safari, nor turning off the screen seem to stop Worker execution. This is a serious issue that allows any web page to drain the battery of an iOS 7 device and slow down performance of the whole system without a user alert.
 
