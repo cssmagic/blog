@@ -45,7 +45,7 @@ Other languages have native support for interfaces which may enforce the require
 
 When you need multiple implementations of the same interface, it's good to have a canonical reference in the code that explicitly spells out exactly what that interface is. It's important to write code that is self-documenting. When it's time to add another concrete instance, simply call a predefined factory function and pass in the methods you need to override.
 
-当你需要为相同的接口编写多个实现时，在代码中使用规范的文档格式来清晰地描述出接口的用途，是一种良好的实践。编写可以自我描述的代码是很重要的。当你需要创建一个新的具体实例时，只需要简单地调用一个预定义的工厂函数并传入你需要覆盖的方法就可以了。
+当你需要为同一接口编写多个实现时，最好采用一种成熟的模式来组织代码，从而指明这个接口的真实出处。编写可以自我描述的代码是很重要的。当你需要创建一个新的具体实例时，只需要简单地调用一个预定义的工厂函数，并传入你想覆盖的方法就可以了。
 
 For example, using `O.js` to define the factory:
 
