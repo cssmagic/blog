@@ -39,7 +39,7 @@ Modules should be:
 
 > _The Open Closed Principle_ states that a module interface should be open to extension but closed to modification. Changing an interface that a lot of software relies on can be a daunting task. It's best if you can avoid making changes to an existing interface once it has been established. However, software should evolve, and as it does, it should be easy to extend existing interfaces with new functionality.
 
-> **开闭原则** 的意思是，一个模块的接口应该对于扩展是开放的，而对于修改是关闭的（禁止修改）。修改一个很多软件都依赖的接口往往是一项令人望而却步的任务。避免对一个既有接口做修改，是上上策。不过，软件产品应该（也一直在）不断进化，因此，为既有接口扩展新功能不应该成为一件难事。
+> **开闭原则** 的意思是，一个模块的接口应该对于扩展是开放的，而对于修改是关闭的（译注：即禁止修改）。修改一个很多软件都依赖的接口往往是一项令人望而却步的任务。避免对一个既有接口做修改，是上上策。不过，软件产品应该（也一直在）不断进化，因此，为既有接口扩展新功能不应该成为一件难事。
 
 ***
 

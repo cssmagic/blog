@@ -41,11 +41,11 @@ Figure 5-2. Interface
 
 Other languages have native support for interfaces which may enforce the requirements of an interface. You might know them as abstract base classes, or pure virtual functions. In JavaScript, there is no distinction between a class, interface, or object instance. There are only object instances, and that simplification is a good thing. You may be wondering, if there's no native support for interfaces in JavaScript, why bother to write one at all?
 
-其它语言对接口特性提供了原生支持——可以指定一个接口的依赖条件。你可能知道这种支持称作抽象基类，或纯虚函数。在 JavaScript 中，类、接口和对象实例之间并没有什么区别。它们都只是对象实例，而且这种简化也有它的好处。你可能会问，既然 JavaScript 没有对接口特性提供原生支持，我们又何必要写接口呢？
+其它语言对接口特性提供了原生支持，比如可以指定接口需求。你可能知道这种支持称作“抽象基类”或“纯虚函数”。在 JavaScript 中，类、接口和对象实例之间并没有什么区别。它们都只是对象实例，而且这种简化也有它的好处。你可能会问，既然 JavaScript 没有对接口特性提供原生支持，我们又何必要自己写一个出来呢？
 
 When you need multiple implementations of the same interface, it's good to have a canonical reference in the code that explicitly spells out exactly what that interface is. It's important to write code that is self-documenting. When it's time to add another concrete instance, simply call a predefined factory function and pass in the methods you need to override.
 
-当你需要为相同的接口编写多个实现时，在代码中使用规范的文档格式来清晰地描述出接口的用途，是一种良好的实践。编写可以自我描述的代码是很重要的。当你需要创建一个新的具体实例时，只需要简单地调用一个预定义的工厂函数并传入你需要覆盖的方法就可以了。（译法：本节提到的“实现”指的是对接口的实现，我们可以为相同的接口编写多个不同的实现。）
+当你需要为相同的接口编写多个实现时，在代码中使用规范的文档格式来清晰地描述出接口的用途，是一种良好的实践。编写可以自我描述的代码是很重要的。当你需要创建一个新的具体实例时，只需要简单地调用一个预定义的工厂函数并传入你需要覆盖的方法就可以了。
 
 For example, using `O.js` to define the factory:
 

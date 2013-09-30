@@ -21,11 +21,11 @@ When you design part of a system to a modular interface contract, you can safely
 
 Another important goal of modularity is the ability to reuse your module in other applications. Well designed modules built on similar frameworks should be easy to transplant into new applications with few (if any) changes. By defining a standard interface for application extensions, and then building your functionality on top of that interface, you'll go a long way toward building an application that is easy to extend and maintain, and easy to reassemble into different forms in the future.
 
-模块化的另一个重要目标是令你的模块在其它应用程序中得到重用。模块只要基于相似的框架进行良好的设计，就可以很容易地移植到新的应用程序中，而几乎不需要（即使需要也很少）修改。我们可以为应用程序的扩展性定义一个标准接口，然后在这个接口之上构建功能。这对于构建一个易于扩展和维护的应用程序来说大有裨益，这样的应用程序也易于在未来重新组装为不同的形态。
+模块化的另一个重要目标是令模块在其它应用程序中得到重用。模块只要基于相似的框架进行良好的设计，就可以很容易地移植到新的应用程序中，而几乎不需要（即使需要也很少）修改。在对应用程序进行扩展的时候，我们可以先为扩展部分定义一套标准接口，然后在这个接口之上构建新功能——这种方式对于构建一个易于扩展和维护的应用程序来说大有裨益，这样的应用程序也易于在未来重新组装为不同的形态。
 
 JavaScript modules are encapsulated, meaning that they keep implementation details private, and expose a public API. That way, you can change how a module behaves under the hood without changing code that relies on it. Encapsulation also provides _protection_, meaning that it prevents outside code from interfering with the functionality of the module.
 
-JavaScript 模块是封装式的，这意味着它们将实现细节保留在内部，并且向外暴露公开的 API。这样，你可以随时改变一个模块的内部行为，而不需要同时去修改那些依赖它的外部代码。封装同样提供了一种“保护”，这意味着它会防止外部代码干涉模块内部的功能。
+JavaScript 模块是封装式的，这意味着它们将实现细节保留在内部，仅向外暴露一套公开 API。这样一来，你就可以随时改变一个模块的内部行为，而不需要同时去修改那些依赖它的外部代码。封装同样提供了一种“保护”，这意味着它会防止外部代码干涉模块内部的功能。
 
 There are several ways to define modules in JavaScript. The most popular and common are the module pattern, CommonJS modules (used in Node), and AMD (Asynchronous Module Definition).
 
