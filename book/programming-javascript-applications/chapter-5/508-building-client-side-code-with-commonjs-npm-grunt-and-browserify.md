@@ -522,7 +522,7 @@ Example 5-9. Icon Font CSS
 [16]: http://antjanus.com/blog/web-design-tips/user-interface-usability/customize-twitter-bootstrap-into-themes/
 [18]: http://chimera.labs.oreilly.com/ch06.html
 [19]: https://github.com/substack/node-browserify
-[20]: https://github.com/pix/grunt-browserify
+[20]: https://github.com/jmreidy/grunt-browserify
 [22]: http://smacss.com/
 [23]: http://icomoon.io/
 

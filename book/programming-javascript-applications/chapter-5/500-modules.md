@@ -25,7 +25,7 @@ Another important goal of modularity is the ability to reuse your module in othe
 
 JavaScript modules are encapsulated, meaning that they keep implementation details private, and expose a public API. That way, you can change how a module behaves under the hood without changing code that relies on it. Encapsulation also provides _protection_, meaning that it prevents outside code from interfering with the functionality of the module.
 
-JavaScript 模块是封装式的，这意味着它们将实现细节保留在内部，仅向外暴露一套公开 API。这样一来，你就可以随时改变一个模块的内部行为，而不需要同时去修改那些依赖它的外部代码。封装同样提供了一种“保护”，这意味着它会防止外部代码干涉模块内部的功能。
+JavaScript 模块是封装式的，也就是说，模块将自身的实现细节保留在内部，仅向外暴露一套公开的 API。这样一来，你就可以随时改变一个模块的内部行为，而不需要同时去修改那些依赖它的外部代码。封装同样提供了一种“保护”，这意味着它会防止外部代码干涉模块内部的功能。
 
 There are several ways to define modules in JavaScript. The most popular and common are the module pattern, CommonJS modules (used in Node), and AMD (Asynchronous Module Definition).
 
