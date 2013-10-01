@@ -83,7 +83,7 @@ These problems are summed up nicely by Joe Armstrong in "Coders at Work", by Pet
 
 Inheritance works beautifully for a short time, but eventually the app architecture becomes arthritic. When you've built up your entire app on a foundation of classical inheritance, the dependencies on ancestors run so deep that even reusing or changing trivial amounts of code can turn into a gigantic refactor. Deep inheritance trees are brittle, inflexible, and difficult to extend.
 
-在短时间内，继承会工作得很完美，但最终，应用的架构会变得僵硬迟缓。当你已经在一个类继承体系上建立起你的整个应用之后，由于祖先类的依赖关系是如此之深，以致于重用或改变一些细节末节的代码都将导致一场大规格的重构。深度继承树是脆弱的、不灵活的、难于扩展的。
+在短时间内，继承会工作得很完美，但最终，应用的架构会变得僵硬迟缓。当你已经在一个类继承体系上建立起你的整个应用之后，由于祖先类的依赖关系是如此之深，以致于重用或改变一些细枝末节的代码都将导致一场大规格的重构。深度继承树是脆弱的、不灵活的、难于扩展的。
 
 More often than not, what you wind up with in a mature classical OO application is a range of possible ancestors to inherit from, all with slightly different but often similar configurations. Figuring out which to use is not straightforward, and you soon have a haphazard collection of similar objects with unexpectedly divergent properties. Around this time, people start throwing around the word "rewrite" as if it's an easier undertaking than refactoring the current mess.
 

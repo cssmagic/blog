@@ -406,6 +406,7 @@ module.exports = function(grunt) {
         append: [],
         hook: function () {
           // bundle is passed in as first param
+          // 打包文件会作为第一个参数传进来。
         }
       }
     }
