@@ -90,7 +90,7 @@
 
 #### UltraEdit
 
-我在 Windows 下一般用 UltraEdit 干活，它有一种操作叫做“Ctrl + 双击”。而且我们可以设置此操作的分界符，很灵活。
+我在 Windows 下一般用 UltraEdit 干活，它有一种操作叫作 `Ctrl + 双击`。而且我们可以设置此操作的分界符，很灵活。
 
 ![hyphen-in-css-class-dash-or-underscore-ultraedit](https://f.cloud.github.com/assets/1231359/1259348/ad536d1c-2be2-11e3-848a-2952911abf1d.png)
 
