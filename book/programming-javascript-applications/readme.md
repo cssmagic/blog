@@ -198,7 +198,7 @@
 * Internationalization
 	* Locale Determination
 
-### 第六章 关注点分离
+### [第六章 关注点分离](https://github.com/cssmagic/blog/issues/43)
 
 * 客户端的关注点
 	* 模块管理
