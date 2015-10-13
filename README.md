@@ -1,19 +1,26 @@
-# @CSS魔法 - 博客
+# CSS魔法 - 博客
 
 ## 简介
 
-所有博客文章均以 GitHub Issue 的形式发布，[点此阅读](https://github.com/cssmagic/blog/issues?state=open)。
+* 所有博客文章均以 GitHub Issue 的形式发布，[点此阅读](https://github.com/cssmagic/blog/issues)。
 
-不想错过更多好文？请立即：
+* 不想错过更多好文？[立即订阅](http://www.cssmagic.net/blog/subscribe)。
 
-* [订阅](http://www.cssmagic.net/blog/subscribe)
-* [小额捐助](http://www.cssmagic.net/blog/donate)
-
-## 关于作者
+## 关于作者 / About
 
 * 新浪微博: [@CSS魔法](http://weibo.com/cssmagic)
 * 知乎： [@CSS魔法](http://www.zhihu.com/people/cssmagic)
-* [更多信息……](https://github.com/cssmagic/blog/issues/9)
+* [更多信息... / Contact Me...](https://github.com/cssmagic/blog/issues/9)
+
+## 捐助
+
+#### 为什么要捐助？
+
+一篇好文章可以帮助你节省大量的时间，而你的时间是相当宝贵的。向文章的作者提供小额捐助，可以鼓励作者写出更好的文章。这是一种良性循环，现在就行动吧！
+
+#### 如何捐助？
+
+支持微信与支付宝，[点此开始捐助](http://www.cssmagic.net/blog/donate)。
 
 ## 版权协议
 
