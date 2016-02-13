@@ -1,10 +1,8 @@
 # CSS魔法 - 博客
 
-## 简介
+所有博文均以 GitHub issue 的形式发布，点此阅读：
 
-* 所有博客文章均以 GitHub Issue 的形式发布，[点此阅读](https://github.com/cssmagic/blog/issues)。
-
-* 不想错过更多好文？[立即订阅](http://www.cssmagic.net/blog/subscribe)。
+[![立即阅读](https://cloud.githubusercontent.com/assets/1231359/13027636/6fdae1a6-d291-11e5-9126-68bd3d2ed778.png)](https://github.com/cssmagic/blog/issues)
 
 ## 关于作者 / About
 
@@ -12,15 +10,23 @@
 * 知乎： [@CSS魔法](http://www.zhihu.com/people/cssmagic)
 * [更多信息... / Contact Me...](https://github.com/cssmagic/blog/issues/9)
 
+## 订阅
+
+* 不想错过更多好文？[通过 GitHub 订阅](https://github.com/cssmagic/blog/issues/8)
+
+* 订阅微信公众号：
+
+	![weixin-qrcode-public-account](https://cloud.githubusercontent.com/assets/1231359/13027287/e3c883a6-d283-11e5-8263-fb38a389838e.png)
+
 ## 捐助
 
 #### 为什么要捐助？
 
-一篇好文章可以帮助你节省大量的时间，而你的时间是相当宝贵的。向文章的作者提供小额捐助，可以鼓励作者写出更好的文章。这是一种良性循环，现在就行动吧！
+一篇好文章可以帮助你节省大量的时间，而你的时间是相当宝贵的。
 
-#### 如何捐助？
+向文章的作者提供小额捐助，可以鼓励作者写出更好的文章。这是一种良性循环，现在就行动吧！
 
-支持微信与支付宝，[点此开始捐助](http://www.cssmagic.net/blog/donate)。
+[![立即捐助](https://cloud.githubusercontent.com/assets/1231359/13027637/6fdb17fc-d291-11e5-91cf-d8840c727209.png)](https://github.com/cssmagic/blog/issues/10) （支持微信与支付宝）
 
 ## 版权协议
 
