@@ -7,14 +7,12 @@
 ## 关于作者 / About
 
 * 微博： [@CSS魔法](http://weibo.com/cssmagic)
-* 知乎： [@CSS魔法](http://www.zhihu.com/people/cssmagic)
+* GitHub： [@cssmagic](https://github.com/cssmagic)
 * [更多信息... / Contact Me...](https://github.com/cssmagic/blog/issues/9)
 
 ## 订阅
 
-* 不想错过更多好文？[通过 GitHub 订阅](https://github.com/cssmagic/blog/issues/8)
-
-* 订阅微信公众号：
+* 新文章将在 “CSS魔法” 微信公众号首发，扫码立即订阅：
 
 	![weixin-qrcode-public-account](https://cloud.githubusercontent.com/assets/1231359/13027287/e3c883a6-d283-11e5-8263-fb38a389838e.png)
 
@@ -26,7 +24,7 @@
 
 向文章的作者提供小额捐助，可以鼓励作者写出更好的文章。这是一种良性循环，现在就行动吧！
 
-[![立即捐助](https://cloud.githubusercontent.com/assets/1231359/13027637/6fdb17fc-d291-11e5-91cf-d8840c727209.png)](https://github.com/cssmagic/blog/issues/10) （支持微信与支付宝）
+[![立即捐助](https://cloud.githubusercontent.com/assets/1231359/13027637/6fdb17fc-d291-11e5-91cf-d8840c727209.png)](https://github.com/cssmagic/blog/issues/10) <br><span style="font-size: 14px; color: rgb(136, 136, 136);">（支持微信与支付宝）</span>
 
 ## 版权声明
 
